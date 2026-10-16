@@ -1,0 +1,29 @@
+name: Publish verified GR Cutter APK
+on:
+  push:
+    branches: [main]
+    paths: [incoming.json, apk.base64, publish.py, .github/workflows/publish.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-apk
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v4
+        with:
+          cmdline-tools-version: '12266719'
+          log-accepted-android-sdk-licenses: 'false'
+      - run: sdkmanager 'build-tools;35.0.0'
+      - name: Verify package, certificate, hash and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 publish.py
