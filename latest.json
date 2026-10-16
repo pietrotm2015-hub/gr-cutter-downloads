@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "0.1.8",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.1.8/GR_Cutter_Android_v0.1.8.apk",
-  "sha256": "60e85c025a6c337191d6ab82f3a3a11e0488e2489ab08c9f1004c6acc015b0eb",
-  "notes": "Recortes internos primeiro e contorno externo por \u00faltimo. Modos folhas e rolo, fila sem registro manual do estado cortando, ajustes e perfis de material. Download de todas as marcas ou carregamento online dos itens ausentes. Cache e fila preservados."
+  "versionCode": 10,
+  "versionName": "0.1.9",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.1.9/GR_Cutter_Android_v0.1.9.apk",
+  "sha256": "a19cf94bd0967ce9b5c0c7e9b953227a47b7bc5219d027596b7e7368759a39ff",
+  "notes": "Lotes de c\u00f3pias no modo rolo e passagem autom\u00e1tica ao pr\u00f3ximo modelo. Excluir toda a fila e comando de parada com prioridade. Download continua quando h\u00e1 arquivos ausentes, com novas tentativas e relat\u00f3rio de pend\u00eancias. Cache preservado."
 }
