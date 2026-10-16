@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "0.2.1",
-  "sha256": "4019826ad5cb0972cc1387c1ef3425a6fd6246229ed4f87e3895f458d500f4a5",
-  "notes": "Correção da fila em rolo: o aplicativo agora confirma que cada lote começou a cortar e terminou antes de enviar o próximo modelo. Evita confundir o atraso inicial do alimentador com corte concluído. Mantém o cache e a fila ao instalar por cima."
+  "versionCode": 13,
+  "versionName": "0.2.2",
+  "sha256": "339d384bb138b9dd6ae19758faf39812a740c0cb1e3dcc01a0550635cb070611",
+  "notes": "Fila contínua no rolo: recuperação automática quando a máquina não confirma o cabeçalho do próximo arquivo, sem reenviar os trajetos já cortados. A fila permanece ativa quando esvazia e inicia automaticamente os novos itens adicionados, até tocar em Pausar. Diagnóstico Bluetooth ampliado. Instale por cima para manter os moldes e a fila."
 }
