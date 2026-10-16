@@ -1,1 +1,1 @@
-{"versionCode":7,"versionName":"0.1.6","sha256":"1d1b2b1916595e5c34b15aa2694db8dd84b9c7653a668cd04e9e0c80f35cad79","notes":"Versao anterior 0.1.6. A compatibilidade com firmware 221201C chega na 0.1.7."}
+{"versionCode":8,"versionName":"0.1.7","sha256":"1d3a9c21727ead77c551185133d20363bcff3df4a5b8fa0e2edca8ea4d087adf","notes":"FilmCut 221201C: protocolo original de corte e validacao antes do envio. Atualizacoes sem login. Cache e fila preservados."}
