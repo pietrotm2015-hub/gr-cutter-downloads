@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "0.1.9",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.1.9/GR_Cutter_Android_v0.1.9.apk",
-  "sha256": "a19cf94bd0967ce9b5c0c7e9b953227a47b7bc5219d027596b7e7368759a39ff",
-  "notes": "Lotes de c\u00f3pias no modo rolo e passagem autom\u00e1tica ao pr\u00f3ximo modelo. Excluir toda a fila e comando de parada com prioridade. Download continua quando h\u00e1 arquivos ausentes, com novas tentativas e relat\u00f3rio de pend\u00eancias. Cache preservado."
+  "versionCode": 11,
+  "versionName": "0.2.0",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.2.0/GR_Cutter_Android_v0.2.0.apk",
+  "sha256": "b3fe9ef747c92511dbb375c0a70fd75e19a3e9d2abb18cb154f8c8195f189d21",
+  "notes": "Moldura por \u00faltimo: corrigido fechamento com sobreposi\u00e7\u00e3o, incluindo o Samsung M53 verso. Cache inteligente incremental com retomada, aviso de conex\u00e3o perdida, alerta de nova vers\u00e3o com melhorias, recomenda\u00e7\u00e3o de rolo ou folha pelas medidas reais e identidade visual GR renovada. Sele\u00e7\u00e3o Folhas/Rolo aplica o modo diretamente na m\u00e1quina; fila no rolo continua entre modelos, corte permitido durante downloads e cancelamento com retorno \u00e0 origem."
 }
