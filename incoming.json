@@ -1,6 +1,6 @@
 {
-  "versionCode": 9,
-  "versionName": "0.1.8",
-  "sha256": "60e85c025a6c337191d6ab82f3a3a11e0488e2489ab08c9f1004c6acc015b0eb",
-  "notes": "Recortes internos primeiro e contorno externo por último. Modos folhas e rolo, fila sem registro manual do estado cortando, ajustes e perfis de material. Download de todas as marcas ou carregamento online dos itens ausentes. Cache e fila preservados."
+  "versionCode": 10,
+  "versionName": "0.1.9",
+  "sha256": "a19cf94bd0967ce9b5c0c7e9b953227a47b7bc5219d027596b7e7368759a39ff",
+  "notes": "Lotes de cópias no modo rolo e passagem automática ao próximo modelo. Excluir toda a fila e comando de parada com prioridade. Download continua quando há arquivos ausentes, com novas tentativas e relatório de pendências. Cache preservado."
 }
