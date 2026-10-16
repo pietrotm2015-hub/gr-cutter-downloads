@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "0.1.9",
-  "sha256": "a19cf94bd0967ce9b5c0c7e9b953227a47b7bc5219d027596b7e7368759a39ff",
-  "notes": "Lotes de cópias no modo rolo e passagem automática ao próximo modelo. Excluir toda a fila e comando de parada com prioridade. Download continua quando há arquivos ausentes, com novas tentativas e relatório de pendências. Cache preservado."
+  "versionCode": 11,
+  "versionName": "0.2.0",
+  "sha256": "b3fe9ef747c92511dbb375c0a70fd75e19a3e9d2abb18cb154f8c8195f189d21",
+  "notes": "Moldura por último: corrigido fechamento com sobreposição, incluindo o Samsung M53 verso. Cache inteligente incremental com retomada, aviso de conexão perdida, alerta de nova versão com melhorias, recomendação de rolo ou folha pelas medidas reais e identidade visual GR renovada. Seleção Folhas/Rolo aplica o modo diretamente na máquina; fila no rolo continua entre modelos, corte permitido durante downloads e cancelamento com retorno à origem."
 }
