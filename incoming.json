@@ -1,1 +1,6 @@
-{"versionCode":8,"versionName":"0.1.7","sha256":"1d3a9c21727ead77c551185133d20363bcff3df4a5b8fa0e2edca8ea4d087adf","notes":"FilmCut 221201C: protocolo original de corte e validacao antes do envio. Atualizacoes sem login. Cache e fila preservados."}
+{
+  "versionCode": 9,
+  "versionName": "0.1.8",
+  "sha256": "60e85c025a6c337191d6ab82f3a3a11e0488e2489ab08c9f1004c6acc015b0eb",
+  "notes": "Recortes internos primeiro e contorno externo por último. Modos folhas e rolo, fila sem registro manual do estado cortando, ajustes e perfis de material. Download de todas as marcas ou carregamento online dos itens ausentes. Cache e fila preservados."
+}
