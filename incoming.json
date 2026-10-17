@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "0.2.4",
-  "sha256": "c54a970a7b6b05f5329769904be49eaff4d2e61a7b772b7e3dfd3c7a0cc3dabe",
-  "notes": "Recortes internos primeiro não bloqueia mais o corte quando a moldura não é reconhecida: mantém a ordem original do arquivo. Detecção melhorada para contornos com sobreposição e arquivos com retorno à posição final. Medidas e trajetos preservados."
+  "versionCode": 16,
+  "versionName": "0.3.0",
+  "sha256": "76f0bc72cdc1433cd3d4b391949396a193783a3fa322c1e2300b2bf8f074e6c3",
+  "notes": "Catálogo atualiza imagens e modelos sem recriar a busca nem deslocar a seleção. Cabeçalho recolhe com o teclado. Velocidade, pressão e orientação de 0 a 359° na tela do corte, com prévia. Recomendação de insumo considera rotação, medidas reais e folga. Editor permite remover recortes, ampliar a prévia, salvar a edição e restaurar o original. Ordenação automática ampliada para curvas, círculos e molduras divididas, sem confirmação por contorno. Cortes já enfileirados preservam seu arquivo e seus ajustes."
 }
