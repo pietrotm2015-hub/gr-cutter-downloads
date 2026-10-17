@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "0.3.0",
-  "sha256": "76f0bc72cdc1433cd3d4b391949396a193783a3fa322c1e2300b2bf8f074e6c3",
-  "notes": "Catálogo atualiza imagens e modelos sem recriar a busca nem deslocar a seleção. Cabeçalho recolhe com o teclado. Velocidade, pressão e orientação de 0 a 359° na tela do corte, com prévia. Recomendação de insumo considera rotação, medidas reais e folga. Editor permite remover recortes, ampliar a prévia, salvar a edição e restaurar o original. Ordenação automática ampliada para curvas, círculos e molduras divididas, sem confirmação por contorno. Cortes já enfileirados preservam seu arquivo e seus ajustes."
+  "versionCode": 17,
+  "versionName": "0.3.1",
+  "sha256": "3957469c16cacff94a0bad9bba36e257e504266c84835100a34333d1c320c992",
+  "notes": "Rolo une modelos diferentes compatíveis em um arquivo único, com 5 mm entre peças e quantidade 1. Novos itens pendentes formam o próximo lote. Exportação usa movimentos curtos como os arquivos nativos e inclui diagnóstico do arquivo enviado. Orientação em botão ao lado esquerdo da imagem. Corte editado recebe tag e imagem gerada do vetor salvo. Edição automática remove recortes dentro de outros recortes, mantendo moldura e aberturas externas de câmeras e sensores. O original pode ser restaurado."
 }
