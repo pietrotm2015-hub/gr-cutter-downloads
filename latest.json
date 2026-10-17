@@ -1,7 +1,7 @@
 {
-  "versionCode": 16,
-  "versionName": "0.3.0",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.0/GR_Cutter_Android_v0.3.0.apk",
-  "sha256": "76f0bc72cdc1433cd3d4b391949396a193783a3fa322c1e2300b2bf8f074e6c3",
-  "notes": "Cat\u00e1logo atualiza imagens e modelos sem recriar a busca nem deslocar a sele\u00e7\u00e3o. Cabe\u00e7alho recolhe com o teclado. Velocidade, press\u00e3o e orienta\u00e7\u00e3o de 0 a 359\u00b0 na tela do corte, com pr\u00e9via. Recomenda\u00e7\u00e3o de insumo considera rota\u00e7\u00e3o, medidas reais e folga. Editor permite remover recortes, ampliar a pr\u00e9via, salvar a edi\u00e7\u00e3o e restaurar o original. Ordena\u00e7\u00e3o autom\u00e1tica ampliada para curvas, c\u00edrculos e molduras divididas, sem confirma\u00e7\u00e3o por contorno. Cortes j\u00e1 enfileirados preservam seu arquivo e seus ajustes."
+  "versionCode": 17,
+  "versionName": "0.3.1",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.1/GR_Cutter_Android_v0.3.1.apk",
+  "sha256": "3957469c16cacff94a0bad9bba36e257e504266c84835100a34333d1c320c992",
+  "notes": "Rolo une modelos diferentes compat\u00edveis em um arquivo \u00fanico, com 5 mm entre pe\u00e7as e quantidade 1. Novos itens pendentes formam o pr\u00f3ximo lote. Exporta\u00e7\u00e3o usa movimentos curtos como os arquivos nativos e inclui diagn\u00f3stico do arquivo enviado. Orienta\u00e7\u00e3o em bot\u00e3o ao lado esquerdo da imagem. Corte editado recebe tag e imagem gerada do vetor salvo. Edi\u00e7\u00e3o autom\u00e1tica remove recortes dentro de outros recortes, mantendo moldura e aberturas externas de c\u00e2meras e sensores. O original pode ser restaurado."
 }
