@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "0.2.3",
-  "sha256": "ade12f87336fde5da4d9ac4200d2eb1118642ac1c9ba281fca9718b8a69dc1a4",
-  "notes": "Teste opcional +1 durante o corte para o firmware 221201C: inicie uma cópia no rolo, adicione outra igual à fila e use Testar +1 neste lote. A fila aguarda conferência da quantidade produzida. Resposta do comando registrada no diagnóstico Bluetooth. Modelos diferentes continuam em lotes separados."
+  "versionCode": 15,
+  "versionName": "0.2.4",
+  "sha256": "c54a970a7b6b05f5329769904be49eaff4d2e61a7b772b7e3dfd3c7a0cc3dabe",
+  "notes": "Recortes internos primeiro não bloqueia mais o corte quando a moldura não é reconhecida: mantém a ordem original do arquivo. Detecção melhorada para contornos com sobreposição e arquivos com retorno à posição final. Medidas e trajetos preservados."
 }
