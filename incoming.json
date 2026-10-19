@@ -1,6 +1,6 @@
 {
-  "versionCode": 19,
-  "versionName": "0.3.3",
-  "sha256": "478fd8c50130bbc7ce7159e12cdbe1bd1d7c1e93242f1310d43cbd9d1a2655cd",
-  "notes": "## Tela de corte mais prática\n- Orientação ao lado da imagem.\n- Velocidade, pressão e quantidade com acesso rápido.\n\n## Fila mais organizada\n- Lote enviado, próximo lote e itens que precisam de atenção em seções.\n- Cópias iguais agrupadas sem mudar a ordem de produção.\n\n## Busca direta por aparelho\n- Encontre pelo nome os aparelhos já carregados no celular.\n- Categorias e marcas continuam disponíveis para carregar outros modelos.\n\n## Repetir uma peça\n- Escolha somente o corte que deu errado.\n- A nova cópia mantém a edição e os ajustes da peça e entra ao fim da fila.\n\n## Avisos de atualização\n- Novidades separadas por assunto, com leitura por tópicos."
+  "versionCode": 20,
+  "versionName": "0.3.4",
+  "sha256": "ffa8142e39a5be1fa0e7e1b5e102fc8a74159b3152bdded1fa2e35fdb7119c14",
+  "notes": "## Ajustes da tela de corte\n- Velocidade e pressão agora acompanham a rolagem da tela, sem ocupar o rodapé.\n- Quantidade e botões de adicionar à fila e cortar continuam fixos para acesso rápido."
 }
