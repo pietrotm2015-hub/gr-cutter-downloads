@@ -1,6 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "0.3.5",
-  "sha256": "22ab894a717f9166a7e5ed494bd5e4f0692861eba8bc0d014e70dce1bdff5267",
-  "notes": "## Atualizações\n- Consulta mesmo com o rolo ativo, retorno de erros e canal alternativo quando necessário.\n\n## Catálogo e busca\n- Retomada automática e prioridade aos modelos em uso.\n- Busca com variações de espaços, acentos e nomes.\n- Arquivos vetoriais idênticos passam a compartilhar armazenamento.\n\n## Visual e produção\n- Prévia maior, ajustes recolhidos e botões de corte acessíveis.\n- Barra de produção com Repetir em todas as telas.\n- Fila ativa separada do histórico, com limpeza só do histórico.\n- Estatísticas no Offline: peças, taxas, intervalos, gráficos e versões.\n- Recuperação conservadora dos lotes presentes no diagnóstico.\n\n## Relatos\n- Enviar relato pelo compartilhamento do Android, sem conta GitHub, sempre com diagnóstico completo anexado.\n- Envio direto automático depende de um servidor de relatos configurado."
+  "versionCode": 23,
+  "versionName": "0.3.6",
+  "sha256": "06c94ecda566cf7366658659f35385578e9abd931f64fad34a0b2e71a9086d38",
+  "binarySourceCommit": "b708ed44457c3d911952da600c4da98c64c13ab1",
+  "notes": "## Corte e cancelamento\n- Recuperação completa após interrupções e na primeira conexão após atualizar; reconexões limpas evitam repetir esse processo.\n- Respostas atrasadas não confirmam outro pacote no firmware 221201C.\n- Acompanhamento do corte protegido contra mudanças no horário do celular.\n\n## Fila e edição\n- Gravações coordenadas para evitar bloqueios entre download e edição.\n- Prévia ampliada calculada pelo vetor com rotação, espelhamento e posição.\n- Edição por peça, imagem atualizada e retomada manual da fila.\n- Conclusões de marketplace salvas junto com a fila para impedir nova inclusão da mesma peça.\n\n## Downloads e atualização\n- Falhas temporárias permanecem salvas para novas tentativas, aproveitando arquivos já baixados.\n- APK conferido pela assinatura, versão e hash; trocar o canal descarta o arquivo preparado anterior.\n\n## Integração Repor\n- Estados de corte, pausa, espera e desconexão, com presença periódica e previsão pela média de produção.\n- Importação manual de impressões e filas por material. A ativação depende do vínculo com o servidor Repor."
 }
