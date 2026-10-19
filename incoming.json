@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "0.3.4",
-  "sha256": "ffa8142e39a5be1fa0e7e1b5e102fc8a74159b3152bdded1fa2e35fdb7119c14",
-  "notes": "## Ajustes da tela de corte\n- Velocidade e pressão agora acompanham a rolagem da tela, sem ocupar o rodapé.\n- Quantidade e botões de adicionar à fila e cortar continuam fixos para acesso rápido."
+  "versionCode": 21,
+  "versionName": "0.3.5",
+  "sha256": "22ab894a717f9166a7e5ed494bd5e4f0692861eba8bc0d014e70dce1bdff5267",
+  "notes": "## Atualizações\n- Consulta mesmo com o rolo ativo, retorno de erros e canal alternativo quando necessário.\n\n## Catálogo e busca\n- Retomada automática e prioridade aos modelos em uso.\n- Busca com variações de espaços, acentos e nomes.\n- Arquivos vetoriais idênticos passam a compartilhar armazenamento.\n\n## Visual e produção\n- Prévia maior, ajustes recolhidos e botões de corte acessíveis.\n- Barra de produção com Repetir em todas as telas.\n- Fila ativa separada do histórico, com limpeza só do histórico.\n- Estatísticas no Offline: peças, taxas, intervalos, gráficos e versões.\n- Recuperação conservadora dos lotes presentes no diagnóstico.\n\n## Relatos\n- Enviar relato pelo compartilhamento do Android, sem conta GitHub, sempre com diagnóstico completo anexado.\n- Envio direto automático depende de um servidor de relatos configurado."
 }
