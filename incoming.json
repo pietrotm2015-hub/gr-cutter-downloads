@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "0.3.1",
-  "sha256": "3957469c16cacff94a0bad9bba36e257e504266c84835100a34333d1c320c992",
-  "notes": "Rolo une modelos diferentes compatíveis em um arquivo único, com 5 mm entre peças e quantidade 1. Novos itens pendentes formam o próximo lote. Exportação usa movimentos curtos como os arquivos nativos e inclui diagnóstico do arquivo enviado. Orientação em botão ao lado esquerdo da imagem. Corte editado recebe tag e imagem gerada do vetor salvo. Edição automática remove recortes dentro de outros recortes, mantendo moldura e aberturas externas de câmeras e sensores. O original pode ser restaurado."
+  "versionCode": 18,
+  "versionName": "0.3.2",
+  "sha256": "85483669c1be1331581ad1793ef532a2b3e88694d5d1f8bc06566679c8bd6259",
+  "notes": "Lotes mistos com avanço lateral e intervalo de 1 cm. Confirmação de início mais rigorosa e retomada após cancelar sem sobreposição de envios. Edição automática aprimorada para Fold/Razr e prévia em pé. Verso unido do Razr 60 sem detalhes. Indicador de produção em todas as telas. Relatos de bugs com descrição, diagnóstico persistente e revisão antes do envio."
 }
