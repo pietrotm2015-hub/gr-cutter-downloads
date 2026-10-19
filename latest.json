@@ -1,7 +1,7 @@
 {
-  "versionCode": 17,
-  "versionName": "0.3.1",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.1/GR_Cutter_Android_v0.3.1.apk",
-  "sha256": "3957469c16cacff94a0bad9bba36e257e504266c84835100a34333d1c320c992",
-  "notes": "Rolo une modelos diferentes compat\u00edveis em um arquivo \u00fanico, com 5 mm entre pe\u00e7as e quantidade 1. Novos itens pendentes formam o pr\u00f3ximo lote. Exporta\u00e7\u00e3o usa movimentos curtos como os arquivos nativos e inclui diagn\u00f3stico do arquivo enviado. Orienta\u00e7\u00e3o em bot\u00e3o ao lado esquerdo da imagem. Corte editado recebe tag e imagem gerada do vetor salvo. Edi\u00e7\u00e3o autom\u00e1tica remove recortes dentro de outros recortes, mantendo moldura e aberturas externas de c\u00e2meras e sensores. O original pode ser restaurado."
+  "versionCode": 18,
+  "versionName": "0.3.2",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.2/GR_Cutter_Android_v0.3.2.apk",
+  "sha256": "85483669c1be1331581ad1793ef532a2b3e88694d5d1f8bc06566679c8bd6259",
+  "notes": "Lotes mistos com avan\u00e7o lateral e intervalo de 1 cm. Confirma\u00e7\u00e3o de in\u00edcio mais rigorosa e retomada ap\u00f3s cancelar sem sobreposi\u00e7\u00e3o de envios. Edi\u00e7\u00e3o autom\u00e1tica aprimorada para Fold/Razr e pr\u00e9via em p\u00e9. Verso unido do Razr 60 sem detalhes. Indicador de produ\u00e7\u00e3o em todas as telas. Relatos de bugs com descri\u00e7\u00e3o, diagn\u00f3stico persistente e revis\u00e3o antes do envio."
 }
