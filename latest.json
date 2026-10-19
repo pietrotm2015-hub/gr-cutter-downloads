@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "0.3.4",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.4/GR_Cutter_Android_v0.3.4.apk",
-  "sha256": "ffa8142e39a5be1fa0e7e1b5e102fc8a74159b3152bdded1fa2e35fdb7119c14",
-  "notes": "## Ajustes da tela de corte\n- Velocidade e press\u00e3o agora acompanham a rolagem da tela, sem ocupar o rodap\u00e9.\n- Quantidade e bot\u00f5es de adicionar \u00e0 fila e cortar continuam fixos para acesso r\u00e1pido."
+  "versionCode": 21,
+  "versionName": "0.3.5",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.5/GR_Cutter_Android_v0.3.5.apk",
+  "sha256": "22ab894a717f9166a7e5ed494bd5e4f0692861eba8bc0d014e70dce1bdff5267",
+  "notes": "## Atualiza\u00e7\u00f5es\n- Consulta mesmo com o rolo ativo, retorno de erros e canal alternativo quando necess\u00e1rio.\n\n## Cat\u00e1logo e busca\n- Retomada autom\u00e1tica e prioridade aos modelos em uso.\n- Busca com varia\u00e7\u00f5es de espa\u00e7os, acentos e nomes.\n- Arquivos vetoriais id\u00eanticos passam a compartilhar armazenamento.\n\n## Visual e produ\u00e7\u00e3o\n- Pr\u00e9via maior, ajustes recolhidos e bot\u00f5es de corte acess\u00edveis.\n- Barra de produ\u00e7\u00e3o com Repetir em todas as telas.\n- Fila ativa separada do hist\u00f3rico, com limpeza s\u00f3 do hist\u00f3rico.\n- Estat\u00edsticas no Offline: pe\u00e7as, taxas, intervalos, gr\u00e1ficos e vers\u00f5es.\n- Recupera\u00e7\u00e3o conservadora dos lotes presentes no diagn\u00f3stico.\n\n## Relatos\n- Enviar relato pelo compartilhamento do Android, sem conta GitHub, sempre com diagn\u00f3stico completo anexado.\n- Envio direto autom\u00e1tico depende de um servidor de relatos configurado."
 }
