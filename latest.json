@@ -1,7 +1,7 @@
 {
-  "versionCode": 40,
-  "versionName": "0.3.22",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.22/GR_Cutter_Android_v0.3.22.apk",
-  "sha256": "d9b4d44c4119a218b40fb07c7ade715abedfe25d0ca231d42958240ca850d23b",
-  "notes": "## Mais seguran\u00e7a entre os lotes\n- Ap\u00f3s um corte, o app aguarda seis segundos cont\u00ednuos de m\u00e1quina parada antes de concluir o lote e liberar o pr\u00f3ximo arquivo. Movimenta\u00e7\u00e3o tardia do material reinicia essa espera.\n- A pausa termina o lote j\u00e1 enviado e segura o pr\u00f3ximo. A retomada mant\u00e9m a fila e os v\u00ednculos dos SKUs.\n- Mantida a recupera\u00e7\u00e3o ap\u00f3s cancelamento, sem reiniciar a cortadora.\n- Testado fisicamente: duas pe\u00e7as, pausa e mais duas; tablet e dois celulares no mesmo arquivo, nas duas ordens.\n- Instale por cima para preservar os dados."
+  "versionCode": 41,
+  "versionName": "0.3.23",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.23/GR_Cutter_Android_v0.3.23.apk",
+  "sha256": "ea392cb27d5a01ce2816a571760d5f7a868b0f46d3f8746da527670969d5ee60",
+  "notes": "## Modelos autom\u00e1ticos e atualiza\u00e7\u00e3o de filas\n- Impress\u00f5es j\u00e1 carregadas podem receber os modelos vinculados no Repor sem apagar escolhas manuais ou repetir cortes.\n- O celular busca o modelo exato no cat\u00e1logo quando ele ainda n\u00e3o est\u00e1 salvo.\n- Frente e verso usam refer\u00eancias independentes. A atualiza\u00e7\u00e3o preserva as frentes j\u00e1 reservadas e recebe somente os versos faltantes.\n- Mat\u00e9ria-prima pode ser retirada da lista de cortes por uma atualiza\u00e7\u00e3o expl\u00edcita, sem apagar resultados j\u00e1 conclu\u00eddos.\n- Use Atualizar modelos do Repor na impress\u00e3o carregada. Instale por cima; a fila e os v\u00ednculos permanecem.\n- Mantidas as corre\u00e7\u00f5es de estabiliza\u00e7\u00e3o ap\u00f3s cancelar e entre lotes."
 }
