@@ -1,7 +1,7 @@
 {
-  "versionCode": 42,
-  "versionName": "0.3.24",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.24/GR_Cutter_Android_v0.3.24.apk",
-  "sha256": "54103fc70e9047b248c274dd25784f0e3ac769ff561addefa95bc29b64d5d8f1",
-  "notes": "## Filas e prepara\u00e7\u00e3o mais r\u00e1pidas\n- Cat\u00e1logo de aparelhos carregado em p\u00e1ginas maiores, preservando todos os modelos.\n- Modelos da mesma s\u00e9rie compartilham uma consulta ao carregar ou atualizar uma impress\u00e3o.\n- Lotes com modelos repetidos reaproveitam a leitura da geometria, mantendo o arquivo final, as quantidades e a sequ\u00eancia.\n- Nenhuma altera\u00e7\u00e3o nos comandos Bluetooth, nos limites f\u00edsicos ou na espera ap\u00f3s cancelamento.\n- Instale por cima. Filas, v\u00ednculos de SKUs e escolhas manuais permanecem."
+  "versionCode": 43,
+  "versionName": "0.3.25",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.25/GR_Cutter_Android_v0.3.25.apk",
+  "sha256": "17340ee5137266e9cc956282ad91b80a96f9e103a532add8fc34c3738a41bed2",
+  "notes": "## SKU do pedido e aparelho lado a lado\n- O Repor procura os cortes automaticamente ao gerar a fila.\n- O aplicativo recebe os modelos encontrados para pe\u00e7as pendentes enquanto est\u00e1 parado, sem importar tudo de novo.\n- Marketplace e produ\u00e7\u00e3o mostram o SKU original do pedido e o aparelho escolhido.\n- Frente e verso mant\u00eam cortes separados; escolhas manuais e prefer\u00eancias por SKU permanecem edit\u00e1veis.\n- A atualiza\u00e7\u00e3o n\u00e3o inicia cortes nem duplica pedidos. Instale por cima para preservar filas e v\u00ednculos."
 }
