@@ -1,6 +1,6 @@
 {
-  "versionCode": 39,
-  "versionName": "0.3.21",
-  "sha256": "874a8e6837d72df94b985fba9e373db0569bf21ac11187349dcaaebd32e88264",
-  "notes": "## Retomar depois de cancelar sem reiniciar a cortadora\n- Após cancelar, o app aguarda a cortadora estabilizar de verdade. Uma resposta inicial de parada pode ser seguida por movimentação tardia do material.\n- O próximo arquivo só é liberado após pelo menos 12 segundos do cancelamento e 6 segundos contínuos sem movimentação. Se a máquina ainda estiver movimentando, a espera continua.\n- Um cancelamento confirmado mantém a mesma conexão Bluetooth, sem desconectar e reconectar desnecessariamente.\n- A proteção também cobre a limpeza de um envio interrompido. Falha de consulta mantém a fila pausada para conferência.\n- A fila, as quantidades e os vínculos dos SKUs são preservados. Instale por cima, sem desinstalar.\n- Testado com uma FilmCut 221201C pelo Bluetooth do PC: a tentativa antecipada falhou; a retomada após estabilização cortou novamente na mesma conexão, sem reiniciar."
+  "versionCode": 40,
+  "versionName": "0.3.22",
+  "sha256": "d9b4d44c4119a218b40fb07c7ade715abedfe25d0ca231d42958240ca850d23b",
+  "notes": "## Mais segurança entre os lotes\n- Após um corte, o app aguarda seis segundos contínuos de máquina parada antes de concluir o lote e liberar o próximo arquivo. Movimentação tardia do material reinicia essa espera.\n- A pausa termina o lote já enviado e segura o próximo. A retomada mantém a fila e os vínculos dos SKUs.\n- Mantida a recuperação após cancelamento, sem reiniciar a cortadora.\n- Testado fisicamente: duas peças, pausa e mais duas; tablet e dois celulares no mesmo arquivo, nas duas ordens.\n- Instale por cima para preservar os dados."
 }
