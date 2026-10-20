@@ -1,6 +1,6 @@
 {
-  "versionCode": 41,
-  "versionName": "0.3.23",
-  "sha256": "ea392cb27d5a01ce2816a571760d5f7a868b0f46d3f8746da527670969d5ee60",
-  "notes": "## Modelos automáticos e atualização de filas\n- Impressões já carregadas podem receber os modelos vinculados no Repor sem apagar escolhas manuais ou repetir cortes.\n- O celular busca o modelo exato no catálogo quando ele ainda não está salvo.\n- Frente e verso usam referências independentes. A atualização preserva as frentes já reservadas e recebe somente os versos faltantes.\n- Matéria-prima pode ser retirada da lista de cortes por uma atualização explícita, sem apagar resultados já concluídos.\n- Use Atualizar modelos do Repor na impressão carregada. Instale por cima; a fila e os vínculos permanecem.\n- Mantidas as correções de estabilização após cancelar e entre lotes."
+  "versionCode": 42,
+  "versionName": "0.3.24",
+  "sha256": "54103fc70e9047b248c274dd25784f0e3ac769ff561addefa95bc29b64d5d8f1",
+  "notes": "## Filas e preparação mais rápidas\n- Catálogo de aparelhos carregado em páginas maiores, preservando todos os modelos.\n- Modelos da mesma série compartilham uma consulta ao carregar ou atualizar uma impressão.\n- Lotes com modelos repetidos reaproveitam a leitura da geometria, mantendo o arquivo final, as quantidades e a sequência.\n- Nenhuma alteração nos comandos Bluetooth, nos limites físicos ou na espera após cancelamento.\n- Instale por cima. Filas, vínculos de SKUs e escolhas manuais permanecem."
 }
