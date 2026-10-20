@@ -1,6 +1,6 @@
 {
-  "versionCode": 42,
-  "versionName": "0.3.24",
-  "sha256": "54103fc70e9047b248c274dd25784f0e3ac769ff561addefa95bc29b64d5d8f1",
-  "notes": "## Filas e preparação mais rápidas\n- Catálogo de aparelhos carregado em páginas maiores, preservando todos os modelos.\n- Modelos da mesma série compartilham uma consulta ao carregar ou atualizar uma impressão.\n- Lotes com modelos repetidos reaproveitam a leitura da geometria, mantendo o arquivo final, as quantidades e a sequência.\n- Nenhuma alteração nos comandos Bluetooth, nos limites físicos ou na espera após cancelamento.\n- Instale por cima. Filas, vínculos de SKUs e escolhas manuais permanecem."
+  "versionCode": 43,
+  "versionName": "0.3.25",
+  "sha256": "17340ee5137266e9cc956282ad91b80a96f9e103a532add8fc34c3738a41bed2",
+  "notes": "## SKU do pedido e aparelho lado a lado\n- O Repor procura os cortes automaticamente ao gerar a fila.\n- O aplicativo recebe os modelos encontrados para peças pendentes enquanto está parado, sem importar tudo de novo.\n- Marketplace e produção mostram o SKU original do pedido e o aparelho escolhido.\n- Frente e verso mantêm cortes separados; escolhas manuais e preferências por SKU permanecem editáveis.\n- A atualização não inicia cortes nem duplica pedidos. Instale por cima para preservar filas e vínculos."
 }
