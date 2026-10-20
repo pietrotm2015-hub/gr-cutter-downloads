@@ -1,7 +1,7 @@
 {
-  "versionCode": 39,
-  "versionName": "0.3.21",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.21/GR_Cutter_Android_v0.3.21.apk",
-  "sha256": "874a8e6837d72df94b985fba9e373db0569bf21ac11187349dcaaebd32e88264",
-  "notes": "## Retomar depois de cancelar sem reiniciar a cortadora\n- Ap\u00f3s cancelar, o app aguarda a cortadora estabilizar de verdade. Uma resposta inicial de parada pode ser seguida por movimenta\u00e7\u00e3o tardia do material.\n- O pr\u00f3ximo arquivo s\u00f3 \u00e9 liberado ap\u00f3s pelo menos 12 segundos do cancelamento e 6 segundos cont\u00ednuos sem movimenta\u00e7\u00e3o. Se a m\u00e1quina ainda estiver movimentando, a espera continua.\n- Um cancelamento confirmado mant\u00e9m a mesma conex\u00e3o Bluetooth, sem desconectar e reconectar desnecessariamente.\n- A prote\u00e7\u00e3o tamb\u00e9m cobre a limpeza de um envio interrompido. Falha de consulta mant\u00e9m a fila pausada para confer\u00eancia.\n- A fila, as quantidades e os v\u00ednculos dos SKUs s\u00e3o preservados. Instale por cima, sem desinstalar.\n- Testado com uma FilmCut 221201C pelo Bluetooth do PC: a tentativa antecipada falhou; a retomada ap\u00f3s estabiliza\u00e7\u00e3o cortou novamente na mesma conex\u00e3o, sem reiniciar."
+  "versionCode": 40,
+  "versionName": "0.3.22",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.22/GR_Cutter_Android_v0.3.22.apk",
+  "sha256": "d9b4d44c4119a218b40fb07c7ade715abedfe25d0ca231d42958240ca850d23b",
+  "notes": "## Mais seguran\u00e7a entre os lotes\n- Ap\u00f3s um corte, o app aguarda seis segundos cont\u00ednuos de m\u00e1quina parada antes de concluir o lote e liberar o pr\u00f3ximo arquivo. Movimenta\u00e7\u00e3o tardia do material reinicia essa espera.\n- A pausa termina o lote j\u00e1 enviado e segura o pr\u00f3ximo. A retomada mant\u00e9m a fila e os v\u00ednculos dos SKUs.\n- Mantida a recupera\u00e7\u00e3o ap\u00f3s cancelamento, sem reiniciar a cortadora.\n- Testado fisicamente: duas pe\u00e7as, pausa e mais duas; tablet e dois celulares no mesmo arquivo, nas duas ordens.\n- Instale por cima para preservar os dados."
 }
