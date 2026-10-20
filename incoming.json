@@ -1,6 +1,6 @@
 {
-  "versionCode": 37,
-  "versionName": "0.3.19",
-  "sha256": "0ed41ebc6bb1d977cde339aebe151c8e5123234523816cb6b68e90297b809b58",
-  "notes": "## Corte em lote do marketplace\n- Envio Bluetooth usa o tamanho negociado com a cortadora, como no aplicativo original, sem dividir desnecessariamente cada pacote.\n- Lotes com modelos diferentes continuam no mesmo arquivo; todas as quantidades e escolhas por SKU são preservadas.\n- A quantidade só é preparada depois de reservar e salvar o lote, imediatamente antes de enviar o arquivo.\n\n## Recuperação de envio\n- Uma falha tenta cancelar o arquivo incompleto e confirmar repouso, sem repetir o corte automaticamente.\n- A recuperação não configura uma quantidade solta, sem arquivo correspondente.\n- Itens cujo resultado não foi confirmado continuam disponíveis para conferência, sem baixar a produção por engano.\n- Filas, moldes baixados e vínculos dos SKUs são mantidos ao atualizar por cima."
+  "versionCode": 38,
+  "versionName": "0.3.20",
+  "sha256": "5cf280ac976540552341a8b98a263f3fdac52dd8fbf013593a0c17e5381bd868",
+  "notes": "## Parar a fila sem cancelar a máquina parada\n- Ao encerrar uma fila sem corte em andamento, o app consulta o estado atual da cortadora e para somente a fila quando ela está livre e sem recuperação pendente.\n- Nessa situação, não envia cancelamento físico, não configura quantidade e não reconecta o Bluetooth.\n- O botão mostra Parar fila enquanto aguarda novos pedidos. Cancelar corte continua disponível quando há uma execução ou resultado pendente.\n- A proteção também vale para ações vindas de notificações, com os pedidos aguardando preservados.\n\n## Limites da correção\n- Esta versão evita cancelamentos desnecessários de uma cortadora já parada. Não comprova uma recuperação por software do travamento interno após cancelar um corte físico.\n- Se a máquina já estiver puxando e soltando sem cortar, reinicie somente a cortadora antes do próximo teste, como no procedimento que resolveu o problema observado.\n- Os lotes mistos, as quantidades, a fila e os vínculos dos SKUs são preservados ao atualizar por cima."
 }
