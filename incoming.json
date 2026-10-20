@@ -1,6 +1,6 @@
 {
-  "versionCode": 40,
-  "versionName": "0.3.22",
-  "sha256": "d9b4d44c4119a218b40fb07c7ade715abedfe25d0ca231d42958240ca850d23b",
-  "notes": "## Mais segurança entre os lotes\n- Após um corte, o app aguarda seis segundos contínuos de máquina parada antes de concluir o lote e liberar o próximo arquivo. Movimentação tardia do material reinicia essa espera.\n- A pausa termina o lote já enviado e segura o próximo. A retomada mantém a fila e os vínculos dos SKUs.\n- Mantida a recuperação após cancelamento, sem reiniciar a cortadora.\n- Testado fisicamente: duas peças, pausa e mais duas; tablet e dois celulares no mesmo arquivo, nas duas ordens.\n- Instale por cima para preservar os dados."
+  "versionCode": 41,
+  "versionName": "0.3.23",
+  "sha256": "ea392cb27d5a01ce2816a571760d5f7a868b0f46d3f8746da527670969d5ee60",
+  "notes": "## Modelos automáticos e atualização de filas\n- Impressões já carregadas podem receber os modelos vinculados no Repor sem apagar escolhas manuais ou repetir cortes.\n- O celular busca o modelo exato no catálogo quando ele ainda não está salvo.\n- Frente e verso usam referências independentes. A atualização preserva as frentes já reservadas e recebe somente os versos faltantes.\n- Matéria-prima pode ser retirada da lista de cortes por uma atualização explícita, sem apagar resultados já concluídos.\n- Use Atualizar modelos do Repor na impressão carregada. Instale por cima; a fila e os vínculos permanecem.\n- Mantidas as correções de estabilização após cancelar e entre lotes."
 }
