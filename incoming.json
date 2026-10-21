@@ -1,6 +1,6 @@
 {
-  "versionCode": 44,
-  "versionName": "0.3.26",
-  "sha256": "5e14fa96823a9d319c5332e93220870485b25c122a743672759549349fbef4af",
-  "notes": "## Filas por material e tablets\n- Tablet separado em possíveis no rolo e folha de 13 polegadas, pelas medidas do arquivo.\n- A execução respeita a impressão e os cortes escolhidos; privacidade não continua na transparente.\n- Lixeira para remover uma unidade entre peças iguais e botão para limpar toda a fila pendente, com restauração pela impressão.\n- Kits de matéria-prima recebem a frontal pela capinha do pedido. Escolhas manuais são por peça, sem vínculo global da matéria-prima.\n- Instale por cima. Filas, histórico e vínculos existentes permanecem."
+  "versionCode": 46,
+  "versionName": "0.3.28",
+  "sha256": "c9510a59a4c519c5ab5fc49756ce33782e3508a511dd4ecbed1119d16f600b26",
+  "notes": "## Catálogo e pesquisa\n- Busca de modelos novos sem esperar o download das imagens e arquivos de outras marcas.\n- Pesquisa considera marca e modelo, juntos ou separados, incluindo Huawei Nova15 Max.\n- Menos processamento ao buscar modelos, mantendo nomes juntos, separados e com acentos.\n- Consulta em lote dos arquivos disponíveis para abrir as páginas do catálogo.\n\n## Preparação dos cortes\n- Geração das chaves dos arquivos mais leve.\n- Leitura única dos vetores, com conferência de tamanho, SHA-256 e comandos no mesmo conteúdo.\n\n## Filas por material e tablets\n- Mantidas as separações por material, impressão e tamanho do insumo da versão 0.3.26.\n- Instale por cima para preservar filas, histórico e vínculos."
 }
