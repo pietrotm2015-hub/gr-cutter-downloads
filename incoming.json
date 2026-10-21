@@ -1,6 +1,6 @@
 {
-  "versionCode": 55,
-  "versionName": "0.3.37",
-  "sha256": "2498a105572e8a90ea423d4f32fa549f04c1549598c0066bf67f204b7fd1acaf",
-  "notes": "## Devoluções hidrogel integradas ao Repor\n- Nova aba de estoque pronto, por SKU, empresa, material, variante e localização.\n- Catálogo, avulsos, repetição e marketplace conferem devoluções antes de montar a fila.\n- Usei devolução confirma a baixa no Repor; somente o restante vai para corte.\n- Não encontrei abre conferência para a expedição.\n- Confirmações pendentes são preservadas e reenviadas sem duplicar baixas.\n- Reutilização não conta como corte físico.\n\nMantém margem de 3 mm no rolo, filas, vínculos, cache e histórico. Instale por cima."
+  "versionCode": 58,
+  "versionName": "0.3.40",
+  "sha256": "358ea9972af846601f619342677d795c8a678984757f6d68f87ce9b39134a400",
+  "notes": "## Devoluções hidrogel integradas ao Repor\n- Nova aba de estoque pronto, por SKU, empresa, material, variante e localização.\n- Catálogo, avulsos, repetição e marketplace conferem devoluções antes de montar a fila.\n- A confirmação é separada por localização para baixar a gaveta realmente utilizada.\n- Em uso parcial, as peças restantes mantêm o material escolhido, inclusive privacidade.\n- Usei devolução confirma a baixa no Repor; somente o restante vai para corte.\n- Não encontrei abre conferência para a expedição.\n- O reenvio confere todas as confirmações acumuladas, inclusive históricos com mais de mil registros.\n- Confirmações pendentes são preservadas e reenviadas sem duplicar baixas.\n- Reutilização não conta como corte físico.\n\nMantém margem de 3 mm no rolo, filas, vínculos, cache e histórico. Instale por cima."
 }
