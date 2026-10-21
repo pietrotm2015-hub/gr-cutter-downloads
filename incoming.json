@@ -1,6 +1,6 @@
 {
-  "versionCode": 46,
-  "versionName": "0.3.28",
-  "sha256": "c9510a59a4c519c5ab5fc49756ce33782e3508a511dd4ecbed1119d16f600b26",
-  "notes": "## Catálogo e pesquisa\n- Busca de modelos novos sem esperar o download das imagens e arquivos de outras marcas.\n- Pesquisa considera marca e modelo, juntos ou separados, incluindo Huawei Nova15 Max.\n- Menos processamento ao buscar modelos, mantendo nomes juntos, separados e com acentos.\n- Consulta em lote dos arquivos disponíveis para abrir as páginas do catálogo.\n\n## Preparação dos cortes\n- Geração das chaves dos arquivos mais leve.\n- Leitura única dos vetores, com conferência de tamanho, SHA-256 e comandos no mesmo conteúdo.\n\n## Filas por material e tablets\n- Mantidas as separações por material, impressão e tamanho do insumo da versão 0.3.26.\n- Instale por cima para preservar filas, histórico e vínculos."
+  "versionCode": 47,
+  "versionName": "0.3.29",
+  "sha256": "dbf866c550ce7ce3a30698d26c32e3a7bae06f4c68bc9226d7a5699af6734685",
+  "notes": "## Pesquisa mais leve\n- Nomes normalizados são reaproveitados enquanto você digita.\n- Busca lê somente os campos necessários e carrega os detalhes apenas dos resultados.\n- Alterações de nome e marca continuam aparecendo, e a memória da busca é liberada quando o Android precisa.\n\n## Catálogo e download\n- Datas das marcas consultadas em lote, reduzindo acessos ao banco.\n- Preparação automática reaproveita listas atualizadas há menos de uma hora.\n- Atualização manual continua consultando a origem.\n\n## Instalação\n- Mantidas a busca do Huawei Nova15 Max e as otimizações anteriores.\n- Instale por cima para preservar filas, histórico e vínculos."
 }
