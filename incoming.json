@@ -1,6 +1,6 @@
 {
-  "versionCode": 47,
-  "versionName": "0.3.29",
-  "sha256": "dbf866c550ce7ce3a30698d26c32e3a7bae06f4c68bc9226d7a5699af6734685",
-  "notes": "## Pesquisa mais leve\n- Nomes normalizados são reaproveitados enquanto você digita.\n- Busca lê somente os campos necessários e carrega os detalhes apenas dos resultados.\n- Alterações de nome e marca continuam aparecendo, e a memória da busca é liberada quando o Android precisa.\n\n## Catálogo e download\n- Datas das marcas consultadas em lote, reduzindo acessos ao banco.\n- Preparação automática reaproveita listas atualizadas há menos de uma hora.\n- Atualização manual continua consultando a origem.\n\n## Instalação\n- Mantidas a busca do Huawei Nova15 Max e as otimizações anteriores.\n- Instale por cima para preservar filas, histórico e vínculos."
+  "versionCode": 48,
+  "versionName": "0.3.30",
+  "sha256": "655dfbd188e95585110f5b1e47316ec591b00f75764957eb03b7ac0745e0bf85",
+  "notes": "## Catálogo mais leve\n- Abertura sem pesquisa evita preparar nomes e marcas desnecessariamente.\n- Pré-carga acompanha a navegação e descarta páginas antigas ainda pendentes.\n\n## Imagens\n- Reutilização da mesma miniatura evita atualizações repetidas.\n- Falha ao ler uma imagem permite nova tentativa, sem prender seu carregamento.\n\n## Produtividade e Repor\n- Consultas de histórico e estimativas com novos índices, preservando os dados.\n- Médias reaproveitadas enquanto o histórico não muda; corte atual e fila continuam atualizados em tempo real.\n- Menos atualizações visuais quando o texto da etapa não mudou.\n\n## Instalação\n- Mantidas a busca do Huawei Nova15 Max e as melhorias anteriores.\n- Instale por cima para preservar filas, histórico e vínculos."
 }
