@@ -1,6 +1,6 @@
 {
-  "versionCode": 49,
-  "versionName": "0.3.31",
-  "sha256": "c8debde45698c896190dcb55da98b19086668ac1b92990c43874b5631a822f9d",
-  "notes": "## Busca corrigida\n- A pesquisa mais recente substitui a anterior, sem perder o texto digitado.\n- Buscar Huawei Nova 15 Max atualiza a Huawei diretamente, sem esperar as outras marcas.\n- Toque na mensagem da busca para tentar atualizar novamente.\n\n## Otimizações\n- Pesquisa online separada da navegação para manter o catálogo disponível.\n- Atualização dos nomes em lotes, com menos consultas ao banco.\n- Atualização de marca reutiliza dados recentes sem bloquear a consulta local.\n\n## Diagnóstico\n- Novas medições de espera, leitura local e entrega dos resultados à tela.\n- Relatórios incluem a consulta pesquisada e a quantidade de resultados.\n\nInstale por cima para preservar filas, histórico, cache e vínculos."
+  "versionCode": 50,
+  "versionName": "0.3.32",
+  "sha256": "fbdcc6aafab13faf2647ca5a23335fe39aa41e3e2f9cbaad54d8303c97969766",
+  "notes": "## Busca e catálogo\n- Índice de busca reaproveitado entre pesquisas, com atualização quando nomes ou marcas mudam.\n- Metadados das páginas reutilizados durante o download de imagens.\n- Totais do cache com menos leituras e preservando a contagem de arquivos compartilhados.\n\n## Imagens\n- Carregamentos que saíram da tela são descartados.\n- A mesma imagem não é redesenhada sem necessidade.\n\n## Moldes e produtividade\n- Menos alocações no processamento das coordenadas, mantendo os resultados dos cortes.\n- Consultas de médias e períodos de atividade com índices adicionais.\n\n## Diagnóstico\n- Novos contadores de reconstrução da busca e releitura de metadados.\n- Mantidas as correções do Huawei Nova15 Max e a fila de modelos diferentes.\n\nInstale por cima para preservar fila, histórico, cache e vínculos."
 }
