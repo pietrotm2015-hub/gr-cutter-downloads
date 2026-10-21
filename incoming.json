@@ -1,6 +1,6 @@
 {
-  "versionCode": 52,
-  "versionName": "0.3.34",
-  "sha256": "6a065d74707289f77cf8118860992cae072d83395fa2a3d001c88971672e2f15",
-  "notes": "## Corte em lote e economia de material\n- Espaçamento de 3 mm (0,3 cm) nos lotes unidos, antes 5 mm. Economia de 7 mm por separação em relação aos 10 mm originais.\n- Produtividade mostra centímetros de rolo economizados e películas equivalentes estimadas, contando apenas lotes concluídos com espaçamento registrado. Histórico de economia dos lotes de 5 mm preservado.\n- Telemetria leva os mesmos dados ao adaptador do Repor, com identificação do lote para evitar duplicação.\n- Repetição nativa de cópias idênticas continua usando o espaçamento da máquina.\n\n## Otimização do aplicativo\n- Menos leituras repetidas na abertura, navegação, catálogo, histórico, fila e marketplaces.\n- Prévia e preparação de cartões fora da thread da tela.\n- Previsão mantém o tempo restante atualizado com menos consultas históricas.\n- Checkpoints preservados e cache protegido contra imagens antigas.\n\nMantidas as funções de fila, edição, histórico, finalização/reversão de lotes e confirmações da máquina. Instale por cima para manter dados e vínculos."
+  "versionCode": 53,
+  "versionName": "0.3.35",
+  "sha256": "46181151e58993c9fa10176a0c2def77bc360486f26af3022e65d0463eed23e3",
+  "notes": "## Espaçamento de 3 mm também nas cópias iguais\n- Adicionar 3 unidades do mesmo modelo à fila agora monta um arquivo único, com 3 mm entre cortes, em moldes compatíveis no rolo.\n- O arquivo é enviado uma vez; cada cópia mantém seu contorno e sua posição.\n- A economia dessas cópias passa a entrar na estatística depois da conclusão confirmada.\n- Limites de largura, avanço e tamanho do arquivo continuam protegidos; o restante permanece na fila.\n- Folhas continuam individuais. Formatos incompatíveis com união conservam o envio nativo e o espaçamento da máquina.\n\nFilas, vínculos, histórico e todos os recursos existentes preservados. Instale por cima para manter os dados."
 }
