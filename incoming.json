@@ -1,6 +1,6 @@
 {
-  "versionCode": 54,
-  "versionName": "0.3.36",
-  "sha256": "adb25d941241bf33b580e66634fc14f9d5add9a4b808b84249cecf59204b83ce",
-  "notes": "## Margem de 3 mm em cada início de arquivo no rolo\n- O primeiro corte usa 3 mm de margem, substituindo o recuo embutido no molde.\n- Telefones, tablets, cópias iguais e arquivos com uma única peça passam pelo mesmo posicionamento no rolo, nos formatos compatíveis.\n- Entre peças do mesmo arquivo, a distância continua em 3 mm. Cada arquivo seguinte, inclusive a última peça isolada, também começa em 3 mm.\n- Dimensões e contornos preservados; folhas mantêm a posição original.\n- Diagnóstico registra a margem e os limites reais do vetor enviado.\n- Economia histórica preservada; a margem inicial não gera economia inventada de separações internas.\n\nInstale por cima para manter filas, cache, vínculos e histórico."
+  "versionCode": 55,
+  "versionName": "0.3.37",
+  "sha256": "2498a105572e8a90ea423d4f32fa549f04c1549598c0066bf67f204b7fd1acaf",
+  "notes": "## Devoluções hidrogel integradas ao Repor\n- Nova aba de estoque pronto, por SKU, empresa, material, variante e localização.\n- Catálogo, avulsos, repetição e marketplace conferem devoluções antes de montar a fila.\n- Usei devolução confirma a baixa no Repor; somente o restante vai para corte.\n- Não encontrei abre conferência para a expedição.\n- Confirmações pendentes são preservadas e reenviadas sem duplicar baixas.\n- Reutilização não conta como corte físico.\n\nMantém margem de 3 mm no rolo, filas, vínculos, cache e histórico. Instale por cima."
 }
