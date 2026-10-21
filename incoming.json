@@ -1,6 +1,6 @@
 {
-  "versionCode": 43,
-  "versionName": "0.3.25",
-  "sha256": "17340ee5137266e9cc956282ad91b80a96f9e103a532add8fc34c3738a41bed2",
-  "notes": "## SKU do pedido e aparelho lado a lado\n- O Repor procura os cortes automaticamente ao gerar a fila.\n- O aplicativo recebe os modelos encontrados para peças pendentes enquanto está parado, sem importar tudo de novo.\n- Marketplace e produção mostram o SKU original do pedido e o aparelho escolhido.\n- Frente e verso mantêm cortes separados; escolhas manuais e preferências por SKU permanecem editáveis.\n- A atualização não inicia cortes nem duplica pedidos. Instale por cima para preservar filas e vínculos."
+  "versionCode": 44,
+  "versionName": "0.3.26",
+  "sha256": "5e14fa96823a9d319c5332e93220870485b25c122a743672759549349fbef4af",
+  "notes": "## Filas por material e tablets\n- Tablet separado em possíveis no rolo e folha de 13 polegadas, pelas medidas do arquivo.\n- A execução respeita a impressão e os cortes escolhidos; privacidade não continua na transparente.\n- Lixeira para remover uma unidade entre peças iguais e botão para limpar toda a fila pendente, com restauração pela impressão.\n- Kits de matéria-prima recebem a frontal pela capinha do pedido. Escolhas manuais são por peça, sem vínculo global da matéria-prima.\n- Instale por cima. Filas, histórico e vínculos existentes permanecem."
 }
