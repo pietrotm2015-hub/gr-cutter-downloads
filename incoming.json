@@ -1,6 +1,6 @@
 {
-  "versionCode": 53,
-  "versionName": "0.3.35",
-  "sha256": "46181151e58993c9fa10176a0c2def77bc360486f26af3022e65d0463eed23e3",
-  "notes": "## Espaçamento de 3 mm também nas cópias iguais\n- Adicionar 3 unidades do mesmo modelo à fila agora monta um arquivo único, com 3 mm entre cortes, em moldes compatíveis no rolo.\n- O arquivo é enviado uma vez; cada cópia mantém seu contorno e sua posição.\n- A economia dessas cópias passa a entrar na estatística depois da conclusão confirmada.\n- Limites de largura, avanço e tamanho do arquivo continuam protegidos; o restante permanece na fila.\n- Folhas continuam individuais. Formatos incompatíveis com união conservam o envio nativo e o espaçamento da máquina.\n\nFilas, vínculos, histórico e todos os recursos existentes preservados. Instale por cima para manter os dados."
+  "versionCode": 54,
+  "versionName": "0.3.36",
+  "sha256": "adb25d941241bf33b580e66634fc14f9d5add9a4b808b84249cecf59204b83ce",
+  "notes": "## Margem de 3 mm em cada início de arquivo no rolo\n- O primeiro corte usa 3 mm de margem, substituindo o recuo embutido no molde.\n- Telefones, tablets, cópias iguais e arquivos com uma única peça passam pelo mesmo posicionamento no rolo, nos formatos compatíveis.\n- Entre peças do mesmo arquivo, a distância continua em 3 mm. Cada arquivo seguinte, inclusive a última peça isolada, também começa em 3 mm.\n- Dimensões e contornos preservados; folhas mantêm a posição original.\n- Diagnóstico registra a margem e os limites reais do vetor enviado.\n- Economia histórica preservada; a margem inicial não gera economia inventada de separações internas.\n\nInstale por cima para manter filas, cache, vínculos e histórico."
 }
