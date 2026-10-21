@@ -1,7 +1,7 @@
 {
-  "versionCode": 49,
-  "versionName": "0.3.31",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.31/GR_Cutter_Android_v0.3.31.apk",
-  "sha256": "c8debde45698c896190dcb55da98b19086668ac1b92990c43874b5631a822f9d",
-  "notes": "## Busca corrigida\n- A pesquisa mais recente substitui a anterior, sem perder o texto digitado.\n- Buscar Huawei Nova 15 Max atualiza a Huawei diretamente, sem esperar as outras marcas.\n- Toque na mensagem da busca para tentar atualizar novamente.\n\n## Otimiza\u00e7\u00f5es\n- Pesquisa online separada da navega\u00e7\u00e3o para manter o cat\u00e1logo dispon\u00edvel.\n- Atualiza\u00e7\u00e3o dos nomes em lotes, com menos consultas ao banco.\n- Atualiza\u00e7\u00e3o de marca reutiliza dados recentes sem bloquear a consulta local.\n\n## Diagn\u00f3stico\n- Novas medi\u00e7\u00f5es de espera, leitura local e entrega dos resultados \u00e0 tela.\n- Relat\u00f3rios incluem a consulta pesquisada e a quantidade de resultados.\n\nInstale por cima para preservar filas, hist\u00f3rico, cache e v\u00ednculos."
+  "versionCode": 50,
+  "versionName": "0.3.32",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.32/GR_Cutter_Android_v0.3.32.apk",
+  "sha256": "fbdcc6aafab13faf2647ca5a23335fe39aa41e3e2f9cbaad54d8303c97969766",
+  "notes": "## Busca e cat\u00e1logo\n- \u00cdndice de busca reaproveitado entre pesquisas, com atualiza\u00e7\u00e3o quando nomes ou marcas mudam.\n- Metadados das p\u00e1ginas reutilizados durante o download de imagens.\n- Totais do cache com menos leituras e preservando a contagem de arquivos compartilhados.\n\n## Imagens\n- Carregamentos que sa\u00edram da tela s\u00e3o descartados.\n- A mesma imagem n\u00e3o \u00e9 redesenhada sem necessidade.\n\n## Moldes e produtividade\n- Menos aloca\u00e7\u00f5es no processamento das coordenadas, mantendo os resultados dos cortes.\n- Consultas de m\u00e9dias e per\u00edodos de atividade com \u00edndices adicionais.\n\n## Diagn\u00f3stico\n- Novos contadores de reconstru\u00e7\u00e3o da busca e releitura de metadados.\n- Mantidas as corre\u00e7\u00f5es do Huawei Nova15 Max e a fila de modelos diferentes.\n\nInstale por cima para preservar fila, hist\u00f3rico, cache e v\u00ednculos."
 }
