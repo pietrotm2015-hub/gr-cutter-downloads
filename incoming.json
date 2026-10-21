@@ -1,6 +1,6 @@
 {
-  "versionCode": 48,
-  "versionName": "0.3.30",
-  "sha256": "655dfbd188e95585110f5b1e47316ec591b00f75764957eb03b7ac0745e0bf85",
-  "notes": "## Catálogo mais leve\n- Abertura sem pesquisa evita preparar nomes e marcas desnecessariamente.\n- Pré-carga acompanha a navegação e descarta páginas antigas ainda pendentes.\n\n## Imagens\n- Reutilização da mesma miniatura evita atualizações repetidas.\n- Falha ao ler uma imagem permite nova tentativa, sem prender seu carregamento.\n\n## Produtividade e Repor\n- Consultas de histórico e estimativas com novos índices, preservando os dados.\n- Médias reaproveitadas enquanto o histórico não muda; corte atual e fila continuam atualizados em tempo real.\n- Menos atualizações visuais quando o texto da etapa não mudou.\n\n## Instalação\n- Mantidas a busca do Huawei Nova15 Max e as melhorias anteriores.\n- Instale por cima para preservar filas, histórico e vínculos."
+  "versionCode": 49,
+  "versionName": "0.3.31",
+  "sha256": "c8debde45698c896190dcb55da98b19086668ac1b92990c43874b5631a822f9d",
+  "notes": "## Busca corrigida\n- A pesquisa mais recente substitui a anterior, sem perder o texto digitado.\n- Buscar Huawei Nova 15 Max atualiza a Huawei diretamente, sem esperar as outras marcas.\n- Toque na mensagem da busca para tentar atualizar novamente.\n\n## Otimizações\n- Pesquisa online separada da navegação para manter o catálogo disponível.\n- Atualização dos nomes em lotes, com menos consultas ao banco.\n- Atualização de marca reutiliza dados recentes sem bloquear a consulta local.\n\n## Diagnóstico\n- Novas medições de espera, leitura local e entrega dos resultados à tela.\n- Relatórios incluem a consulta pesquisada e a quantidade de resultados.\n\nInstale por cima para preservar filas, histórico, cache e vínculos."
 }
