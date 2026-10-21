@@ -1,7 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "0.3.30",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.30/GR_Cutter_Android_v0.3.30.apk",
-  "sha256": "655dfbd188e95585110f5b1e47316ec591b00f75764957eb03b7ac0745e0bf85",
-  "notes": "## Cat\u00e1logo mais leve\n- Abertura sem pesquisa evita preparar nomes e marcas desnecessariamente.\n- Pr\u00e9-carga acompanha a navega\u00e7\u00e3o e descarta p\u00e1ginas antigas ainda pendentes.\n\n## Imagens\n- Reutiliza\u00e7\u00e3o da mesma miniatura evita atualiza\u00e7\u00f5es repetidas.\n- Falha ao ler uma imagem permite nova tentativa, sem prender seu carregamento.\n\n## Produtividade e Repor\n- Consultas de hist\u00f3rico e estimativas com novos \u00edndices, preservando os dados.\n- M\u00e9dias reaproveitadas enquanto o hist\u00f3rico n\u00e3o muda; corte atual e fila continuam atualizados em tempo real.\n- Menos atualiza\u00e7\u00f5es visuais quando o texto da etapa n\u00e3o mudou.\n\n## Instala\u00e7\u00e3o\n- Mantidas a busca do Huawei Nova15 Max e as melhorias anteriores.\n- Instale por cima para preservar filas, hist\u00f3rico e v\u00ednculos."
+  "versionCode": 49,
+  "versionName": "0.3.31",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.31/GR_Cutter_Android_v0.3.31.apk",
+  "sha256": "c8debde45698c896190dcb55da98b19086668ac1b92990c43874b5631a822f9d",
+  "notes": "## Busca corrigida\n- A pesquisa mais recente substitui a anterior, sem perder o texto digitado.\n- Buscar Huawei Nova 15 Max atualiza a Huawei diretamente, sem esperar as outras marcas.\n- Toque na mensagem da busca para tentar atualizar novamente.\n\n## Otimiza\u00e7\u00f5es\n- Pesquisa online separada da navega\u00e7\u00e3o para manter o cat\u00e1logo dispon\u00edvel.\n- Atualiza\u00e7\u00e3o dos nomes em lotes, com menos consultas ao banco.\n- Atualiza\u00e7\u00e3o de marca reutiliza dados recentes sem bloquear a consulta local.\n\n## Diagn\u00f3stico\n- Novas medi\u00e7\u00f5es de espera, leitura local e entrega dos resultados \u00e0 tela.\n- Relat\u00f3rios incluem a consulta pesquisada e a quantidade de resultados.\n\nInstale por cima para preservar filas, hist\u00f3rico, cache e v\u00ednculos."
 }
