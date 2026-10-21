@@ -1,7 +1,7 @@
 {
-  "versionCode": 46,
-  "versionName": "0.3.28",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.28/GR_Cutter_Android_v0.3.28.apk",
-  "sha256": "c9510a59a4c519c5ab5fc49756ce33782e3508a511dd4ecbed1119d16f600b26",
-  "notes": "## Cat\u00e1logo e pesquisa\n- Busca de modelos novos sem esperar o download das imagens e arquivos de outras marcas.\n- Pesquisa considera marca e modelo, juntos ou separados, incluindo Huawei Nova15 Max.\n- Menos processamento ao buscar modelos, mantendo nomes juntos, separados e com acentos.\n- Consulta em lote dos arquivos dispon\u00edveis para abrir as p\u00e1ginas do cat\u00e1logo.\n\n## Prepara\u00e7\u00e3o dos cortes\n- Gera\u00e7\u00e3o das chaves dos arquivos mais leve.\n- Leitura \u00fanica dos vetores, com confer\u00eancia de tamanho, SHA-256 e comandos no mesmo conte\u00fado.\n\n## Filas por material e tablets\n- Mantidas as separa\u00e7\u00f5es por material, impress\u00e3o e tamanho do insumo da vers\u00e3o 0.3.26.\n- Instale por cima para preservar filas, hist\u00f3rico e v\u00ednculos."
+  "versionCode": 47,
+  "versionName": "0.3.29",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.29/GR_Cutter_Android_v0.3.29.apk",
+  "sha256": "dbf866c550ce7ce3a30698d26c32e3a7bae06f4c68bc9226d7a5699af6734685",
+  "notes": "## Pesquisa mais leve\n- Nomes normalizados s\u00e3o reaproveitados enquanto voc\u00ea digita.\n- Busca l\u00ea somente os campos necess\u00e1rios e carrega os detalhes apenas dos resultados.\n- Altera\u00e7\u00f5es de nome e marca continuam aparecendo, e a mem\u00f3ria da busca \u00e9 liberada quando o Android precisa.\n\n## Cat\u00e1logo e download\n- Datas das marcas consultadas em lote, reduzindo acessos ao banco.\n- Prepara\u00e7\u00e3o autom\u00e1tica reaproveita listas atualizadas h\u00e1 menos de uma hora.\n- Atualiza\u00e7\u00e3o manual continua consultando a origem.\n\n## Instala\u00e7\u00e3o\n- Mantidas a busca do Huawei Nova15 Max e as otimiza\u00e7\u00f5es anteriores.\n- Instale por cima para preservar filas, hist\u00f3rico e v\u00ednculos."
 }
