@@ -1,7 +1,7 @@
 {
-  "versionCode": 44,
-  "versionName": "0.3.26",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.26/GR_Cutter_Android_v0.3.26.apk",
-  "sha256": "5e14fa96823a9d319c5332e93220870485b25c122a743672759549349fbef4af",
-  "notes": "## Filas por material e tablets\n- Tablet separado em poss\u00edveis no rolo e folha de 13 polegadas, pelas medidas do arquivo.\n- A execu\u00e7\u00e3o respeita a impress\u00e3o e os cortes escolhidos; privacidade n\u00e3o continua na transparente.\n- Lixeira para remover uma unidade entre pe\u00e7as iguais e bot\u00e3o para limpar toda a fila pendente, com restaura\u00e7\u00e3o pela impress\u00e3o.\n- Kits de mat\u00e9ria-prima recebem a frontal pela capinha do pedido. Escolhas manuais s\u00e3o por pe\u00e7a, sem v\u00ednculo global da mat\u00e9ria-prima.\n- Instale por cima. Filas, hist\u00f3rico e v\u00ednculos existentes permanecem."
+  "versionCode": 46,
+  "versionName": "0.3.28",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.28/GR_Cutter_Android_v0.3.28.apk",
+  "sha256": "c9510a59a4c519c5ab5fc49756ce33782e3508a511dd4ecbed1119d16f600b26",
+  "notes": "## Cat\u00e1logo e pesquisa\n- Busca de modelos novos sem esperar o download das imagens e arquivos de outras marcas.\n- Pesquisa considera marca e modelo, juntos ou separados, incluindo Huawei Nova15 Max.\n- Menos processamento ao buscar modelos, mantendo nomes juntos, separados e com acentos.\n- Consulta em lote dos arquivos dispon\u00edveis para abrir as p\u00e1ginas do cat\u00e1logo.\n\n## Prepara\u00e7\u00e3o dos cortes\n- Gera\u00e7\u00e3o das chaves dos arquivos mais leve.\n- Leitura \u00fanica dos vetores, com confer\u00eancia de tamanho, SHA-256 e comandos no mesmo conte\u00fado.\n\n## Filas por material e tablets\n- Mantidas as separa\u00e7\u00f5es por material, impress\u00e3o e tamanho do insumo da vers\u00e3o 0.3.26.\n- Instale por cima para preservar filas, hist\u00f3rico e v\u00ednculos."
 }
