@@ -1,6 +1,6 @@
 {
-  "versionCode": 61,
-  "versionName": "0.3.43",
-  "sha256": "33dd8a7dff1047b1ad2783e54c1f9be814938f439376978a92d197d7f3d09988",
-  "notes": "## Moldes antigos e telemetria completa\n- Compatibilidade com o marcador final dos moldes antigos, sem alterar coordenadas ou contornos.\n- Abertura, navegação, ações, renderização, fluidez, memória, CPU e falhas no diagnóstico.\n- Todas as etapas de produção, catálogo, marketplace e Bluetooth continuam disponíveis.\n- Contadores em memória; gravação em segundo plano a cada 30 segundos e ao sair.\n- Copiar telemetria inclui a sessão atual, a anterior e os tempos de produção.\n- Entrega com snapshot limpo do emulador, compilação interrompida ao detectar falha e publicação sem transferências intermediárias redundantes.\n\nMantém devoluções hidrogel, espaçamento de 3 mm, filas, vínculos e histórico. Instale por cima.\n\nInclui também a melhoria mais recente das devoluções: cartões com SKU, material, localização e saldo em destaque; uma atualização que falha retira o saldo antigo da tela."
+  "versionCode": 63,
+  "versionName": "0.3.45",
+  "sha256": "261f06c0a7abacf00ac3221a21d769eb1201b92ed164e4fc6afc2a72614a227d",
+  "notes": "Corrige o reconhecimento dos encerramentos antigos PG e preenchimento final dos moldes, incluindo Galaxy Tab S7+ e Infinix Hot 10 Lite, sem alterar o trajeto.\n\nMarketplace: exclua cada corte antes de iniciar a fila e restaure individualmente se necessário. As exclusões persistem ao reabrir.\n\nCorrige os diálogos que podiam impedir o corte. Devoluções hidrogel usam estoque geral compartilhado, sem pergunta de empresa. Mantém conferência de SKU, material e localização.\n\nRestaura o envio da produção ao vivo com compatibilidade para versões anteriores do Repor, preservando cortes, filas e eventos de economia. Telemetria completa com contadores em memória e gravação em segundo plano.\n\nPreserva espaçamento de 3 mm, histórico, vínculos, cortes contínuos e o tratamento dos vetores legados de tablet. Instale por cima."
 }
