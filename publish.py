@@ -79,6 +79,27 @@ else:
         body=manifest["notes"] + "\n\nInstale por cima para preservar o cache e a fila.\n\nSHA-256: `" + digest + "`"), "PATCH")
 
 # Publish the feed only after its signed APK is available anonymously.
+# Download without Authorization, cookies or the authenticated API helper.
+# Verify the actual public bytes before advertising the update to phones.
+public_request = urllib.request.Request(manifest["apkUrl"], headers={"User-Agent": "GR-Cutter-Release-Check"})
+with urllib.request.urlopen(public_request, timeout=90) as response:
+    if response.status != 200:
+        raise SystemExit("Public APK download failed")
+    public_digest = hashlib.sha256()
+    public_size = 0
+    while True:
+        chunk = response.read(1024 * 1024)
+        if not chunk:
+            break
+        public_size += len(chunk)
+        if public_size > len(apk):
+            raise SystemExit("Public APK size mismatch")
+        public_digest.update(chunk)
+if public_size != len(apk) or public_digest.hexdigest() != digest:
+    raise SystemExit("Public APK download integrity mismatch")
+print("GR_PUBLIC_DOWNLOAD=" + json.dumps(dict(versionCode=code, versionName=name,
+    httpStatus=200, bytes=public_size, sha256=public_digest.hexdigest(), authenticated=False)))
+
 content = base64.b64encode((json.dumps(manifest, indent=2) + "\n").encode()).decode()
 change = dict(message="Publish tested Android update " + name, content=content, branch="main")
 if current:
