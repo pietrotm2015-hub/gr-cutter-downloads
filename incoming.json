@@ -1,6 +1,6 @@
 {
-  "versionCode": 66,
-  "versionName": "0.3.48",
-  "sha256": "6228caf3c290fb177d619f231bc9fb881326c3006f2e00b509917f44f4a748f6",
-  "notes": "Pedidos de hidrogel recebidos como Flex, ML Flex ou Mercado Livre Flex passam a aparecer na aba Mercado Livre, inclusive em lotes já salvos. Preserva os SKUs, a ordem das etiquetas e os cortes concluídos; atualizar ou importar novamente não duplica os cortes.\n\nMantém devoluções, telemetria e o ajuste de margem de 3 mm. O calibrador para recolher material avançado ainda não está habilitado. Se o Repor não enviar o pedido na lista de impressões, será necessário corrigir a origem no Repor. Instale por cima."
+  "versionCode": 67,
+  "versionName": "0.3.49",
+  "sha256": "a515876b6bc084ca12be828f1e0597541885819d4c8bfd23a35da2eea21fbb8f",
+  "notes": "## Calibrar rolo\n- Botão Calibrar ao lado de Conectada: alinhamento manual por toques curtos, apenas com a produção parada no modo rolo e firmware 221201C. Não é acionado automaticamente nos cortes ou lotes.\n- Primeiro teste assistido: confira a lâmina levantada e qual seta recolhe o material. Não mede nem recolhe automaticamente 10 cm. A margem de 0,3 cm continua no arquivo de corte.\n- Falhas de confirmação bloqueiam novos movimentos e cortes até conferir a parada. Sair da tela solicita parada; em perda de conexão, confira o equipamento e use a parada física se necessário.\n\n## Preparação mais eficiente\n- Remove consultas repetidas na preparação do espaçamento, mantendo verificações de repouso, backup/restauração, leitura dos ajustes e confirmações de cada pacote. Quando os dois ajustes já estão zerados, essa etapa passa de 12 para 6 consultas. O ganho em segundos depende da máquina.\n- Mantém marketplace/Flex, filas, devoluções, telemetria e estatísticas. Instale por cima da versão atual.\n- Solicita baixa latência BLE durante o envio do molde e modo equilibrado depois, preservando ACKs e comportamento atual se a solicitação for recusada. Diagnóstico mede comando → resposta; o ganho físico precisa ser conferido na máquina."
 }
