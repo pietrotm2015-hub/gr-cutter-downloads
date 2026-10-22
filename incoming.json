@@ -1,6 +1,6 @@
 {
-  "versionCode": 58,
-  "versionName": "0.3.40",
-  "sha256": "358ea9972af846601f619342677d795c8a678984757f6d68f87ce9b39134a400",
-  "notes": "## Devoluções hidrogel integradas ao Repor\n- Nova aba de estoque pronto, por SKU, empresa, material, variante e localização.\n- Catálogo, avulsos, repetição e marketplace conferem devoluções antes de montar a fila.\n- A confirmação é separada por localização para baixar a gaveta realmente utilizada.\n- Em uso parcial, as peças restantes mantêm o material escolhido, inclusive privacidade.\n- Usei devolução confirma a baixa no Repor; somente o restante vai para corte.\n- Não encontrei abre conferência para a expedição.\n- O reenvio confere todas as confirmações acumuladas, inclusive históricos com mais de mil registros.\n- Confirmações pendentes são preservadas e reenviadas sem duplicar baixas.\n- Reutilização não conta como corte físico.\n\nMantém margem de 3 mm no rolo, filas, vínculos, cache e histórico. Instale por cima."
+  "versionCode": 61,
+  "versionName": "0.3.43",
+  "sha256": "33dd8a7dff1047b1ad2783e54c1f9be814938f439376978a92d197d7f3d09988",
+  "notes": "## Moldes antigos e telemetria completa\n- Compatibilidade com o marcador final dos moldes antigos, sem alterar coordenadas ou contornos.\n- Abertura, navegação, ações, renderização, fluidez, memória, CPU e falhas no diagnóstico.\n- Todas as etapas de produção, catálogo, marketplace e Bluetooth continuam disponíveis.\n- Contadores em memória; gravação em segundo plano a cada 30 segundos e ao sair.\n- Copiar telemetria inclui a sessão atual, a anterior e os tempos de produção.\n- Entrega com snapshot limpo do emulador, compilação interrompida ao detectar falha e publicação sem transferências intermediárias redundantes.\n\nMantém devoluções hidrogel, espaçamento de 3 mm, filas, vínculos e histórico. Instale por cima.\n\nInclui também a melhoria mais recente das devoluções: cartões com SKU, material, localização e saldo em destaque; uma atualização que falha retira o saldo antigo da tela."
 }
