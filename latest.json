@@ -1,7 +1,7 @@
 {
-  "versionCode": 61,
-  "versionName": "0.3.43",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.43/GR_Cutter_Android_v0.3.43.apk",
-  "sha256": "33dd8a7dff1047b1ad2783e54c1f9be814938f439376978a92d197d7f3d09988",
-  "notes": "## Moldes antigos e telemetria completa\n- Compatibilidade com o marcador final dos moldes antigos, sem alterar coordenadas ou contornos.\n- Abertura, navega\u00e7\u00e3o, a\u00e7\u00f5es, renderiza\u00e7\u00e3o, fluidez, mem\u00f3ria, CPU e falhas no diagn\u00f3stico.\n- Todas as etapas de produ\u00e7\u00e3o, cat\u00e1logo, marketplace e Bluetooth continuam dispon\u00edveis.\n- Contadores em mem\u00f3ria; grava\u00e7\u00e3o em segundo plano a cada 30 segundos e ao sair.\n- Copiar telemetria inclui a sess\u00e3o atual, a anterior e os tempos de produ\u00e7\u00e3o.\n- Entrega com snapshot limpo do emulador, compila\u00e7\u00e3o interrompida ao detectar falha e publica\u00e7\u00e3o sem transfer\u00eancias intermedi\u00e1rias redundantes.\n\nMant\u00e9m devolu\u00e7\u00f5es hidrogel, espa\u00e7amento de 3 mm, filas, v\u00ednculos e hist\u00f3rico. Instale por cima.\n\nInclui tamb\u00e9m a melhoria mais recente das devolu\u00e7\u00f5es: cart\u00f5es com SKU, material, localiza\u00e7\u00e3o e saldo em destaque; uma atualiza\u00e7\u00e3o que falha retira o saldo antigo da tela."
+  "versionCode": 63,
+  "versionName": "0.3.45",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.45/GR_Cutter_Android_v0.3.45.apk",
+  "sha256": "261f06c0a7abacf00ac3221a21d769eb1201b92ed164e4fc6afc2a72614a227d",
+  "notes": "Corrige o reconhecimento dos encerramentos antigos PG e preenchimento final dos moldes, incluindo Galaxy Tab S7+ e Infinix Hot 10 Lite, sem alterar o trajeto.\n\nMarketplace: exclua cada corte antes de iniciar a fila e restaure individualmente se necess\u00e1rio. As exclus\u00f5es persistem ao reabrir.\n\nCorrige os di\u00e1logos que podiam impedir o corte. Devolu\u00e7\u00f5es hidrogel usam estoque geral compartilhado, sem pergunta de empresa. Mant\u00e9m confer\u00eancia de SKU, material e localiza\u00e7\u00e3o.\n\nRestaura o envio da produ\u00e7\u00e3o ao vivo com compatibilidade para vers\u00f5es anteriores do Repor, preservando cortes, filas e eventos de economia. Telemetria completa com contadores em mem\u00f3ria e grava\u00e7\u00e3o em segundo plano.\n\nPreserva espa\u00e7amento de 3 mm, hist\u00f3rico, v\u00ednculos, cortes cont\u00ednuos e o tratamento dos vetores legados de tablet. Instale por cima."
 }
