@@ -1,6 +1,6 @@
 {
-  "versionCode": 63,
-  "versionName": "0.3.45",
-  "sha256": "261f06c0a7abacf00ac3221a21d769eb1201b92ed164e4fc6afc2a72614a227d",
-  "notes": "Corrige o reconhecimento dos encerramentos antigos PG e preenchimento final dos moldes, incluindo Galaxy Tab S7+ e Infinix Hot 10 Lite, sem alterar o trajeto.\n\nMarketplace: exclua cada corte antes de iniciar a fila e restaure individualmente se necessário. As exclusões persistem ao reabrir.\n\nCorrige os diálogos que podiam impedir o corte. Devoluções hidrogel usam estoque geral compartilhado, sem pergunta de empresa. Mantém conferência de SKU, material e localização.\n\nRestaura o envio da produção ao vivo com compatibilidade para versões anteriores do Repor, preservando cortes, filas e eventos de economia. Telemetria completa com contadores em memória e gravação em segundo plano.\n\nPreserva espaçamento de 3 mm, histórico, vínculos, cortes contínuos e o tratamento dos vetores legados de tablet. Instale por cima."
+  "versionCode": 65,
+  "versionName": "0.3.47",
+  "sha256": "77163dfd862cca9889604bb53c22220bffe07f5ff44d52888c70fd19b9abc548",
+  "notes": "Corrige a preparação do espaço entre envios separados no rolo: mantém 3 mm no vetor e retira os acréscimos de distância da máquina antes do envio, com confirmação por leitura. Guarda e restaura os ajustes anteriores, inclusive após interrupções, preservando edições manuais.\n\nMantém filas, marketplace, exclusões individuais, devoluções, telemetria e estatísticas. Não recua material já avançado. A distância física na máquina precisa ser conferida entre dois novos cortes avulsos. Instale por cima."
 }
