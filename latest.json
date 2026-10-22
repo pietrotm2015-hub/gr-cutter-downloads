@@ -1,7 +1,7 @@
 {
-  "versionCode": 65,
-  "versionName": "0.3.47",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.47/GR_Cutter_Android_v0.3.47.apk",
-  "sha256": "77163dfd862cca9889604bb53c22220bffe07f5ff44d52888c70fd19b9abc548",
-  "notes": "Corrige a prepara\u00e7\u00e3o do espa\u00e7o entre envios separados no rolo: mant\u00e9m 3 mm no vetor e retira os acr\u00e9scimos de dist\u00e2ncia da m\u00e1quina antes do envio, com confirma\u00e7\u00e3o por leitura. Guarda e restaura os ajustes anteriores, inclusive ap\u00f3s interrup\u00e7\u00f5es, preservando edi\u00e7\u00f5es manuais.\n\nMant\u00e9m filas, marketplace, exclus\u00f5es individuais, devolu\u00e7\u00f5es, telemetria e estat\u00edsticas. N\u00e3o recua material j\u00e1 avan\u00e7ado. A dist\u00e2ncia f\u00edsica na m\u00e1quina precisa ser conferida entre dois novos cortes avulsos. Instale por cima."
+  "versionCode": 66,
+  "versionName": "0.3.48",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.48/GR_Cutter_Android_v0.3.48.apk",
+  "sha256": "6228caf3c290fb177d619f231bc9fb881326c3006f2e00b509917f44f4a748f6",
+  "notes": "Pedidos de hidrogel recebidos como Flex, ML Flex ou Mercado Livre Flex passam a aparecer na aba Mercado Livre, inclusive em lotes j\u00e1 salvos. Preserva os SKUs, a ordem das etiquetas e os cortes conclu\u00eddos; atualizar ou importar novamente n\u00e3o duplica os cortes.\n\nMant\u00e9m devolu\u00e7\u00f5es, telemetria e o ajuste de margem de 3 mm. O calibrador para recolher material avan\u00e7ado ainda n\u00e3o est\u00e1 habilitado. Se o Repor n\u00e3o enviar o pedido na lista de impress\u00f5es, ser\u00e1 necess\u00e1rio corrigir a origem no Repor. Instale por cima."
 }
