@@ -1,6 +1,6 @@
 {
-  "versionCode": 65,
-  "versionName": "0.3.47",
-  "sha256": "77163dfd862cca9889604bb53c22220bffe07f5ff44d52888c70fd19b9abc548",
-  "notes": "Corrige a preparação do espaço entre envios separados no rolo: mantém 3 mm no vetor e retira os acréscimos de distância da máquina antes do envio, com confirmação por leitura. Guarda e restaura os ajustes anteriores, inclusive após interrupções, preservando edições manuais.\n\nMantém filas, marketplace, exclusões individuais, devoluções, telemetria e estatísticas. Não recua material já avançado. A distância física na máquina precisa ser conferida entre dois novos cortes avulsos. Instale por cima."
+  "versionCode": 66,
+  "versionName": "0.3.48",
+  "sha256": "6228caf3c290fb177d619f231bc9fb881326c3006f2e00b509917f44f4a748f6",
+  "notes": "Pedidos de hidrogel recebidos como Flex, ML Flex ou Mercado Livre Flex passam a aparecer na aba Mercado Livre, inclusive em lotes já salvos. Preserva os SKUs, a ordem das etiquetas e os cortes concluídos; atualizar ou importar novamente não duplica os cortes.\n\nMantém devoluções, telemetria e o ajuste de margem de 3 mm. O calibrador para recolher material avançado ainda não está habilitado. Se o Repor não enviar o pedido na lista de impressões, será necessário corrigir a origem no Repor. Instale por cima."
 }
