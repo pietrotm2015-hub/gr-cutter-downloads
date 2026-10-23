@@ -1,6 +1,6 @@
 {
-  "versionCode": 70,
-  "versionName": "0.3.52",
-  "sha256": "646db1a10493ff156bc7528375dd674764d44694d22b95a3827d8a78d1d0f5a7",
-  "notes": "## Desempenho e acompanhamento\n- Histórico paginado sem recriar a lista quando não há mudanças.\n- Conferência de devoluções antes da fila executada fora da tela, com sequência e retomada preservadas.\n- Menos consultas repetidas, imagens dimensionadas e reaproveitamento da preparação dos lotes com todas as verificações mantidas.\n- Telemetria técnica cumulativa, recibos e recuperação de envios pendentes; produção ao vivo preservada.\n- Estatísticas e atualização das impressões com menos trabalho repetido.\n- Mercado Livre Flex, paginação remota e recepção de diagnósticos técnicos dependem também da atualização do Repor.\n- Instale por cima da versão atual para preservar dados e filas."
+  "versionCode": 71,
+  "versionName": "0.3.53",
+  "sha256": "b5b5f63f71cda6433898be263efd01e3015bde575305f2c6272f359055d7310d",
+  "notes": "## Menos trabalho repetido\n- Fila e acompanhamento reaproveitam dados sem alterações; controles permanecem nas telas durante as atualizações.\n- Miniaturas equivalentes compartilham a mesma imagem, preservando a resolução.\n- Tarefas não críticas liberam suas threads quando ociosas.\n## Telemetria e Repor\n- Diagnósticos mantêm gravação segura antes do envio e retomam pendências em grupos limitados.\n- Relatórios acima de 512 KB podem ser retomados por partes, até 1,5 MB, com confirmação completa pelo Repor.\n- Listas de impressões sem mudanças evitam transferências repetidas quando isso economiza tráfego.\n- Recursos novos de sincronização dependem da atualização correspondente do Repor.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
 }
