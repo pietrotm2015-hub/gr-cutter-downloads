@@ -1,7 +1,7 @@
 {
-  "versionCode": 69,
-  "versionName": "0.3.51",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.51/GR_Cutter_Android_v0.3.51.apk",
-  "sha256": "155097a8c1df101b230ec1d4120238f8950ee12e04e4c0262bfd18af3d5f24ab",
-  "notes": "## Mercado Livre Flex separado\n- Mercado Livre Flex tem aba pr\u00f3pria, com os mesmos materiais, devolu\u00e7\u00f5es e prepara\u00e7\u00e3o da fila.\n- Filas pendentes com identifica\u00e7\u00e3o Flex preservada passam para o canal correto, sem duplicar pe\u00e7as ou alterar cortes conclu\u00eddos.\n- Bot\u00e3o Calibrar retirado. Se houver movimento anterior sem confirma\u00e7\u00e3o, use M\u00e1quinas > Conferir parada anterior.\n- A identifica\u00e7\u00e3o de novos PDFs Flex depende tamb\u00e9m da atualiza\u00e7\u00e3o do Repor. Lotes antigos sem essa informa\u00e7\u00e3o mant\u00eam o canal original.\n- Instale por cima da vers\u00e3o atual para preservar dados e filas."
+  "versionCode": 70,
+  "versionName": "0.3.52",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.52/GR_Cutter_Android_v0.3.52.apk",
+  "sha256": "646db1a10493ff156bc7528375dd674764d44694d22b95a3827d8a78d1d0f5a7",
+  "notes": "## Desempenho e acompanhamento\n- Hist\u00f3rico paginado sem recriar a lista quando n\u00e3o h\u00e1 mudan\u00e7as.\n- Confer\u00eancia de devolu\u00e7\u00f5es antes da fila executada fora da tela, com sequ\u00eancia e retomada preservadas.\n- Menos consultas repetidas, imagens dimensionadas e reaproveitamento da prepara\u00e7\u00e3o dos lotes com todas as verifica\u00e7\u00f5es mantidas.\n- Telemetria t\u00e9cnica cumulativa, recibos e recupera\u00e7\u00e3o de envios pendentes; produ\u00e7\u00e3o ao vivo preservada.\n- Estat\u00edsticas e atualiza\u00e7\u00e3o das impress\u00f5es com menos trabalho repetido.\n- Mercado Livre Flex, pagina\u00e7\u00e3o remota e recep\u00e7\u00e3o de diagn\u00f3sticos t\u00e9cnicos dependem tamb\u00e9m da atualiza\u00e7\u00e3o do Repor.\n- Instale por cima da vers\u00e3o atual para preservar dados e filas."
 }
