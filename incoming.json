@@ -1,6 +1,6 @@
 {
-  "versionCode": 73,
-  "versionName": "0.3.55",
-  "sha256": "fe57907eb934b3875f56eab4d93bd184c92974a90516890595fd945d3c6515ff",
-  "notes": "## Duas máquinas simultâneas\n- Vincule uma cortadora à película transparente e outra à privacidade.\n- Cada máquina tem fila, conexão, ajustes e controles próprios.\n- Inicie as duas filas; pausar ou cancelar uma não interrompe a outra.\n## Marketplaces\n- Carregue os lotes abertos dos marketplaces de uma vez; peças são separadas pelo material confirmado.\n- Importações repetidas preservam os vínculos e não duplicam cortes.\n- Peças sem modelo confirmado continuam aguardando revisão.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
+  "versionCode": 74,
+  "versionName": "0.3.56",
+  "sha256": "b006bfc0e6cb1569a885f95328ccf4208efd0103c2d56a1b7b61108cf50144e1",
+  "notes": "## Duas máquinas por material\n- Vincule e conecte uma cortadora para transparente e outra para privacidade; as conexões e filas são independentes.\n## Escolha o que carregar\n- Dentro de Mercado Livre ou outro marketplace, escolha As duas filas, Só transparente ou Só privacidade.\n- A mesma escolha está disponível por impressão e para todos os marketplaces.\n- Cada corte entra na máquina vinculada ao seu material. Carregar só um material preserva a outra fila.\n- Repetir uma carga interrompida não duplica cortes já preparados.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
 }
