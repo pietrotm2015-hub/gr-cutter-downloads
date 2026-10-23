@@ -1,7 +1,7 @@
 {
-  "versionCode": 71,
-  "versionName": "0.3.53",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.53/GR_Cutter_Android_v0.3.53.apk",
-  "sha256": "b5b5f63f71cda6433898be263efd01e3015bde575305f2c6272f359055d7310d",
-  "notes": "## Menos trabalho repetido\n- Fila e acompanhamento reaproveitam dados sem altera\u00e7\u00f5es; controles permanecem nas telas durante as atualiza\u00e7\u00f5es.\n- Miniaturas equivalentes compartilham a mesma imagem, preservando a resolu\u00e7\u00e3o.\n- Tarefas n\u00e3o cr\u00edticas liberam suas threads quando ociosas.\n## Telemetria e Repor\n- Diagn\u00f3sticos mant\u00eam grava\u00e7\u00e3o segura antes do envio e retomam pend\u00eancias em grupos limitados.\n- Relat\u00f3rios acima de 512 KB podem ser retomados por partes, at\u00e9 1,5 MB, com confirma\u00e7\u00e3o completa pelo Repor.\n- Listas de impress\u00f5es sem mudan\u00e7as evitam transfer\u00eancias repetidas quando isso economiza tr\u00e1fego.\n- Recursos novos de sincroniza\u00e7\u00e3o dependem da atualiza\u00e7\u00e3o correspondente do Repor.\n- Instale por cima da vers\u00e3o atual para preservar filas, v\u00ednculos e dados."
+  "versionCode": 73,
+  "versionName": "0.3.55",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.55/GR_Cutter_Android_v0.3.55.apk",
+  "sha256": "fe57907eb934b3875f56eab4d93bd184c92974a90516890595fd945d3c6515ff",
+  "notes": "## Duas m\u00e1quinas simult\u00e2neas\n- Vincule uma cortadora \u00e0 pel\u00edcula transparente e outra \u00e0 privacidade.\n- Cada m\u00e1quina tem fila, conex\u00e3o, ajustes e controles pr\u00f3prios.\n- Inicie as duas filas; pausar ou cancelar uma n\u00e3o interrompe a outra.\n## Marketplaces\n- Carregue os lotes abertos dos marketplaces de uma vez; pe\u00e7as s\u00e3o separadas pelo material confirmado.\n- Importa\u00e7\u00f5es repetidas preservam os v\u00ednculos e n\u00e3o duplicam cortes.\n- Pe\u00e7as sem modelo confirmado continuam aguardando revis\u00e3o.\n- Instale por cima da vers\u00e3o atual para preservar filas, v\u00ednculos e dados."
 }
