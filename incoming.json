@@ -1,6 +1,10 @@
 {
-  "versionCode": 74,
-  "versionName": "0.3.56",
-  "sha256": "b006bfc0e6cb1569a885f95328ccf4208efd0103c2d56a1b7b61108cf50144e1",
-  "notes": "## Duas máquinas por material\n- Vincule e conecte uma cortadora para transparente e outra para privacidade; as conexões e filas são independentes.\n## Escolha o que carregar\n- Dentro de Mercado Livre ou outro marketplace, escolha As duas filas, Só transparente ou Só privacidade.\n- A mesma escolha está disponível por impressão e para todos os marketplaces.\n- Cada corte entra na máquina vinculada ao seu material. Carregar só um material preserva a outra fila.\n- Repetir uma carga interrompida não duplica cortes já preparados.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
+  "versionCode": 76,
+  "versionName": "0.3.58",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.58/GR_Cutter_Android_v0.3.58.apk",
+  "sha256": "f86a04eb2340fe760e613202b294f04238d34cde786346757e2f5901d1eb8858",
+  "binarySourceCommit": "7aaecdd0a31ceae0a5f018e848a37f5d42d7d138",
+  "binarySourceTree": "e8ac3d087215f19d083bd018361cdfb17cc6fa12",
+  "localSourceCommit": "5ff7d312ec0b69897074d3fe3963e8575715bb3b",
+  "notes": "## Correção e validação no Android 12\n- A conferência de devoluções ao iniciar a fila acontece em segundo plano, sem bloquear a tela.\n- Mantidas as travas que exigem concluir todas as respostas antes do corte.\n- Edições e restauração do molde atualizam os cortes pendentes; arquivos já enviados permanecem preservados.\n- Validação local: 338 testes unitários e 222 testes Android aprovados, além de lint e abertura/retomada da tela.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
 }
