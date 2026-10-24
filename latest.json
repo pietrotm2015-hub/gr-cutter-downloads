@@ -1,7 +1,7 @@
 {
-  "versionCode": 77,
-  "versionName": "0.3.59",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.59/GR_Cutter_Android_v0.3.59.apk",
-  "sha256": "3d7f0f89a26488c87fa78412166433560924dd34b4a0f311bbf522901c721770",
-  "notes": "## Marketplace com mais espa\u00e7o para os pedidos\n- Cabe\u00e7alho menor e resumo compacto da impress\u00e3o.\n- Solicitante e quantidade de cortes em destaque na lista de solicita\u00e7\u00f5es.\n- Pr\u00e9via maior e nome do modelo mais leg\u00edvel; primeiro corte vis\u00edvel sem rolar nos modos de uma e duas m\u00e1quinas.\n- A\u00e7\u00f5es de edi\u00e7\u00e3o lado a lado e demais op\u00e7\u00f5es reunidas em menus.\n- Valida\u00e7\u00e3o local: 338 testes unit\u00e1rios e 222 testes no Android 12 aprovados, lint e abertura/retomada conferidos.\n- Instale por cima da vers\u00e3o atual para preservar filas, v\u00ednculos e dados."
+  "versionCode": 78,
+  "versionName": "0.3.60",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.60/GR_Cutter_Android_v0.3.60.apk",
+  "sha256": "f132d7ee4d96dae498bcfac0b20acf0c15be18d524c6d0c40760c3653c5ac39a",
+  "notes": "## Devolu\u00e7\u00f5es antes da produ\u00e7\u00e3o\n- Confer\u00eancia agrupada com pr\u00e9via, quantidades expl\u00edcitas, resumo fixo e confirma\u00e7\u00e3o antes de adicionar os cortes restantes \u00e0 produ\u00e7\u00e3o.\n- Carregamento de v\u00e1rios lotes confere as devolu\u00e7\u00f5es antes de incluir itens na fila. Baixas confirmadas atualizam os pendentes imediatamente, preservando cortes j\u00e1 enviados.\n- Marketplace separa pe\u00e7as para produzir e atendidas por devolu\u00e7\u00e3o.\n- Cada m\u00e1quina mant\u00e9m corte atual, \u00faltimo corte e bot\u00e3o de repetir vis\u00edveis.\n- Nova consulta de devolu\u00e7\u00f5es e reconcilia\u00e7\u00e3o de estornos exigem o pacote correspondente do Repor; esse pacote foi testado e est\u00e1 pendente de aplica\u00e7\u00e3o na instala\u00e7\u00e3o local.\n- Localiza\u00e7\u00e3o e validade das reservas mantidas.\n- Valida\u00e7\u00e3o: 338 testes unit\u00e1rios, 226 testes no Android 12, lint e retomada aprovados; integra\u00e7\u00e3o Repor testada em banco isolado.\n- Instale por cima da vers\u00e3o atual, sem desinstalar."
 }
