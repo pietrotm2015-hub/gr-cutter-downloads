@@ -1,10 +1,10 @@
 {
-  "versionCode": 77,
-  "versionName": "0.3.59",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.59/GR_Cutter_Android_v0.3.59.apk",
-  "sha256": "3d7f0f89a26488c87fa78412166433560924dd34b4a0f311bbf522901c721770",
-  "binarySourceCommit": "d81b0f8f2e572d501a57a21d9e62d315954cd26d",
-  "binarySourceTree": "ff5a7f5acd5fd56f6665a60ebc63a7b9f8144410",
-  "localSourceCommit": "49d2840e93aa5197183926eb8e3762268728de9a",
-  "notes": "## Marketplace com mais espaço para os pedidos\n- Cabeçalho menor e resumo compacto da impressão.\n- Solicitante e quantidade de cortes em destaque na lista de solicitações.\n- Prévia maior e nome do modelo mais legível; primeiro corte visível sem rolar nos modos de uma e duas máquinas.\n- Ações de edição lado a lado e demais opções reunidas em menus.\n- Validação local: 338 testes unitários e 222 testes no Android 12 aprovados, lint e abertura/retomada conferidos.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
+  "versionCode": 78,
+  "versionName": "0.3.60",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.60/GR_Cutter_Android_v0.3.60.apk",
+  "sha256": "f132d7ee4d96dae498bcfac0b20acf0c15be18d524c6d0c40760c3653c5ac39a",
+  "binarySourceCommit": "36ee32d0034dfdd243480fd0e64bf3c166be524d",
+  "binarySourceTree": "0f7ba6b7602b4bf2619957d17f829310c5daa3a5",
+  "localSourceCommit": "73931fc86833ddd5e9392e61614722d9ce962a9f",
+  "notes": "## Devoluções antes da produção\n- Conferência agrupada com prévia, quantidades explícitas, resumo fixo e confirmação antes de adicionar os cortes restantes à produção.\n- Carregamento de vários lotes confere as devoluções antes de incluir itens na fila. Baixas confirmadas atualizam os pendentes imediatamente, preservando cortes já enviados.\n- Marketplace separa peças para produzir e atendidas por devolução.\n- Cada máquina mantém corte atual, último corte e botão de repetir visíveis.\n- Nova consulta de devoluções e reconciliação de estornos exigem o pacote correspondente do Repor; esse pacote foi testado e está pendente de aplicação na instalação local.\n- Localização e validade das reservas mantidas.\n- Validação: 338 testes unitários, 226 testes no Android 12, lint e retomada aprovados; integração Repor testada em banco isolado.\n- Instale por cima da versão atual, sem desinstalar."
 }
