@@ -1,10 +1,10 @@
 {
-  "versionCode": 76,
-  "versionName": "0.3.58",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.58/GR_Cutter_Android_v0.3.58.apk",
-  "sha256": "f86a04eb2340fe760e613202b294f04238d34cde786346757e2f5901d1eb8858",
-  "binarySourceCommit": "7aaecdd0a31ceae0a5f018e848a37f5d42d7d138",
-  "binarySourceTree": "e8ac3d087215f19d083bd018361cdfb17cc6fa12",
-  "localSourceCommit": "5ff7d312ec0b69897074d3fe3963e8575715bb3b",
-  "notes": "## Correção e validação no Android 12\n- A conferência de devoluções ao iniciar a fila acontece em segundo plano, sem bloquear a tela.\n- Mantidas as travas que exigem concluir todas as respostas antes do corte.\n- Edições e restauração do molde atualizam os cortes pendentes; arquivos já enviados permanecem preservados.\n- Validação local: 338 testes unitários e 222 testes Android aprovados, além de lint e abertura/retomada da tela.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
+  "versionCode": 77,
+  "versionName": "0.3.59",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.59/GR_Cutter_Android_v0.3.59.apk",
+  "sha256": "3d7f0f89a26488c87fa78412166433560924dd34b4a0f311bbf522901c721770",
+  "binarySourceCommit": "d81b0f8f2e572d501a57a21d9e62d315954cd26d",
+  "binarySourceTree": "ff5a7f5acd5fd56f6665a60ebc63a7b9f8144410",
+  "localSourceCommit": "49d2840e93aa5197183926eb8e3762268728de9a",
+  "notes": "## Marketplace com mais espaço para os pedidos\n- Cabeçalho menor e resumo compacto da impressão.\n- Solicitante e quantidade de cortes em destaque na lista de solicitações.\n- Prévia maior e nome do modelo mais legível; primeiro corte visível sem rolar nos modos de uma e duas máquinas.\n- Ações de edição lado a lado e demais opções reunidas em menus.\n- Validação local: 338 testes unitários e 222 testes no Android 12 aprovados, lint e abertura/retomada conferidos.\n- Instale por cima da versão atual para preservar filas, vínculos e dados."
 }
