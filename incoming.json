@@ -1,10 +1,10 @@
 {
-  "versionCode": 78,
-  "versionName": "0.3.60",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.60/GR_Cutter_Android_v0.3.60.apk",
-  "sha256": "f132d7ee4d96dae498bcfac0b20acf0c15be18d524c6d0c40760c3653c5ac39a",
-  "binarySourceCommit": "36ee32d0034dfdd243480fd0e64bf3c166be524d",
-  "binarySourceTree": "0f7ba6b7602b4bf2619957d17f829310c5daa3a5",
-  "localSourceCommit": "73931fc86833ddd5e9392e61614722d9ce962a9f",
-  "notes": "## Devoluções antes da produção\n- Conferência agrupada com prévia, quantidades explícitas, resumo fixo e confirmação antes de adicionar os cortes restantes à produção.\n- Carregamento de vários lotes confere as devoluções antes de incluir itens na fila. Baixas confirmadas atualizam os pendentes imediatamente, preservando cortes já enviados.\n- Marketplace separa peças para produzir e atendidas por devolução.\n- Cada máquina mantém corte atual, último corte e botão de repetir visíveis.\n- Nova consulta de devoluções e reconciliação de estornos exigem o pacote correspondente do Repor; esse pacote foi testado e está pendente de aplicação na instalação local.\n- Localização e validade das reservas mantidas.\n- Validação: 338 testes unitários, 226 testes no Android 12, lint e retomada aprovados; integração Repor testada em banco isolado.\n- Instale por cima da versão atual, sem desinstalar."
+  "versionCode": 79,
+  "versionName": "0.3.61",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.61/GR_Cutter_Android_v0.3.61.apk",
+  "sha256": "0fe88a66fc9d91848df2d63377434f306a89d39e7bf3d3058e0aa946a219bb5c",
+  "binarySourceCommit": "24150d2d55e00fac241b6e8e6029148160b6f14a",
+  "binarySourceTree": "b69e452320f59dd01dc05b7536bd255ed89cfba2",
+  "localSourceCommit": "360c9c5044afbb12ca8c856666c0023cae78c8b9",
+  "notes": "## Recuperação da conexão com o Repor\n- Permite atualizar o endereço mantendo o token salvo e a identificação do celular.\n- Inclui o gateway HTTPS 192.168.15.8 na confiança da CA da empresa, preservando TLS e autenticação.\n- Na configuração de vínculo, deixe o token em branco para manter a credencial. A troca de endereço só é salva após o Repor aceitar uma consulta autenticada.\n- Preserva preferências por SKU, pedidos e quantidades ao mudar o endereço. Não inicia cortes.\n- No celular já vinculado: Marketplaces > Configurar vínculo Repor > Usar endereço atual > Conectar, sem preencher o token.\n- Validação: 341 testes unitários, 228 testes Android 12, lint, assinatura e despertar/foco aprovados.\n- Instale por cima da versão atual, sem desinstalar."
 }
