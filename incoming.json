@@ -1,10 +1,10 @@
 {
-  "versionCode": 80,
-  "versionName": "0.3.62",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.62/GR_Cutter_Android_v0.3.62.apk",
-  "sha256": "2b9289cf67d9d0a66fe21227e5769b97d01027d003e456b1ef20eab2762e6bfe",
-  "binarySourceCommit": "0fbfd107e52e56c235a35cde6c084d6d0d430d4d",
-  "binarySourceTree": "3286d2ae7c949bf38ad0b84f359e9930bc58c22b",
-  "localSourceCommit": "d807ac0861427704e4108e029789c08e0e9097fb",
-  "notes": "## Correção da conferência de devoluções\n- Corrige a trava de carregamentos interrompidos: conclusões de lotes e materiais passam a ser acumuladas entre tentativas.\n- Novo botão Retomar conferência recupera os lotes pendentes pelos IDs originais, inclusive fora da página atual de impressões.\n- Ver pendências identifica lotes, materiais e o motivo da última falha, sem esconder as prévias dos pedidos.\n- Preserva peças, baixas já confirmadas, credencial e vínculo atual do Poco X3 PRO. A retomada não inicia cortes.\n- Após instalar por cima da versão atual, abra Marketplaces e toque em Retomar conferência.\n- Validação: 341 testes unitários, 233 testes Android 12/API 31, lint, assinatura e despertar/foco aprovados."
+  "versionCode": 81,
+  "versionName": "0.3.63",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.63/GR_Cutter_Android_v0.3.63.apk",
+  "sha256": "b6a14e2607c9cb45dba48d56b204737a3d89f8789e7d0fb1d9a303eea07b0dae",
+  "binarySourceCommit": "0e8692ddee375643697e251ab0e78cf816037450",
+  "binarySourceTree": "79287c373e37cc74d577af02850f9de85724d4c7",
+  "localSourceCommit": "6a2cd99e97327b1fc615ff3f05c8be511e6deb30",
+  "notes": "## Filas, devoluções e reconexão\n- Devoluções sem resposta aparecem primeiro na conferência; ao concluir as respostas, a ordem original volta. IDs, quantidades e ordem de produção são preservados.\n- Cartões de máquina mais legíveis e botão Cortar novamente maior, mantendo confirmação e quantidade.\n- Botão Ver origem preparado para registro, dia, horário e autor original. Os detalhes dependem do complemento correspondente no Repor; quando indisponíveis, o aplicativo informa isso sem atribuir o autor errado.\n- Recuperação automática do endereço após mudança de IP na rede 192.168.15.x da empresa, com CA e identidade TLS verificadas e consulta autenticada antes de salvar.\n- Preserva o token, o cadastro atual do Poco e as preferências de moldes. A descoberta não repete baixas nem inicia cortes.\n- Instale por cima da versão atual, sem desinstalar.\n- Validação: 347 testes unitários e 242 testes Android 12/API 31, lint, assinatura e despertar/foco aprovados. Reconexão no aparelho físico ainda não confirmada."
 }
