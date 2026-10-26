@@ -1,10 +1,10 @@
 {
-  "versionCode": 79,
-  "versionName": "0.3.61",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.61/GR_Cutter_Android_v0.3.61.apk",
-  "sha256": "0fe88a66fc9d91848df2d63377434f306a89d39e7bf3d3058e0aa946a219bb5c",
-  "binarySourceCommit": "24150d2d55e00fac241b6e8e6029148160b6f14a",
-  "binarySourceTree": "b69e452320f59dd01dc05b7536bd255ed89cfba2",
-  "localSourceCommit": "360c9c5044afbb12ca8c856666c0023cae78c8b9",
-  "notes": "## Recuperação da conexão com o Repor\n- Permite atualizar o endereço mantendo o token salvo e a identificação do celular.\n- Inclui o gateway HTTPS 192.168.15.8 na confiança da CA da empresa, preservando TLS e autenticação.\n- Na configuração de vínculo, deixe o token em branco para manter a credencial. A troca de endereço só é salva após o Repor aceitar uma consulta autenticada.\n- Preserva preferências por SKU, pedidos e quantidades ao mudar o endereço. Não inicia cortes.\n- No celular já vinculado: Marketplaces > Configurar vínculo Repor > Usar endereço atual > Conectar, sem preencher o token.\n- Validação: 341 testes unitários, 228 testes Android 12, lint, assinatura e despertar/foco aprovados.\n- Instale por cima da versão atual, sem desinstalar."
+  "versionCode": 80,
+  "versionName": "0.3.62",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.62/GR_Cutter_Android_v0.3.62.apk",
+  "sha256": "2b9289cf67d9d0a66fe21227e5769b97d01027d003e456b1ef20eab2762e6bfe",
+  "binarySourceCommit": "0fbfd107e52e56c235a35cde6c084d6d0d430d4d",
+  "binarySourceTree": "3286d2ae7c949bf38ad0b84f359e9930bc58c22b",
+  "localSourceCommit": "d807ac0861427704e4108e029789c08e0e9097fb",
+  "notes": "## Correção da conferência de devoluções\n- Corrige a trava de carregamentos interrompidos: conclusões de lotes e materiais passam a ser acumuladas entre tentativas.\n- Novo botão Retomar conferência recupera os lotes pendentes pelos IDs originais, inclusive fora da página atual de impressões.\n- Ver pendências identifica lotes, materiais e o motivo da última falha, sem esconder as prévias dos pedidos.\n- Preserva peças, baixas já confirmadas, credencial e vínculo atual do Poco X3 PRO. A retomada não inicia cortes.\n- Após instalar por cima da versão atual, abra Marketplaces e toque em Retomar conferência.\n- Validação: 341 testes unitários, 233 testes Android 12/API 31, lint, assinatura e despertar/foco aprovados."
 }
