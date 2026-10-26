@@ -1,10 +1,10 @@
 {
-  "versionCode": 82,
-  "versionName": "0.3.64",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.64/GR_Cutter_Android_v0.3.64.apk",
-  "sha256": "16aeb5def0204fd73d333c1851ec16483515584e296b991376faa0da6eec0eef",
-  "binarySourceCommit": "bf82f9783f422c747fea35a32812d28e6019e69c",
-  "binarySourceTree": "5749db7c9b054d30168678faa8e0408c6ec8d130",
-  "localSourceCommit": "1fb695e5aa23b781904edbb316a9648091258a17",
-  "notes": "## Películas prontas para reutilizar\n- Tela ampliada, cabeçalho compacto, busca e quantidades maiores. A lista ganha a área central da aba; os cartões das máquinas permanecem em Produção.\n- Entrada e saída manual com seleção de produto, quantidade, localização, motivo e recibo persistente. Retomada após perda de conexão sem duplicar movimentação.\n- Integração preparada para reutilizar pelo mesmo aparelho, lado F/V e material, independentemente de tela toda, case amigável ou contorno original. Preserva o molde da produção e reconhece o alias Flip/ZFlip 7 FE.\n- Entrada/saída e a nova regra dependem da aplicação do pacote repor-stock-0364 no Repor. Servidor antigo continua consultável, sem confirmar operações não suportadas.\n- Preserva instalação atual, token, filas, moldes, TLS e recuperação de IP. Instale por cima, sem desinstalar.\n- Validação: 347 testes JVM e 255 Android 12/API 31, lint, assinatura e despertar/foco aprovados; integração Repor testada em D1 isolado. Nenhum corte físico iniciado."
+  "versionCode": 83,
+  "versionName": "0.3.65",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.65/GR_Cutter_Android_v0.3.65.apk",
+  "sha256": "0da4c199f207e149069d8ba36073ca67f06dbe6f2dd92a372c826329d77f8859",
+  "binarySourceCommit": "36e0ad77c7d8d5361630cc36e188022875b7cc01",
+  "binarySourceTree": "6089ad0ee30023876567a3aac0716c27f426a8e3",
+  "localSourceCommit": "2c47c27c78aadc66db94e5fd0b00c56efbf4cd01",
+  "notes": "## Ordem da fila e retomada do rolo\n- Selecionar novamente um marketplace preserva a ordem da fila, inclusive ajustes manuais e posições entre lotes.\n- Repetir uma peça cancelada mantém a posição anterior, com nova tentativa e histórico preservado. Não duplica peças pendentes.\n- Retomada de corte parcialmente concluído conserva IDs e sequência das peças restantes, inclusive após reabrir o app. Resultados incertos continuam exigindo conferência.\n- Botão Rolo reposto · retomar fila e conferência com pedido/SKU por peça.\n- Inclui a tela ampliada de películas prontas da 0.3.64. Entrada/saída e reutilização por aparelho + F/V + material dependem do pacote repor-stock-0364 no servidor.\n- Preserva vínculo atual, token, filas, moldes, TLS e recuperação de IP. Instale por cima, sem desinstalar. Não tenta adivinhar a ordem anterior de uma fila já modificada.\n- Validação local: 347 testes JVM e 260 Android 12/API 31, lint, assinatura e despertar/foco aprovados. Nenhum corte físico iniciado."
 }
