@@ -1,10 +1,6 @@
 {
-  "versionCode": 83,
-  "versionName": "0.3.65",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.65/GR_Cutter_Android_v0.3.65.apk",
-  "sha256": "0da4c199f207e149069d8ba36073ca67f06dbe6f2dd92a372c826329d77f8859",
-  "binarySourceCommit": "36e0ad77c7d8d5361630cc36e188022875b7cc01",
-  "binarySourceTree": "6089ad0ee30023876567a3aac0716c27f426a8e3",
-  "localSourceCommit": "2c47c27c78aadc66db94e5fd0b00c56efbf4cd01",
-  "notes": "## Ordem da fila e retomada do rolo\n- Selecionar novamente um marketplace preserva a ordem da fila, inclusive ajustes manuais e posições entre lotes.\n- Repetir uma peça cancelada mantém a posição anterior, com nova tentativa e histórico preservado. Não duplica peças pendentes.\n- Retomada de corte parcialmente concluído conserva IDs e sequência das peças restantes, inclusive após reabrir o app. Resultados incertos continuam exigindo conferência.\n- Botão Rolo reposto · retomar fila e conferência com pedido/SKU por peça.\n- Inclui a tela ampliada de películas prontas da 0.3.64. Entrada/saída e reutilização por aparelho + F/V + material dependem do pacote repor-stock-0364 no servidor.\n- Preserva vínculo atual, token, filas, moldes, TLS e recuperação de IP. Instale por cima, sem desinstalar. Não tenta adivinhar a ordem anterior de uma fila já modificada.\n- Validação local: 347 testes JVM e 260 Android 12/API 31, lint, assinatura e despertar/foco aprovados. Nenhum corte físico iniciado."
+  "versionCode": 84,
+  "versionName": "0.3.66",
+  "sha256": "df708b1006e3692b50183d97817ba73f3c14b6982e65e374a3f663fbd535bd73",
+  "notes": "## Imagem do anúncio e recorte no mesmo padrão\n- A última imagem gerada no Repor pode fornecer o molde e os recortes editados para o GR Cutter, separados por aparelho, lado e material.\n- Escolhas e edições já salvas pelo operador têm prioridade. Peças já adicionadas à produção preservam o corte confirmado.\n- Identificação “Imagem do Repor” no catálogo e nos itens recebidos. Receber a escolha não inicia cortes nem duplica a fila.\n- Arquivo original, identidade e contornos são conferidos antes de aplicar a edição. Preferências acima de 31 × 23 cm são bloqueadas, admitindo rotação.\n- Reenvios reutilizam arquivos conferidos e uma imagem antiga não substitui a última preferência.\n- Integração exige a atualização correspondente do Repor. Preserva token, filas, vínculos, dados e a conexão segura da empresa; instale por cima, sem desinstalar.\n- Validação: 347 testes JVM e 269 Android 12/API 31, lint, assinatura, despertar/foco e fixtures reais do Repor aprovados. Nenhum corte físico iniciado."
 }
