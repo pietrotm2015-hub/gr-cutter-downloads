@@ -1,10 +1,10 @@
 {
-  "versionCode": 81,
-  "versionName": "0.3.63",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.63/GR_Cutter_Android_v0.3.63.apk",
-  "sha256": "b6a14e2607c9cb45dba48d56b204737a3d89f8789e7d0fb1d9a303eea07b0dae",
-  "binarySourceCommit": "0e8692ddee375643697e251ab0e78cf816037450",
-  "binarySourceTree": "79287c373e37cc74d577af02850f9de85724d4c7",
-  "localSourceCommit": "6a2cd99e97327b1fc615ff3f05c8be511e6deb30",
-  "notes": "## Filas, devoluções e reconexão\n- Devoluções sem resposta aparecem primeiro na conferência; ao concluir as respostas, a ordem original volta. IDs, quantidades e ordem de produção são preservados.\n- Cartões de máquina mais legíveis e botão Cortar novamente maior, mantendo confirmação e quantidade.\n- Botão Ver origem preparado para registro, dia, horário e autor original. Os detalhes dependem do complemento correspondente no Repor; quando indisponíveis, o aplicativo informa isso sem atribuir o autor errado.\n- Recuperação automática do endereço após mudança de IP na rede 192.168.15.x da empresa, com CA e identidade TLS verificadas e consulta autenticada antes de salvar.\n- Preserva o token, o cadastro atual do Poco e as preferências de moldes. A descoberta não repete baixas nem inicia cortes.\n- Instale por cima da versão atual, sem desinstalar.\n- Validação: 347 testes unitários e 242 testes Android 12/API 31, lint, assinatura e despertar/foco aprovados. Reconexão no aparelho físico ainda não confirmada."
+  "versionCode": 82,
+  "versionName": "0.3.64",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.64/GR_Cutter_Android_v0.3.64.apk",
+  "sha256": "16aeb5def0204fd73d333c1851ec16483515584e296b991376faa0da6eec0eef",
+  "binarySourceCommit": "bf82f9783f422c747fea35a32812d28e6019e69c",
+  "binarySourceTree": "5749db7c9b054d30168678faa8e0408c6ec8d130",
+  "localSourceCommit": "1fb695e5aa23b781904edbb316a9648091258a17",
+  "notes": "## Películas prontas para reutilizar\n- Tela ampliada, cabeçalho compacto, busca e quantidades maiores. A lista ganha a área central da aba; os cartões das máquinas permanecem em Produção.\n- Entrada e saída manual com seleção de produto, quantidade, localização, motivo e recibo persistente. Retomada após perda de conexão sem duplicar movimentação.\n- Integração preparada para reutilizar pelo mesmo aparelho, lado F/V e material, independentemente de tela toda, case amigável ou contorno original. Preserva o molde da produção e reconhece o alias Flip/ZFlip 7 FE.\n- Entrada/saída e a nova regra dependem da aplicação do pacote repor-stock-0364 no Repor. Servidor antigo continua consultável, sem confirmar operações não suportadas.\n- Preserva instalação atual, token, filas, moldes, TLS e recuperação de IP. Instale por cima, sem desinstalar.\n- Validação: 347 testes JVM e 255 Android 12/API 31, lint, assinatura e despertar/foco aprovados; integração Repor testada em D1 isolado. Nenhum corte físico iniciado."
 }
