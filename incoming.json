@@ -1,10 +1,10 @@
 {
-  "versionCode": 87,
-  "versionName": "0.3.69",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.69/GR_Cutter_Android_v0.3.69.apk",
-  "sha256": "ac97d233b846f22d9a1a360b6d766724a841c80b7a7320f33f441d4c5cadb837",
-  "binarySourceCommit": "12093e857e31e42333e8eb6e2307b93fb2ccd7f3",
-  "binarySourceTree": "121e45d0f506f3cbf47e8ce985fed13e3359a1fe",
-  "localSourceCommit": "393db0dbbe078727963f448dfeb1ae9807832f54",
-  "notes": "## Devoluções organizadas\n- Abas Frente, Verso e Privacidade, busca por aparelho/SKU e ordem alfabética antes da paginação.\n- Com estoque e Sem estoque usam o saldo físico. Entrada confirmada em item zerado retorna à lista com estoque.\n- Se o Repor ficar indisponível, a última consulta salva continua visível com data e aviso de saldo desatualizado; entradas e saídas ficam bloqueadas até reconectar.\n- Respostas atrasadas não substituem a categoria ou pesquisa atual. A recuperação de vínculo de peça preserva a máquina e as opções da tentativa atual.\n- Entrada e saída de películas prontas ainda exigem aplicar o pacote integrations/repor-stock-0364 no servidor Repor; pacote validado em 49 suítes isoladas, sem alterar estoque real.\n- 352 testes JVM e 294 testes Android 12/API 31, lint, assinatura e despertar/foco aprovados. Instale por cima da versão atual, preservando o vínculo."
+  "versionCode": 88,
+  "versionName": "0.3.70",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.70/GR_Cutter_Android_v0.3.70.apk",
+  "sha256": "5607991120085ef3d58c69d7fa06c4c0bb68ed83f8a30f9e5db49f04159dbc3b",
+  "binarySourceCommit": "469e897483f99be30bb3f3f935a49cbdb3db40fa",
+  "binarySourceTree": "96807109bf1a678c05f44241f992f22417ddf36b",
+  "localSourceCommit": "98ce956dfdc8d1cb51b37ab71512bcce5b06f93f",
+  "notes": "## Revisão de devoluções e repetição de cortes\n- Consulta de devoluções incompleta, duplicada ou alterada entre páginas não libera a conferência obrigatória da produção.\n- Repetir corte preserva material, formato de tablet, vetor e opções, incluindo retomada de preparação salva e nova conferência antes do início.\n- Respostas atrasadas não substituem a consulta mais recente no cache. A espera pela configuração de rede não segura uma transação do banco.\n- Troca de credencial durante consulta de capacidades aborta antes de criar uma pendência não enviada. Catálogo exige confirmação válida antes de oferecer entrada.\n- Mantidas as abas Frente, Verso, Privacidade, Com estoque e Sem estoque, busca e ordem alfabética.\n- Entradas e saídas manuais ainda exigem aplicar o pacote integrations/repor-stock-0364 no servidor Repor. Nenhuma movimentação de teste foi feita no estoque real.\n- 353 testes JVM e 303 testes Android 12/API 31 aprovados, além de lint, assinatura e despertar/foco. Instale por cima da versão atual."
 }
