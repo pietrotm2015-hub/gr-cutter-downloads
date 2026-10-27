@@ -1,10 +1,10 @@
 {
-  "versionCode": 86,
-  "versionName": "0.3.68",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.68/GR_Cutter_Android_v0.3.68.apk",
-  "sha256": "2c440996e57b946d606bdd41cfc0aefeb690d189a0a3b9b0ca6672ce158039e8",
-  "binarySourceCommit": "0c07961adce18b7931e2171f4164710937411c04",
-  "binarySourceTree": "323a04f534459c33029021c4c13bbf6a9339c4ca",
-  "localSourceCommit": "0d1ed979e7954497fe8ac57df759f93ef24191e5",
-  "notes": "## Correções de fila e estoque\n- Carregar outro lote preserva a seleção pausada e a espera pelo rolo. A máquina que não recebeu peças mantém seu estado.\n- Recuperar uma peça sem vínculo com a fila usa a tentativa atual; histórico cancelado não cria uma cópia indevida. Associações ambíguas preservam os dados para conferência.\n- Movimentações pendentes ficam vinculadas à credencial original. A troca de IP com o mesmo vínculo continua funcionando; outro vínculo não recebe reenvios da operação antiga.\n- Saída manual confere o estoque exato do recibo. Respostas atrasadas não reabrem uma tela encerrada.\n- Entrada e saída de películas prontas ainda exigem aplicar a integração repor-stock-0364 no servidor Repor.\n- 347 testes JVM e 283 testes Android 12/API 31, análise estática, assinatura e despertar/foco aprovados. Instale por cima da versão atual."
+  "versionCode": 87,
+  "versionName": "0.3.69",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.69/GR_Cutter_Android_v0.3.69.apk",
+  "sha256": "ac97d233b846f22d9a1a360b6d766724a841c80b7a7320f33f441d4c5cadb837",
+  "binarySourceCommit": "12093e857e31e42333e8eb6e2307b93fb2ccd7f3",
+  "binarySourceTree": "121e45d0f506f3cbf47e8ce985fed13e3359a1fe",
+  "localSourceCommit": "393db0dbbe078727963f448dfeb1ae9807832f54",
+  "notes": "## Devoluções organizadas\n- Abas Frente, Verso e Privacidade, busca por aparelho/SKU e ordem alfabética antes da paginação.\n- Com estoque e Sem estoque usam o saldo físico. Entrada confirmada em item zerado retorna à lista com estoque.\n- Se o Repor ficar indisponível, a última consulta salva continua visível com data e aviso de saldo desatualizado; entradas e saídas ficam bloqueadas até reconectar.\n- Respostas atrasadas não substituem a categoria ou pesquisa atual. A recuperação de vínculo de peça preserva a máquina e as opções da tentativa atual.\n- Entrada e saída de películas prontas ainda exigem aplicar o pacote integrations/repor-stock-0364 no servidor Repor; pacote validado em 49 suítes isoladas, sem alterar estoque real.\n- 352 testes JVM e 294 testes Android 12/API 31, lint, assinatura e despertar/foco aprovados. Instale por cima da versão atual, preservando o vínculo."
 }
