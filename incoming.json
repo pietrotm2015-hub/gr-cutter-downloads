@@ -1,10 +1,10 @@
 {
-  "versionCode": 85,
-  "versionName": "0.3.67",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.67/GR_Cutter_Android_v0.3.67.apk",
-  "sha256": "31c73102b913b1385a01aad76258a855d4f4c1231a3703e3523a15e2ce57f14b",
-  "binarySourceCommit": "5256d6f959bd92ba4331cd4b09dd0e1be027cb54",
-  "binarySourceTree": "de1a956308c5b82dbbb20e8a2111cb14946a1e2e",
-  "localSourceCommit": "04a56d48d23dcca35e6e94b798b74b3e5a716849",
-  "notes": "## Ordem ao iniciar e retomar\n- Modelos vinculados depois da preparação entram na posição da nota, preservando a sequência dos itens existentes.\n- Cancelar um arquivo mantém as peças enviadas para conferência individual. Após conferir, somente as não cortadas retomam, na mesma ordem. Não pula automaticamente para o restante da fila.\n- Histórico, IDs, vínculo e operação independente das duas máquinas preservados.\n- Saída de películas prontas exige aplicar a integração repor-stock-0364 no Repor. Sem essa API o app mantém a operação bloqueada para evitar saldo sem confirmação.\n- 347 testes JVM e 271 Android 12/API 31, lint, assinatura e despertar/foco aprovados. Instale por cima da versão atual."
+  "versionCode": 86,
+  "versionName": "0.3.68",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.68/GR_Cutter_Android_v0.3.68.apk",
+  "sha256": "2c440996e57b946d606bdd41cfc0aefeb690d189a0a3b9b0ca6672ce158039e8",
+  "binarySourceCommit": "0c07961adce18b7931e2171f4164710937411c04",
+  "binarySourceTree": "323a04f534459c33029021c4c13bbf6a9339c4ca",
+  "localSourceCommit": "0d1ed979e7954497fe8ac57df759f93ef24191e5",
+  "notes": "## Correções de fila e estoque\n- Carregar outro lote preserva a seleção pausada e a espera pelo rolo. A máquina que não recebeu peças mantém seu estado.\n- Recuperar uma peça sem vínculo com a fila usa a tentativa atual; histórico cancelado não cria uma cópia indevida. Associações ambíguas preservam os dados para conferência.\n- Movimentações pendentes ficam vinculadas à credencial original. A troca de IP com o mesmo vínculo continua funcionando; outro vínculo não recebe reenvios da operação antiga.\n- Saída manual confere o estoque exato do recibo. Respostas atrasadas não reabrem uma tela encerrada.\n- Entrada e saída de películas prontas ainda exigem aplicar a integração repor-stock-0364 no servidor Repor.\n- 347 testes JVM e 283 testes Android 12/API 31, análise estática, assinatura e despertar/foco aprovados. Instale por cima da versão atual."
 }
