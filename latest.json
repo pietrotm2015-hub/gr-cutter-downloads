@@ -1,7 +1,7 @@
 {
-  "versionCode": 85,
-  "versionName": "0.3.67",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.67/GR_Cutter_Android_v0.3.67.apk",
-  "sha256": "31c73102b913b1385a01aad76258a855d4f4c1231a3703e3523a15e2ce57f14b",
-  "notes": "## Ordem ao iniciar e retomar\n- Modelos vinculados depois da prepara\u00e7\u00e3o entram na posi\u00e7\u00e3o da nota, preservando a sequ\u00eancia dos itens existentes.\n- Cancelar um arquivo mant\u00e9m as pe\u00e7as enviadas para confer\u00eancia individual. Ap\u00f3s conferir, somente as n\u00e3o cortadas retomam, na mesma ordem. N\u00e3o pula automaticamente para o restante da fila.\n- Hist\u00f3rico, IDs, v\u00ednculo e opera\u00e7\u00e3o independente das duas m\u00e1quinas preservados.\n- Sa\u00edda de pel\u00edculas prontas exige aplicar a integra\u00e7\u00e3o repor-stock-0364 no Repor. Sem essa API o app mant\u00e9m a opera\u00e7\u00e3o bloqueada para evitar saldo sem confirma\u00e7\u00e3o.\n- 347 testes JVM e 271 Android 12/API 31, lint, assinatura e despertar/foco aprovados. Instale por cima da vers\u00e3o atual."
+  "versionCode": 86,
+  "versionName": "0.3.68",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.68/GR_Cutter_Android_v0.3.68.apk",
+  "sha256": "2c440996e57b946d606bdd41cfc0aefeb690d189a0a3b9b0ca6672ce158039e8",
+  "notes": "## Corre\u00e7\u00f5es de fila e estoque\n- Carregar outro lote preserva a sele\u00e7\u00e3o pausada e a espera pelo rolo. A m\u00e1quina que n\u00e3o recebeu pe\u00e7as mant\u00e9m seu estado.\n- Recuperar uma pe\u00e7a sem v\u00ednculo com a fila usa a tentativa atual; hist\u00f3rico cancelado n\u00e3o cria uma c\u00f3pia indevida. Associa\u00e7\u00f5es amb\u00edguas preservam os dados para confer\u00eancia.\n- Movimenta\u00e7\u00f5es pendentes ficam vinculadas \u00e0 credencial original. A troca de IP com o mesmo v\u00ednculo continua funcionando; outro v\u00ednculo n\u00e3o recebe reenvios da opera\u00e7\u00e3o antiga.\n- Sa\u00edda manual confere o estoque exato do recibo. Respostas atrasadas n\u00e3o reabrem uma tela encerrada.\n- Entrada e sa\u00edda de pel\u00edculas prontas ainda exigem aplicar a integra\u00e7\u00e3o repor-stock-0364 no servidor Repor.\n- 347 testes JVM e 283 testes Android 12/API 31, an\u00e1lise est\u00e1tica, assinatura e despertar/foco aprovados. Instale por cima da vers\u00e3o atual."
 }
