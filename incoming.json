@@ -1,6 +1,10 @@
 {
-  "versionCode": 84,
-  "versionName": "0.3.66",
-  "sha256": "df708b1006e3692b50183d97817ba73f3c14b6982e65e374a3f663fbd535bd73",
-  "notes": "## Imagem do anúncio e recorte no mesmo padrão\n- A última imagem gerada no Repor pode fornecer o molde e os recortes editados para o GR Cutter, separados por aparelho, lado e material.\n- Escolhas e edições já salvas pelo operador têm prioridade. Peças já adicionadas à produção preservam o corte confirmado.\n- Identificação “Imagem do Repor” no catálogo e nos itens recebidos. Receber a escolha não inicia cortes nem duplica a fila.\n- Arquivo original, identidade e contornos são conferidos antes de aplicar a edição. Preferências acima de 31 × 23 cm são bloqueadas, admitindo rotação.\n- Reenvios reutilizam arquivos conferidos e uma imagem antiga não substitui a última preferência.\n- Integração exige a atualização correspondente do Repor. Preserva token, filas, vínculos, dados e a conexão segura da empresa; instale por cima, sem desinstalar.\n- Validação: 347 testes JVM e 269 Android 12/API 31, lint, assinatura, despertar/foco e fixtures reais do Repor aprovados. Nenhum corte físico iniciado."
+  "versionCode": 85,
+  "versionName": "0.3.67",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.67/GR_Cutter_Android_v0.3.67.apk",
+  "sha256": "31c73102b913b1385a01aad76258a855d4f4c1231a3703e3523a15e2ce57f14b",
+  "binarySourceCommit": "5256d6f959bd92ba4331cd4b09dd0e1be027cb54",
+  "binarySourceTree": "de1a956308c5b82dbbb20e8a2111cb14946a1e2e",
+  "localSourceCommit": "04a56d48d23dcca35e6e94b798b74b3e5a716849",
+  "notes": "## Ordem ao iniciar e retomar\n- Modelos vinculados depois da preparação entram na posição da nota, preservando a sequência dos itens existentes.\n- Cancelar um arquivo mantém as peças enviadas para conferência individual. Após conferir, somente as não cortadas retomam, na mesma ordem. Não pula automaticamente para o restante da fila.\n- Histórico, IDs, vínculo e operação independente das duas máquinas preservados.\n- Saída de películas prontas exige aplicar a integração repor-stock-0364 no Repor. Sem essa API o app mantém a operação bloqueada para evitar saldo sem confirmação.\n- 347 testes JVM e 271 Android 12/API 31, lint, assinatura e despertar/foco aprovados. Instale por cima da versão atual."
 }
