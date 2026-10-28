@@ -1,10 +1,11 @@
 {
-  "versionCode": 89,
-  "versionName": "0.3.71",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.71/GR_Cutter_Android_v0.3.71.apk",
-  "sha256": "aa974e839e38a83eb000193c80338433f59c1dad2cc030910da15d0b929eb89b",
-  "binarySourceCommit": "e2a2248cc9d662d9a2b9a686a8db00a6c9a4a531",
-  "binarySourceTree": "8d2f7ab4c13cdcdfd4ad00d0713a5ec1d0f9bcd0",
-  "localSourceCommit": "98ce956dfdc8d1cb51b37ab71512bcce5b06f93f",
-  "notes": "## Correções de carregamento e devoluções\n- Consulta compatível com servidores antigos que aplicam apenas parte dos filtros, sem misturar páginas de estoques diferentes.\n- Se o estoque mudar durante a consulta, a leitura completa é repetida uma vez. Dados incompletos continuam bloqueando a produção.\n- A lista de devoluções carrega independentemente das consultas do catálogo; seleções antigas deixam de buscar novas páginas.\n- Filas, vínculo do aparelho, decisões e baixas confirmadas são preservados.\n- 353 testes JVM e 308 testes Android 12/API 31 aprovados, além de análise de qualidade, assinatura e abertura do aplicativo. Validação em emulador; o Poco físico não foi acessado.\n- Instale por cima da versão atual e use Retomar conferência em Marketplaces para concluir cargas pendentes."
+  "versionCode": 91,
+  "versionName": "0.3.73",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.73/GR_Cutter_Android_v0.3.73.apk",
+  "sha256": "83166c6c577330bf34a3a59ca927a1bfa945bd10133091f267b91bfcab20c31d",
+  "binarySourceCommit": "ce82cef6183037c494676a837d33c84e3501c570",
+  "binarySourceTree": "e4015cdf1a7c9c64e39336ae96369fd44e0066ce",
+  "localSourceCommit": "70fdca35d2bda90ce86e89c10a616aaf1b5a0710",
+  "sourceDigest": "078ed36ad080ef0880183652e863192b08f97d7d1a80a0f9b99193a1e5c02a81",
+  "notes": "Correções de início, cancelamento e devoluções\n- Após cancelamento confirmado na 221201C via BLE, o próximo início renova a sessão e verifica a mesma máquina em repouso. Não repete cortes automaticamente.\n- Início por material aguarda o serviço ocioso; cancelamento durante preparação ou revisão continua válido. Bloqueios aparecem junto aos controles da fila.\n- Devoluções consulta gateways antigos sem enviar filtros incompatíveis; preserva pesquisa, categorias e ordenação local.\n- Entradas e saídas de estoque exigem também a atualização do Repor; o pacote do servidor está preparado, mas ainda não foi aplicado por esta tarefa.\n- Arquivos sem movimento de corte são bloqueados, e tentativas sem início físico não acumulam tempo de corte.\n- Preserva vínculo, token, filas, quantidades, moldes e assinatura. Instale por cima da versão atual.\n- 360 testes JVM e 333 testes Android 12/API 31 aprovados, sem falhas ou testes ignorados, além de lint, assinatura, abertura e foco. Validação em emulador; nenhuma cortadora física acionada. Catálogo validado com cache do mesmo dia UTC, conforme política existente."
 }
