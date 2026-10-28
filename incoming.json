@@ -1,10 +1,10 @@
 {
-  "versionCode": 88,
-  "versionName": "0.3.70",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.70/GR_Cutter_Android_v0.3.70.apk",
-  "sha256": "5607991120085ef3d58c69d7fa06c4c0bb68ed83f8a30f9e5db49f04159dbc3b",
-  "binarySourceCommit": "469e897483f99be30bb3f3f935a49cbdb3db40fa",
-  "binarySourceTree": "96807109bf1a678c05f44241f992f22417ddf36b",
+  "versionCode": 89,
+  "versionName": "0.3.71",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.71/GR_Cutter_Android_v0.3.71.apk",
+  "sha256": "aa974e839e38a83eb000193c80338433f59c1dad2cc030910da15d0b929eb89b",
+  "binarySourceCommit": "e2a2248cc9d662d9a2b9a686a8db00a6c9a4a531",
+  "binarySourceTree": "8d2f7ab4c13cdcdfd4ad00d0713a5ec1d0f9bcd0",
   "localSourceCommit": "98ce956dfdc8d1cb51b37ab71512bcce5b06f93f",
-  "notes": "## Revisão de devoluções e repetição de cortes\n- Consulta de devoluções incompleta, duplicada ou alterada entre páginas não libera a conferência obrigatória da produção.\n- Repetir corte preserva material, formato de tablet, vetor e opções, incluindo retomada de preparação salva e nova conferência antes do início.\n- Respostas atrasadas não substituem a consulta mais recente no cache. A espera pela configuração de rede não segura uma transação do banco.\n- Troca de credencial durante consulta de capacidades aborta antes de criar uma pendência não enviada. Catálogo exige confirmação válida antes de oferecer entrada.\n- Mantidas as abas Frente, Verso, Privacidade, Com estoque e Sem estoque, busca e ordem alfabética.\n- Entradas e saídas manuais ainda exigem aplicar o pacote integrations/repor-stock-0364 no servidor Repor. Nenhuma movimentação de teste foi feita no estoque real.\n- 353 testes JVM e 303 testes Android 12/API 31 aprovados, além de lint, assinatura e despertar/foco. Instale por cima da versão atual."
+  "notes": "## Correções de carregamento e devoluções\n- Consulta compatível com servidores antigos que aplicam apenas parte dos filtros, sem misturar páginas de estoques diferentes.\n- Se o estoque mudar durante a consulta, a leitura completa é repetida uma vez. Dados incompletos continuam bloqueando a produção.\n- A lista de devoluções carrega independentemente das consultas do catálogo; seleções antigas deixam de buscar novas páginas.\n- Filas, vínculo do aparelho, decisões e baixas confirmadas são preservados.\n- 353 testes JVM e 308 testes Android 12/API 31 aprovados, além de análise de qualidade, assinatura e abertura do aplicativo. Validação em emulador; o Poco físico não foi acessado.\n- Instale por cima da versão atual e use Retomar conferência em Marketplaces para concluir cargas pendentes."
 }
