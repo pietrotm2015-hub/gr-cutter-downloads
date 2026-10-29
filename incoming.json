@@ -1,11 +1,11 @@
 {
-  "versionCode": 91,
-  "versionName": "0.3.73",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.73/GR_Cutter_Android_v0.3.73.apk",
-  "sha256": "83166c6c577330bf34a3a59ca927a1bfa945bd10133091f267b91bfcab20c31d",
-  "binarySourceCommit": "ce82cef6183037c494676a837d33c84e3501c570",
-  "binarySourceTree": "e4015cdf1a7c9c64e39336ae96369fd44e0066ce",
-  "localSourceCommit": "70fdca35d2bda90ce86e89c10a616aaf1b5a0710",
-  "sourceDigest": "078ed36ad080ef0880183652e863192b08f97d7d1a80a0f9b99193a1e5c02a81",
-  "notes": "Correções de início, cancelamento e devoluções\n- Após cancelamento confirmado na 221201C via BLE, o próximo início renova a sessão e verifica a mesma máquina em repouso. Não repete cortes automaticamente.\n- Início por material aguarda o serviço ocioso; cancelamento durante preparação ou revisão continua válido. Bloqueios aparecem junto aos controles da fila.\n- Devoluções consulta gateways antigos sem enviar filtros incompatíveis; preserva pesquisa, categorias e ordenação local.\n- Entradas e saídas de estoque exigem também a atualização do Repor; o pacote do servidor está preparado, mas ainda não foi aplicado por esta tarefa.\n- Arquivos sem movimento de corte são bloqueados, e tentativas sem início físico não acumulam tempo de corte.\n- Preserva vínculo, token, filas, quantidades, moldes e assinatura. Instale por cima da versão atual.\n- 360 testes JVM e 333 testes Android 12/API 31 aprovados, sem falhas ou testes ignorados, além de lint, assinatura, abertura e foco. Validação em emulador; nenhuma cortadora física acionada. Catálogo validado com cache do mesmo dia UTC, conforme política existente."
+  "versionCode": 93,
+  "versionName": "0.3.75",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.75/GR_Cutter_Android_v0.3.75.apk",
+  "sha256": "27c669380edf0e2181acfb9896eb123f1cb0f8fc0e56882e7815323d4e555861",
+  "binarySourceCommit": "2f06c4ecbf4a935d973b37c702915d89561cdf56",
+  "binarySourceTree": "8d76b18049e7c7e0be6823637a0ab436475b8b09",
+  "localSourceCommit": "a7cdf92e2819bc6c6458da57e6d20531f6c9cf4e",
+  "sourceDigest": "8d11a0f4fc7874c4c3b16187a9557607bf1519c4dab31a91a325f7f51eb60579",
+  "notes": "Correção do carregamento após confirmar devoluções\n- A próxima conferência aparece mesmo quando a anterior acabou de ser confirmada e ainda está fechando.\n- A baixa confirmada de uma devolução deixa de bloquear a continuação dos cortes restantes.\n- Preserva a ordem dos cortes, quantidades e confirmações já registradas. Alterações externas e cancelamentos continuam bloqueando o início.\n- Quando todas as peças são atendidas por devolução, a conferência termina sem solicitar corte.\n- Instale por cima da versão atual para preservar o vínculo e os dados.\n- 360 testes JVM e 342 testes Android 12/API 31 aprovados, sem falhas ou testes ignorados, além de lint, assinatura, abertura e foco. Validação em emulador; nenhuma máquina física acionada."
 }
