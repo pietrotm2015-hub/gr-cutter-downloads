@@ -1,11 +1,11 @@
 {
-  "versionCode": 93,
-  "versionName": "0.3.75",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.75/GR_Cutter_Android_v0.3.75.apk",
-  "sha256": "27c669380edf0e2181acfb9896eb123f1cb0f8fc0e56882e7815323d4e555861",
-  "binarySourceCommit": "2f06c4ecbf4a935d973b37c702915d89561cdf56",
-  "binarySourceTree": "8d76b18049e7c7e0be6823637a0ab436475b8b09",
-  "localSourceCommit": "a7cdf92e2819bc6c6458da57e6d20531f6c9cf4e",
-  "sourceDigest": "8d11a0f4fc7874c4c3b16187a9557607bf1519c4dab31a91a325f7f51eb60579",
-  "notes": "Correção do carregamento após confirmar devoluções\n- A próxima conferência aparece mesmo quando a anterior acabou de ser confirmada e ainda está fechando.\n- A baixa confirmada de uma devolução deixa de bloquear a continuação dos cortes restantes.\n- Preserva a ordem dos cortes, quantidades e confirmações já registradas. Alterações externas e cancelamentos continuam bloqueando o início.\n- Quando todas as peças são atendidas por devolução, a conferência termina sem solicitar corte.\n- Instale por cima da versão atual para preservar o vínculo e os dados.\n- 360 testes JVM e 342 testes Android 12/API 31 aprovados, sem falhas ou testes ignorados, além de lint, assinatura, abertura e foco. Validação em emulador; nenhuma máquina física acionada."
+  "versionCode": 94,
+  "versionName": "0.3.76",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.76/GR_Cutter_Android_v0.3.76.apk",
+  "sha256": "2598cfd1483e31b0b72bbeb00f7364d34f19e487f18965445c7b65de856443a9",
+  "binarySourceCommit": "3fff9ffe2dd0e666c702d90e5512f07219c9c5ff",
+  "binarySourceTree": "fd33f501549b6f27dfb6bdac23c4bdeec1940905",
+  "localSourceCommit": "64b7b276779a780d5924b5ee98224da79a541e58",
+  "sourceDigest": "732589e2b31e43b6bc75cfb728764464b0b9603b2ce0a874f70ded472925c0e4",
+  "notes": "Correção da preparação da fila após devoluções na Shopee\n- Após confirmar as devoluções, Preparar fila abre a Produção com os cortes restantes, sem exigir outro clique no mesmo botão.\n- Preparar fila mantém os cortes aguardando o comando Iniciar.\n- Preserva baixas confirmadas, dados, assinatura e ordem das filas. Instale por cima da versão atual.\n- Teste específico reproduz Encontrei todas e a confirmação pela interface. 360 testes JVM e 343 testes Android 12/API 31 aprovados, além de lint e abertura/foco. Validação em emulador; nenhuma cortadora física acionada."
 }
