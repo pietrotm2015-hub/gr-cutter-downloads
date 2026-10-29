@@ -1,7 +1,7 @@
 {
-  "versionCode": 94,
-  "versionName": "0.3.76",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.76/GR_Cutter_Android_v0.3.76.apk",
-  "sha256": "2598cfd1483e31b0b72bbeb00f7364d34f19e487f18965445c7b65de856443a9",
-  "notes": "Corre\u00e7\u00e3o da prepara\u00e7\u00e3o da fila ap\u00f3s devolu\u00e7\u00f5es na Shopee\n- Ap\u00f3s confirmar as devolu\u00e7\u00f5es, Preparar fila abre a Produ\u00e7\u00e3o com os cortes restantes, sem exigir outro clique no mesmo bot\u00e3o.\n- Preparar fila mant\u00e9m os cortes aguardando o comando Iniciar.\n- Preserva baixas confirmadas, dados, assinatura e ordem das filas. Instale por cima da vers\u00e3o atual.\n- Teste espec\u00edfico reproduz Encontrei todas e a confirma\u00e7\u00e3o pela interface. 360 testes JVM e 343 testes Android 12/API 31 aprovados, al\u00e9m de lint e abertura/foco. Valida\u00e7\u00e3o em emulador; nenhuma cortadora f\u00edsica acionada."
+  "versionCode": 95,
+  "versionName": "0.3.77",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.77/GR_Cutter_Android_v0.3.77.apk",
+  "sha256": "27bdedf7bfc2c113194e9b845875825130ade221fba3d0714708b154625f585c",
+  "notes": "Corre\u00e7\u00f5es de sele\u00e7\u00e3o e prepara\u00e7\u00e3o\n- Trocar o encaixe preserva a tela interna ou externa dos dobr\u00e1veis.\n- Confer\u00eancias grandes s\u00e3o divididas considerando tamb\u00e9m o tamanho da confirma\u00e7\u00e3o; pend\u00eancias antigas consultam o recibo sem repetir a baixa.\n- Escolher o encaixe encerra a pend\u00eancia de escolha do modelo.\n- Preparar um material abre a Produ\u00e7\u00e3o sem ser bloqueado por modelos ausentes em outro material.\n- Preserva assinatura, dados, filas e o comando expl\u00edcito Iniciar. Instale por cima da vers\u00e3o atual.\n- 362 testes JVM e 350 testes Android 12/API 31 aprovados, lint e abertura/foco. Testado em emulador; cortadoras f\u00edsicas n\u00e3o acionadas.\n- A corre\u00e7\u00e3o da data no Repor \u00e9 um patch separado e ainda precisa ser ativada no servidor."
 }
