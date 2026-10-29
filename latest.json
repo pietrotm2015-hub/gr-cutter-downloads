@@ -1,7 +1,7 @@
 {
-  "versionCode": 93,
-  "versionName": "0.3.75",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.75/GR_Cutter_Android_v0.3.75.apk",
-  "sha256": "27c669380edf0e2181acfb9896eb123f1cb0f8fc0e56882e7815323d4e555861",
-  "notes": "Corre\u00e7\u00e3o do carregamento ap\u00f3s confirmar devolu\u00e7\u00f5es\n- A pr\u00f3xima confer\u00eancia aparece mesmo quando a anterior acabou de ser confirmada e ainda est\u00e1 fechando.\n- A baixa confirmada de uma devolu\u00e7\u00e3o deixa de bloquear a continua\u00e7\u00e3o dos cortes restantes.\n- Preserva a ordem dos cortes, quantidades e confirma\u00e7\u00f5es j\u00e1 registradas. Altera\u00e7\u00f5es externas e cancelamentos continuam bloqueando o in\u00edcio.\n- Quando todas as pe\u00e7as s\u00e3o atendidas por devolu\u00e7\u00e3o, a confer\u00eancia termina sem solicitar corte.\n- Instale por cima da vers\u00e3o atual para preservar o v\u00ednculo e os dados.\n- 360 testes JVM e 342 testes Android 12/API 31 aprovados, sem falhas ou testes ignorados, al\u00e9m de lint, assinatura, abertura e foco. Valida\u00e7\u00e3o em emulador; nenhuma m\u00e1quina f\u00edsica acionada."
+  "versionCode": 94,
+  "versionName": "0.3.76",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.76/GR_Cutter_Android_v0.3.76.apk",
+  "sha256": "2598cfd1483e31b0b72bbeb00f7364d34f19e487f18965445c7b65de856443a9",
+  "notes": "Corre\u00e7\u00e3o da prepara\u00e7\u00e3o da fila ap\u00f3s devolu\u00e7\u00f5es na Shopee\n- Ap\u00f3s confirmar as devolu\u00e7\u00f5es, Preparar fila abre a Produ\u00e7\u00e3o com os cortes restantes, sem exigir outro clique no mesmo bot\u00e3o.\n- Preparar fila mant\u00e9m os cortes aguardando o comando Iniciar.\n- Preserva baixas confirmadas, dados, assinatura e ordem das filas. Instale por cima da vers\u00e3o atual.\n- Teste espec\u00edfico reproduz Encontrei todas e a confirma\u00e7\u00e3o pela interface. 360 testes JVM e 343 testes Android 12/API 31 aprovados, al\u00e9m de lint e abertura/foco. Valida\u00e7\u00e3o em emulador; nenhuma cortadora f\u00edsica acionada."
 }
