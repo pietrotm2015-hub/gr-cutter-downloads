@@ -1,11 +1,11 @@
 {
-  "versionCode": 94,
-  "versionName": "0.3.76",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.76/GR_Cutter_Android_v0.3.76.apk",
-  "sha256": "2598cfd1483e31b0b72bbeb00f7364d34f19e487f18965445c7b65de856443a9",
-  "binarySourceCommit": "3fff9ffe2dd0e666c702d90e5512f07219c9c5ff",
-  "binarySourceTree": "fd33f501549b6f27dfb6bdac23c4bdeec1940905",
+  "versionCode": 95,
+  "versionName": "0.3.77",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.77/GR_Cutter_Android_v0.3.77.apk",
+  "sha256": "27bdedf7bfc2c113194e9b845875825130ade221fba3d0714708b154625f585c",
+  "binarySourceCommit": "a944e83944f1629090669a75e6533fb8dfbb8563",
+  "binarySourceTree": "9b05fbf4b624bc74e08230306c7969618014f190",
   "localSourceCommit": "64b7b276779a780d5924b5ee98224da79a541e58",
-  "sourceDigest": "732589e2b31e43b6bc75cfb728764464b0b9603b2ce0a874f70ded472925c0e4",
-  "notes": "Correção da preparação da fila após devoluções na Shopee\n- Após confirmar as devoluções, Preparar fila abre a Produção com os cortes restantes, sem exigir outro clique no mesmo botão.\n- Preparar fila mantém os cortes aguardando o comando Iniciar.\n- Preserva baixas confirmadas, dados, assinatura e ordem das filas. Instale por cima da versão atual.\n- Teste específico reproduz Encontrei todas e a confirmação pela interface. 360 testes JVM e 343 testes Android 12/API 31 aprovados, além de lint e abertura/foco. Validação em emulador; nenhuma cortadora física acionada."
+  "sourceDigest": "cca4a59c59c3328083cb01c16d6acf4e81690bc12c7dae032cadbb139dc04c85",
+  "notes": "Correções de seleção e preparação\n- Trocar o encaixe preserva a tela interna ou externa dos dobráveis.\n- Conferências grandes são divididas considerando também o tamanho da confirmação; pendências antigas consultam o recibo sem repetir a baixa.\n- Escolher o encaixe encerra a pendência de escolha do modelo.\n- Preparar um material abre a Produção sem ser bloqueado por modelos ausentes em outro material.\n- Preserva assinatura, dados, filas e o comando explícito Iniciar. Instale por cima da versão atual.\n- 362 testes JVM e 350 testes Android 12/API 31 aprovados, lint e abertura/foco. Testado em emulador; cortadoras físicas não acionadas.\n- A correção da data no Repor é um patch separado e ainda precisa ser ativada no servidor."
 }
