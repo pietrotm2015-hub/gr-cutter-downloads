@@ -1,7 +1,7 @@
 {
-  "versionCode": 99,
-  "versionName": "0.3.81",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.81/GR_Cutter_Android_v0.3.81.apk",
-  "sha256": "33a2fb371e12acd9844b8c5bd82679dac6ae061aa0b13e785aaa10131b762f70",
-  "notes": "Corre\u00e7\u00f5es de devolu\u00e7\u00f5es e etiquetas\n- Recibos inv\u00e1lidos ou incompletos mant\u00eam a confirma\u00e7\u00e3o de devolu\u00e7\u00e3o pendente.\n- Etiquetas de lotes mistos seguem a ordem dos cortes.\n- Frontais com abertura de c\u00e2mera s\u00e3o reconhecidas corretamente.\n- Desativar a impress\u00e3o durante a prepara\u00e7\u00e3o mant\u00e9m a etiqueta pendente, sem iniciar seu envio.\n- Valida\u00e7\u00e3o: 362 testes JVM, 368 testes Android 12/API 31, lint e abertura/foco aprovados; revis\u00e3o Repomix.\n- Instale por cima da vers\u00e3o atual para preservar seus dados.\n- A impress\u00e3o continua ap\u00f3s corte confirmado. O c\u00f3digo 6 do Samsung ZFlip5 est\u00e1 pendente de corre\u00e7\u00e3o. Nenhuma impressora ou cortadora f\u00edsica foi acionada nos testes."
+  "versionCode": 100,
+  "versionName": "0.3.82",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.82/GR_Cutter_Android_v0.3.82.apk",
+  "sha256": "783fd2867335852cc405478944f7168d072484ba93360f0234b6bd01bd72c9ca",
+  "notes": "Etiqueta FeV por unidade vendida\n- Uma unidade FeV: frente + verso, uma etiqueta com SKU original, QR e data ap\u00f3s ambos os cortes confirmados.\n- Duas unidades: quatro cortes, duas etiquetas. Prote\u00e7\u00e3o contra duplicidade entre lotes, tentativas e rein\u00edcios.\n- Migra\u00e7\u00e3o das pend\u00eancias preserva envios anteriores ou incertos sem reenvio autom\u00e1tico.\n- Valida\u00e7\u00e3o local: 367 testes JVM e 386 Android 12/API 31, lint, assinatura e abertura/foco aprovados; revis\u00e3o Repomix.\n- Instale por cima da vers\u00e3o atual para preservar seus dados.\n- Impressora/cortadora f\u00edsicas n\u00e3o testadas. A causa do c\u00f3digo 6 do ZFlip5 continua n\u00e3o comprovada."
 }
