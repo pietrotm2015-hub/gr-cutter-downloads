@@ -1,11 +1,9 @@
 {
-  "versionCode": 96,
-  "versionName": "0.3.78",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.78/GR_Cutter_Android_v0.3.78.apk",
-  "sha256": "ee3f419670a95aa229fe1cbbb6206ee3f6f5bc7e0bc83f60d5d7658a26c48445",
-  "binarySourceCommit": "12f126c0a3bb5acaabed68cfa2158d9911979b87",
-  "binarySourceTree": "a05861867dcf23543e93b0b07b041266e85146a8",
-  "localSourceCommit": "64b7b276779a780d5924b5ee98224da79a541e58",
-  "sourceDigest": "c6706515d49585a5948986f71895f98655d01b954a8f69a62defd42704c55c32",
-  "notes": "Correção da preparação após confirmar devolução\n- Preparar fila abre Produção quando os cortes restantes já estavam preparados, sem exigir a inclusão de novos cortes.\n- Preserva identificadores e ordem dos cortes existentes. A peça atendida por devolução fica fora dos cortes.\n- Se todas as peças foram atendidas, informa que não há cortes pendentes. Peças sem modelo continuam visíveis para escolha.\n- Instale por cima da versão atual para preservar os dados. O início do corte continua sendo um comando separado.\n- Validação: 362 testes JVM, 353 testes Android 12/API 31, lint e abertura/foco aprovados. Testes em emulador; cortadoras físicas não acionadas."
+  "versionCode": 99,
+  "versionName": "0.3.81",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.81/GR_Cutter_Android_v0.3.81.apk",
+  "sha256": "33a2fb371e12acd9844b8c5bd82679dac6ae061aa0b13e785aaa10131b762f70",
+  "binarySourceCommit": "2f1e55d3ef88fadd5ae9f0a0c5cebf3b7498d7c6",
+  "binarySourceTree": "96a237360345fffa65cb00b9ebf72a159e60c559",
+  "notes": "Correções de devoluções e etiquetas\n- Recibos inválidos ou incompletos mantêm a confirmação de devolução pendente.\n- Etiquetas de lotes mistos seguem a ordem dos cortes.\n- Frontais com abertura de câmera são reconhecidas corretamente.\n- Desativar a impressão durante a preparação mantém a etiqueta pendente, sem iniciar seu envio.\n- Validação: 362 testes JVM, 368 testes Android 12/API 31, lint e abertura/foco aprovados; revisão Repomix.\n- Instale por cima da versão atual para preservar seus dados.\n- A impressão continua após corte confirmado. O código 6 do Samsung ZFlip5 está pendente de correção. Nenhuma impressora ou cortadora física foi acionada nos testes."
 }
