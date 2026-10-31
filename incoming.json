@@ -1,7 +1,7 @@
 {
-  "versionCode": 103,
-  "versionName": "0.3.85",
-  "sha256": "a00266187dbe5c4d37576a0702323a6883e07b2f932de458005120a1e8b2c9df",
-  "binarySourceCommit": "b4637043639533fd02f92ae87dc05755f37919b9",
-  "notes": "Corre��ǜo da prepara��ǜo completa de filas\n- Inclui cortes cancelados que antes ficavam de fora ao preparar novamente, sem repetir cortes de resultado incerto.\n- Recupera pe��as novas e v��nculos resolvidos mesmo quando o lote mantǸm a mesma revisǜo.\n- Confere cada pe��a por identificador, material, molde e v��nculo antes de concluir a prepara��ǜo.\n- Preserva itens jǭ preparados, hist��rico e ordem das notas; informa pǭgina, pedido e SKU de qualquer pendǦncia.\n- Valida��ǜo: 377 testes JVM e 420 Android 12/API 31, lint, assinatura, foco e contrato real Repor aprovados.\n- Instale por cima para preservar filas, v��nculos e dados."
+  "versionCode": 104,
+  "versionName": "0.3.86",
+  "sha256": "70a7303665c183aaa0bc9722994f94dffcb8a0fb2648c307d40c887de43ae251",
+  "binarySourceCommit": "3e5d84f8af5e0f700c6b213145d53d1a76006ef7",
+  "notes": "Modo foco renovado e repetição com prioridade\n- Visual mais claro, prévia maior, aparelho e formato em destaque e próximo corte identificado.\n- Duas máquinas com painéis e controles independentes, sem rolar para encontrar os botões.\n- Repetir agora passa à frente dos cortes normais; o arquivo já enviado termina, a repetição é executada e a ordem original continua.\n- Prioridade preservada ao fechar o aplicativo, sem duplicar a venda nem reenviar o lote inteiro.\n- Pausa durante a conferência cancela o início automático; resultados incertos exigem confirmação.\n- Inclui a correção da preparação completa das filas da versão 0.3.85.\n- Validação: 387 JVM e 430 Android 12/API 31, lint, assinatura, foco e contrato Repor aprovados.\n- Instale por cima para preservar filas, vínculos e dados."
 }
