@@ -1,7 +1,7 @@
 {
-  "versionCode": 101,
-  "versionName": "0.3.83",
-  "sha256": "c47e23277bcd75d2adf0574fd25f361365334529aba5bdcfcdb6e8e6f996ab0f",
-  "binarySourceCommit": "259dbe9366bde5bd17180b6491962607c20c651d",
-  "notes": "Modo foco e preparação de filas\n- Modo foco com modelo, formato e controles independentes por máquina; identificação do corte atual. Em lotes com várias peças, a posição exibida é estimada.\n- Retomada da preparação preserva lotes, materiais e respostas de devolução. Moldes pendentes mostram página e pedido, inclusive após retomar.\n- Correção da seleção frontal quando variantes empatam e melhor aproveitamento da tela dos marketplaces.\n- Devoluções mostram a página original da impressão.\n- Conexão da térmica tenta os dois modos SPP sem reenviar automaticamente etiquetas de resultado incerto. Mantida uma etiqueta FeV por unidade após os dois cortes confirmados.\n- Validação local: 377 testes JVM e 395 Android 12/API 31, lint, assinatura e abertura/foco; revisão Repomix.\n- Instale por cima para preservar filas, vínculos e dados.\n- Impressora e cortadoras físicas não testadas. A causa interna do código 6 continua não comprovada."
+  "versionCode": 102,
+  "versionName": "0.3.84",
+  "sha256": "37c1818dca10c2ae401cd1da35b51989c505154e113ddc724ff8e6cdc6cae958",
+  "binarySourceCommit": "90b95a7887b7c6b66f9b6d9c5ccdf05be72aa457",
+  "notes": "Correção da preparação e retomada de filas\n- Corrige a recusa de dados que impedia abrir a Produção, inclusive em lotes sem devoluções.\n- Preserva a página da impressão na tela e envia somente os campos aceitos pelo Repor.\n- Recupera tentativas antigas consultando o recibo antes de reenviar, preservando confirmações e evitando baixa duplicada.\n- Acrescenta proteção de contrato e testes de regressão para preparação, retomada e perda de resposta.\n- Instale por cima para preservar filas, vínculos e dados.\n- Validacao: 377 testes JVM e 408 Android 12/API 31, lint, assinatura, foco e contrato real Repor aprovados."
 }
