@@ -1,9 +1,7 @@
 {
-  "versionCode": 100,
-  "versionName": "0.3.82",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.82/GR_Cutter_Android_v0.3.82.apk",
-  "sha256": "783fd2867335852cc405478944f7168d072484ba93360f0234b6bd01bd72c9ca",
-  "binarySourceCommit": "231a93e675d78193d5e901d8b94ad7cf32b7c4fe",
-  "binarySourceTree": "a656b512a2764eb453f8cfbb3a2c8697f5851349",
-  "notes": "Etiqueta FeV por unidade vendida\n- Uma unidade FeV: frente + verso, uma etiqueta com SKU original, QR e data após ambos os cortes confirmados.\n- Duas unidades: quatro cortes, duas etiquetas. Proteção contra duplicidade entre lotes, tentativas e reinícios.\n- Migração das pendências preserva envios anteriores ou incertos sem reenvio automático.\n- Validação local: 367 testes JVM e 386 Android 12/API 31, lint, assinatura e abertura/foco aprovados; revisão Repomix.\n- Instale por cima da versão atual para preservar seus dados.\n- Impressora/cortadora físicas não testadas. A causa do código 6 do ZFlip5 continua não comprovada."
+  "versionCode": 101,
+  "versionName": "0.3.83",
+  "sha256": "c47e23277bcd75d2adf0574fd25f361365334529aba5bdcfcdb6e8e6f996ab0f",
+  "binarySourceCommit": "259dbe9366bde5bd17180b6491962607c20c651d",
+  "notes": "Modo foco e preparação de filas\n- Modo foco com modelo, formato e controles independentes por máquina; identificação do corte atual. Em lotes com várias peças, a posição exibida é estimada.\n- Retomada da preparação preserva lotes, materiais e respostas de devolução. Moldes pendentes mostram página e pedido, inclusive após retomar.\n- Correção da seleção frontal quando variantes empatam e melhor aproveitamento da tela dos marketplaces.\n- Devoluções mostram a página original da impressão.\n- Conexão da térmica tenta os dois modos SPP sem reenviar automaticamente etiquetas de resultado incerto. Mantida uma etiqueta FeV por unidade após os dois cortes confirmados.\n- Validação local: 377 testes JVM e 395 Android 12/API 31, lint, assinatura e abertura/foco; revisão Repomix.\n- Instale por cima para preservar filas, vínculos e dados.\n- Impressora e cortadoras físicas não testadas. A causa interna do código 6 continua não comprovada."
 }
