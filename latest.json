@@ -1,7 +1,7 @@
 {
-  "versionCode": 102,
-  "versionName": "0.3.84",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.84/GR_Cutter_Android_v0.3.84.apk",
-  "sha256": "37c1818dca10c2ae401cd1da35b51989c505154e113ddc724ff8e6cdc6cae958",
-  "notes": "Corre\u00e7\u00e3o da prepara\u00e7\u00e3o e retomada de filas\n- Corrige a recusa de dados que impedia abrir a Produ\u00e7\u00e3o, inclusive em lotes sem devolu\u00e7\u00f5es.\n- Preserva a p\u00e1gina da impress\u00e3o na tela e envia somente os campos aceitos pelo Repor.\n- Recupera tentativas antigas consultando o recibo antes de reenviar, preservando confirma\u00e7\u00f5es e evitando baixa duplicada.\n- Acrescenta prote\u00e7\u00e3o de contrato e testes de regress\u00e3o para prepara\u00e7\u00e3o, retomada e perda de resposta.\n- Instale por cima para preservar filas, v\u00ednculos e dados.\n- Validacao: 377 testes JVM e 408 Android 12/API 31, lint, assinatura, foco e contrato real Repor aprovados."
+  "versionCode": 103,
+  "versionName": "0.3.85",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.85/GR_Cutter_Android_v0.3.85.apk",
+  "sha256": "a00266187dbe5c4d37576a0702323a6883e07b2f932de458005120a1e8b2c9df",
+  "notes": "Corre\ufffd\ufffd\u01dco da prepara\ufffd\ufffd\u01dco completa de filas\n- Inclui cortes cancelados que antes ficavam de fora ao preparar novamente, sem repetir cortes de resultado incerto.\n- Recupera pe\ufffd\ufffdas novas e v\ufffd\ufffdnculos resolvidos mesmo quando o lote mant\u01f8m a mesma revis\u01dco.\n- Confere cada pe\ufffd\ufffda por identificador, material, molde e v\ufffd\ufffdnculo antes de concluir a prepara\ufffd\ufffd\u01dco.\n- Preserva itens j\u01ed preparados, hist\ufffd\ufffdrico e ordem das notas; informa p\u01edgina, pedido e SKU de qualquer pend\u01e6ncia.\n- Valida\ufffd\ufffd\u01dco: 377 testes JVM e 420 Android 12/API 31, lint, assinatura, foco e contrato real Repor aprovados.\n- Instale por cima para preservar filas, v\ufffd\ufffdnculos e dados."
 }
