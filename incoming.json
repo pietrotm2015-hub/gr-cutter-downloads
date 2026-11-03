@@ -1,7 +1,8 @@
 {
-  "versionCode": 104,
-  "versionName": "0.3.86",
-  "sha256": "70a7303665c183aaa0bc9722994f94dffcb8a0fb2648c307d40c887de43ae251",
-  "binarySourceCommit": "3e5d84f8af5e0f700c6b213145d53d1a76006ef7",
-  "notes": "Modo foco renovado e repetição com prioridade\n- Visual mais claro, prévia maior, aparelho e formato em destaque e próximo corte identificado.\n- Duas máquinas com painéis e controles independentes, sem rolar para encontrar os botões.\n- Repetir agora passa à frente dos cortes normais; o arquivo já enviado termina, a repetição é executada e a ordem original continua.\n- Prioridade preservada ao fechar o aplicativo, sem duplicar a venda nem reenviar o lote inteiro.\n- Pausa durante a conferência cancela o início automático; resultados incertos exigem confirmação.\n- Inclui a correção da preparação completa das filas da versão 0.3.85.\n- Validação: 387 JVM e 430 Android 12/API 31, lint, assinatura, foco e contrato Repor aprovados.\n- Instale por cima para preservar filas, vínculos e dados."
+  "versionCode": 105,
+  "versionName": "0.3.87",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.87/GR_Cutter_Android_v0.3.87.apk",
+  "sha256": "34a11f7d11175532a748f88b254125fbd60a9e3b67ebf595a961c8ea695240b5",
+  "binarySourceCommit": "5e427c4f9beca9342ab1e572a367552459462ee0",
+  "notes": "Foco sincronizado e fila de marketplace unificada\n- Modelo e formato aparecem desde o envio; a troca acompanha a execução do arquivo, sem depender da duração estimada.\n- Partes da mesma impressão são preparadas juntas e ordenadas pela página do reordenador, inclusive quando chegam em momentos diferentes.\n- Fila de marketplace com até 10.000 pendências, mantendo os limites de cada arquivo enviado.\n- Partes atendidas por corte ou devolução continuam junto das pendentes; encerramentos manuais são preservados.\n- Modelos ou formatos diferentes usam envios separados para manter a identificação correta. Isso pode aumentar o intervalo entre modelos.\n- Instale por cima para preservar filas, vínculo Repor, modelos editados e dados. Depois, atualize/carregue a fila para reunir as partes antigas.\n- Não exige atualização do Repor.\n- Validação aprovada: 396 JVM e 444 Android 12/API 31, lint, assinatura, foco e integração Repor."
 }
