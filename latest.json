@@ -1,7 +1,7 @@
 {
-  "versionCode": 104,
-  "versionName": "0.3.86",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.86/GR_Cutter_Android_v0.3.86.apk",
-  "sha256": "70a7303665c183aaa0bc9722994f94dffcb8a0fb2648c307d40c887de43ae251",
-  "notes": "Modo foco renovado e repeti\u00e7\u00e3o com prioridade\n- Visual mais claro, pr\u00e9via maior, aparelho e formato em destaque e pr\u00f3ximo corte identificado.\n- Duas m\u00e1quinas com pain\u00e9is e controles independentes, sem rolar para encontrar os bot\u00f5es.\n- Repetir agora passa \u00e0 frente dos cortes normais; o arquivo j\u00e1 enviado termina, a repeti\u00e7\u00e3o \u00e9 executada e a ordem original continua.\n- Prioridade preservada ao fechar o aplicativo, sem duplicar a venda nem reenviar o lote inteiro.\n- Pausa durante a confer\u00eancia cancela o in\u00edcio autom\u00e1tico; resultados incertos exigem confirma\u00e7\u00e3o.\n- Inclui a corre\u00e7\u00e3o da prepara\u00e7\u00e3o completa das filas da vers\u00e3o 0.3.85.\n- Valida\u00e7\u00e3o: 387 JVM e 430 Android 12/API 31, lint, assinatura, foco e contrato Repor aprovados.\n- Instale por cima para preservar filas, v\u00ednculos e dados."
+  "versionCode": 105,
+  "versionName": "0.3.87",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.87/GR_Cutter_Android_v0.3.87.apk",
+  "sha256": "34a11f7d11175532a748f88b254125fbd60a9e3b67ebf595a961c8ea695240b5",
+  "notes": "Foco sincronizado e fila de marketplace unificada\n- Modelo e formato aparecem desde o envio; a troca acompanha a execu\u00e7\u00e3o do arquivo, sem depender da dura\u00e7\u00e3o estimada.\n- Partes da mesma impress\u00e3o s\u00e3o preparadas juntas e ordenadas pela p\u00e1gina do reordenador, inclusive quando chegam em momentos diferentes.\n- Fila de marketplace com at\u00e9 10.000 pend\u00eancias, mantendo os limites de cada arquivo enviado.\n- Partes atendidas por corte ou devolu\u00e7\u00e3o continuam junto das pendentes; encerramentos manuais s\u00e3o preservados.\n- Modelos ou formatos diferentes usam envios separados para manter a identifica\u00e7\u00e3o correta. Isso pode aumentar o intervalo entre modelos.\n- Instale por cima para preservar filas, v\u00ednculo Repor, modelos editados e dados. Depois, atualize/carregue a fila para reunir as partes antigas.\n- N\u00e3o exige atualiza\u00e7\u00e3o do Repor.\n- Valida\u00e7\u00e3o aprovada: 396 JVM e 444 Android 12/API 31, lint, assinatura, foco e integra\u00e7\u00e3o Repor."
 }
