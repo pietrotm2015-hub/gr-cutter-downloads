@@ -1,8 +1,6 @@
 {
-  "versionCode": 105,
-  "versionName": "0.3.87",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.87/GR_Cutter_Android_v0.3.87.apk",
-  "sha256": "34a11f7d11175532a748f88b254125fbd60a9e3b67ebf595a961c8ea695240b5",
-  "binarySourceCommit": "5e427c4f9beca9342ab1e572a367552459462ee0",
-  "notes": "Foco sincronizado e fila de marketplace unificada\n- Modelo e formato aparecem desde o envio; a troca acompanha a execução do arquivo, sem depender da duração estimada.\n- Partes da mesma impressão são preparadas juntas e ordenadas pela página do reordenador, inclusive quando chegam em momentos diferentes.\n- Fila de marketplace com até 10.000 pendências, mantendo os limites de cada arquivo enviado.\n- Partes atendidas por corte ou devolução continuam junto das pendentes; encerramentos manuais são preservados.\n- Modelos ou formatos diferentes usam envios separados para manter a identificação correta. Isso pode aumentar o intervalo entre modelos.\n- Instale por cima para preservar filas, vínculo Repor, modelos editados e dados. Depois, atualize/carregue a fila para reunir as partes antigas.\n- Não exige atualização do Repor.\n- Validação aprovada: 396 JVM e 444 Android 12/API 31, lint, assinatura, foco e integração Repor."
+  "versionCode": 106,
+  "versionName": "0.3.88",
+  "sha256": "c1559a4333fc3a5fec0dc6f9531fb5507eafd252f980498b805d9c6dd96af76a",
+  "notes": "## Corte contínuo em lote restaurado\n- Modelos diferentes e compatíveis voltam a seguir no mesmo arquivo, mantendo a ordem da fila e o espaçamento de 3 mm.\n- O foco mostra o primeiro modelo desde o envio e identifica a posição estimada durante lotes mistos, sem separar os cortes.\n- Mantidas a fila unificada por impressão, as prioridades, as conferências e as proteções de conclusão física.\n- Instale por cima para preservar filas, vínculo Repor, modelos editados e dados."
 }
