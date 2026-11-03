@@ -1,7 +1,7 @@
 {
-  "versionCode": 105,
-  "versionName": "0.3.87",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.87/GR_Cutter_Android_v0.3.87.apk",
-  "sha256": "34a11f7d11175532a748f88b254125fbd60a9e3b67ebf595a961c8ea695240b5",
-  "notes": "Foco sincronizado e fila de marketplace unificada\n- Modelo e formato aparecem desde o envio; a troca acompanha a execu\u00e7\u00e3o do arquivo, sem depender da dura\u00e7\u00e3o estimada.\n- Partes da mesma impress\u00e3o s\u00e3o preparadas juntas e ordenadas pela p\u00e1gina do reordenador, inclusive quando chegam em momentos diferentes.\n- Fila de marketplace com at\u00e9 10.000 pend\u00eancias, mantendo os limites de cada arquivo enviado.\n- Partes atendidas por corte ou devolu\u00e7\u00e3o continuam junto das pendentes; encerramentos manuais s\u00e3o preservados.\n- Modelos ou formatos diferentes usam envios separados para manter a identifica\u00e7\u00e3o correta. Isso pode aumentar o intervalo entre modelos.\n- Instale por cima para preservar filas, v\u00ednculo Repor, modelos editados e dados. Depois, atualize/carregue a fila para reunir as partes antigas.\n- N\u00e3o exige atualiza\u00e7\u00e3o do Repor.\n- Valida\u00e7\u00e3o aprovada: 396 JVM e 444 Android 12/API 31, lint, assinatura, foco e integra\u00e7\u00e3o Repor."
+  "versionCode": 106,
+  "versionName": "0.3.88",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.88/GR_Cutter_Android_v0.3.88.apk",
+  "sha256": "c1559a4333fc3a5fec0dc6f9531fb5507eafd252f980498b805d9c6dd96af76a",
+  "notes": "## Corte cont\u00ednuo em lote restaurado\n- Modelos diferentes e compat\u00edveis voltam a seguir no mesmo arquivo, mantendo a ordem da fila e o espa\u00e7amento de 3 mm.\n- O foco mostra o primeiro modelo desde o envio e identifica a posi\u00e7\u00e3o estimada durante lotes mistos, sem separar os cortes.\n- Mantidas a fila unificada por impress\u00e3o, as prioridades, as confer\u00eancias e as prote\u00e7\u00f5es de conclus\u00e3o f\u00edsica.\n- Instale por cima para preservar filas, v\u00ednculo Repor, modelos editados e dados."
 }
