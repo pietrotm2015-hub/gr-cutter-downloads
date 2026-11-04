@@ -1,6 +1,6 @@
 {
-  "versionCode": 106,
-  "versionName": "0.3.88",
-  "sha256": "c1559a4333fc3a5fec0dc6f9531fb5507eafd252f980498b805d9c6dd96af76a",
-  "notes": "## Corte contínuo em lote restaurado\n- Modelos diferentes e compatíveis voltam a seguir no mesmo arquivo, mantendo a ordem da fila e o espaçamento de 3 mm.\n- O foco mostra o primeiro modelo desde o envio e identifica a posição estimada durante lotes mistos, sem separar os cortes.\n- Mantidas a fila unificada por impressão, as prioridades, as conferências e as proteções de conclusão física.\n- Instale por cima para preservar filas, vínculo Repor, modelos editados e dados."
+  "versionCode": 107,
+  "versionName": "0.3.89",
+  "sha256": "2406793d64dc4bbcb76077e89722adbc8857ca54a3ceaa678370a18919025bfd",
+  "notes": "## Foco, devoluções e controles de produção\n- O foco prepara o modelo antes do envio e corrige o atraso da posição estimada em lotes mistos, preservando o arquivo unido e a confirmação física.\n- Pausar lote e cancelar corte voltam à tela normal. Folha pronta, rolo reposto e avisos ficam acessíveis no foco das duas máquinas.\n- Devoluções mostram a página correta do PDF, preservando a ordem e as posições de filas manuais.\n- Impressões incompletas continuam pendentes. A produtividade considera cortes simultâneos sem duplicar o tempo, e a atualização aguarda ambas as máquinas.\n- Instale por cima para preservar filas, vínculo Repor, modelos editados e dados."
 }
