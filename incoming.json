@@ -1,6 +1,6 @@
 {
-  "versionCode": 107,
-  "versionName": "0.3.89",
-  "sha256": "2406793d64dc4bbcb76077e89722adbc8857ca54a3ceaa678370a18919025bfd",
-  "notes": "## Foco, devoluções e controles de produção\n- O foco prepara o modelo antes do envio e corrige o atraso da posição estimada em lotes mistos, preservando o arquivo unido e a confirmação física.\n- Pausar lote e cancelar corte voltam à tela normal. Folha pronta, rolo reposto e avisos ficam acessíveis no foco das duas máquinas.\n- Devoluções mostram a página correta do PDF, preservando a ordem e as posições de filas manuais.\n- Impressões incompletas continuam pendentes. A produtividade considera cortes simultâneos sem duplicar o tempo, e a atualização aguarda ambas as máquinas.\n- Instale por cima para preservar filas, vínculo Repor, modelos editados e dados."
+  "versionCode": 109,
+  "versionName": "0.3.91",
+  "sha256": "8f579409274c6d7dcb2b919ca44f77b12dc46afe6b8b95ce0902e75a43e6c825",
+  "notes": "## Produção e preparação de filas\n- Avisos por máquina com acesso à reconexão e à conferência de cortes incertos. A reconexão mantém a fila pausada.\n- A preparação mostra a etapa atual e permite filtrar os modelos pendentes.\n- Consultas de impressão e histórico preparadas em segundo plano, com busca direcionada das partes e ordenação das filas com menos trabalho repetido.\n- Preservados cortes mistos, ordem, espaçamento, etiquetas, devoluções, vínculos e dados locais.\n- Instale por cima com as máquinas paradas."
 }
