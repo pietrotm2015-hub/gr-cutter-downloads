@@ -1,7 +1,7 @@
 {
-  "versionCode": 107,
-  "versionName": "0.3.89",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.89/GR_Cutter_Android_v0.3.89.apk",
-  "sha256": "2406793d64dc4bbcb76077e89722adbc8857ca54a3ceaa678370a18919025bfd",
-  "notes": "## Foco, devolu\u00e7\u00f5es e controles de produ\u00e7\u00e3o\n- O foco prepara o modelo antes do envio e corrige o atraso da posi\u00e7\u00e3o estimada em lotes mistos, preservando o arquivo unido e a confirma\u00e7\u00e3o f\u00edsica.\n- Pausar lote e cancelar corte voltam \u00e0 tela normal. Folha pronta, rolo reposto e avisos ficam acess\u00edveis no foco das duas m\u00e1quinas.\n- Devolu\u00e7\u00f5es mostram a p\u00e1gina correta do PDF, preservando a ordem e as posi\u00e7\u00f5es de filas manuais.\n- Impress\u00f5es incompletas continuam pendentes. A produtividade considera cortes simult\u00e2neos sem duplicar o tempo, e a atualiza\u00e7\u00e3o aguarda ambas as m\u00e1quinas.\n- Instale por cima para preservar filas, v\u00ednculo Repor, modelos editados e dados."
+  "versionCode": 109,
+  "versionName": "0.3.91",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.91/GR_Cutter_Android_v0.3.91.apk",
+  "sha256": "8f579409274c6d7dcb2b919ca44f77b12dc46afe6b8b95ce0902e75a43e6c825",
+  "notes": "## Produ\u00e7\u00e3o e prepara\u00e7\u00e3o de filas\n- Avisos por m\u00e1quina com acesso \u00e0 reconex\u00e3o e \u00e0 confer\u00eancia de cortes incertos. A reconex\u00e3o mant\u00e9m a fila pausada.\n- A prepara\u00e7\u00e3o mostra a etapa atual e permite filtrar os modelos pendentes.\n- Consultas de impress\u00e3o e hist\u00f3rico preparadas em segundo plano, com busca direcionada das partes e ordena\u00e7\u00e3o das filas com menos trabalho repetido.\n- Preservados cortes mistos, ordem, espa\u00e7amento, etiquetas, devolu\u00e7\u00f5es, v\u00ednculos e dados locais.\n- Instale por cima com as m\u00e1quinas paradas."
 }
