@@ -1,7 +1,7 @@
 {
-  "versionCode": 109,
-  "versionName": "0.3.91",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.91/GR_Cutter_Android_v0.3.91.apk",
-  "sha256": "8f579409274c6d7dcb2b919ca44f77b12dc46afe6b8b95ce0902e75a43e6c825",
-  "notes": "## Produ\u00e7\u00e3o e prepara\u00e7\u00e3o de filas\n- Avisos por m\u00e1quina com acesso \u00e0 reconex\u00e3o e \u00e0 confer\u00eancia de cortes incertos. A reconex\u00e3o mant\u00e9m a fila pausada.\n- A prepara\u00e7\u00e3o mostra a etapa atual e permite filtrar os modelos pendentes.\n- Consultas de impress\u00e3o e hist\u00f3rico preparadas em segundo plano, com busca direcionada das partes e ordena\u00e7\u00e3o das filas com menos trabalho repetido.\n- Preservados cortes mistos, ordem, espa\u00e7amento, etiquetas, devolu\u00e7\u00f5es, v\u00ednculos e dados locais.\n- Instale por cima com as m\u00e1quinas paradas."
+  "versionCode": 110,
+  "versionName": "0.3.92",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.92/GR_Cutter_Android_v0.3.92.apk",
+  "sha256": "6478afc9295ab233e60a05a3c361b94f8b20e7afc75a710bbe4ed9aeb74f32df",
+  "notes": "## Corte personalizado e estabilidade da produ\u00e7\u00e3o\n- Novo corte personalizado no cat\u00e1logo: largura/altura em mil\u00edmetros, cantos retos ou arredondados, quantidade, material e rota\u00e7\u00e3o de 90 graus. Pr\u00e9via e verifica\u00e7\u00e3o de encaixe antes de adicionar \u00e0 fila, sem iniciar automaticamente.\n- Conclus\u00f5es confirmadas preservadas com recupera\u00e7\u00e3o idempotente do hist\u00f3rico e registros pendentes.\n- Registro auxiliar inv\u00e1lido isolado sem apagar as filas; prepara\u00e7\u00e3o atrasada n\u00e3o inicia cortes ap\u00f3s Voltar.\n- Edi\u00e7\u00e3o consulta apenas impress\u00f5es do modelo; frontais carregados em segundo plano e cortes exibidos em p\u00e1ginas de 60.\n- Aviso de Repor sem atualiza\u00e7\u00e3o, filtros preservados e cart\u00f5es compactos com detalhes opcionais.\n- Relatos inv\u00e1lidos ou recusados preservados para revis\u00e3o sem bloquear os seguintes.\n- Preservados lotes mistos, ordem do reordenador, espa\u00e7amento e etiqueta \u00fanica FeV. Valida\u00e7\u00e3o f\u00edsica de foco, impress\u00e3o e c\u00f3digo 6 continua necess\u00e1ria.\n- Instale por cima com as m\u00e1quinas paradas."
 }
