@@ -1,6 +1,8 @@
 {
-  "versionCode": 111,
-  "versionName": "0.3.93",
-  "sha256": "36da6d6b336a4c2c2758be01f7bfd8778b0fc7edb505e5d96b485f956574881f",
-  "notes": "## FULL: pausa ao terminar cada modelo\n- Conclui as unidades seguidas do mesmo modelo e pausa antes do próximo. Toque em Iniciar para continuar.\n- Os arquivos enviados no FULL não misturam modelos; quantidades grandes continuam em vários lotes do mesmo modelo.\n- Pausa preservada ao reabrir o app. Os demais marketplaces mantêm lotes mistos e a ordem existente.\n- Instale por cima com as máquinas paradas."
+  "versionCode": 112,
+  "versionName": "0.3.94",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.94/GR_Cutter_Android_v0.3.94.apk",
+  "sha256": "6477723c017a21d04dc2fc601de711d1548e50355c2849235bb3a831c8667bd6",
+  "binarySourceCommit": "549340ae4e1d719df82fb3116abba601e409f311",
+  "notes": "## Recuperação, preparação e acompanhamento\n- Confirmação manual por peça com registro recuperável e etiquetas FeV.\n- Fila restaurada se uma alteração não puder ser salva; preparações inválidas preservadas e identificadas por material quando possível.\n- Corte personalizado confirma a inclusão antes de fechar e retoma sem duplicar.\n- Etiquetas com paginação, filtros e retomada em segundo plano, sem reenvio automático de resultado incerto.\n- FULL mantém a pausa por modelo, mostra quantidade confirmada e próximo modelo, com som/vibração opcionais.\n- Resumo da preparação mostra peças na fila, devoluções, concluídas e pendências por SKU/página.\n- Inclusão de filas grandes evita contagens e ordenações repetidas.\n- Relatos rejeitados podem ser exportados e revisados com referência ao protocolo original.\n- Instale por cima com as máquinas paradas."
 }
