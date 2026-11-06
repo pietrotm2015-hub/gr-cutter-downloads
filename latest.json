@@ -1,7 +1,7 @@
 {
-  "versionCode": 111,
-  "versionName": "0.3.93",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.93/GR_Cutter_Android_v0.3.93.apk",
-  "sha256": "36da6d6b336a4c2c2758be01f7bfd8778b0fc7edb505e5d96b485f956574881f",
-  "notes": "## FULL: pausa ao terminar cada modelo\n- Conclui as unidades seguidas do mesmo modelo e pausa antes do pr\u00f3ximo. Toque em Iniciar para continuar.\n- Os arquivos enviados no FULL n\u00e3o misturam modelos; quantidades grandes continuam em v\u00e1rios lotes do mesmo modelo.\n- Pausa preservada ao reabrir o app. Os demais marketplaces mant\u00eam lotes mistos e a ordem existente.\n- Instale por cima com as m\u00e1quinas paradas."
+  "versionCode": 112,
+  "versionName": "0.3.94",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.94/GR_Cutter_Android_v0.3.94.apk",
+  "sha256": "6477723c017a21d04dc2fc601de711d1548e50355c2849235bb3a831c8667bd6",
+  "notes": "## Recupera\u00e7\u00e3o, prepara\u00e7\u00e3o e acompanhamento\n- Confirma\u00e7\u00e3o manual por pe\u00e7a com registro recuper\u00e1vel e etiquetas FeV.\n- Fila restaurada se uma altera\u00e7\u00e3o n\u00e3o puder ser salva; prepara\u00e7\u00f5es inv\u00e1lidas preservadas e identificadas por material quando poss\u00edvel.\n- Corte personalizado confirma a inclus\u00e3o antes de fechar e retoma sem duplicar.\n- Etiquetas com pagina\u00e7\u00e3o, filtros e retomada em segundo plano, sem reenvio autom\u00e1tico de resultado incerto.\n- FULL mant\u00e9m a pausa por modelo, mostra quantidade confirmada e pr\u00f3ximo modelo, com som/vibra\u00e7\u00e3o opcionais.\n- Resumo da prepara\u00e7\u00e3o mostra pe\u00e7as na fila, devolu\u00e7\u00f5es, conclu\u00eddas e pend\u00eancias por SKU/p\u00e1gina.\n- Inclus\u00e3o de filas grandes evita contagens e ordena\u00e7\u00f5es repetidas.\n- Relatos rejeitados podem ser exportados e revisados com refer\u00eancia ao protocolo original.\n- Instale por cima com as m\u00e1quinas paradas."
 }
