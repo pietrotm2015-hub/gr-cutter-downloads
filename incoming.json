@@ -1,6 +1,6 @@
 {
-  "versionCode": 109,
-  "versionName": "0.3.91",
-  "sha256": "8f579409274c6d7dcb2b919ca44f77b12dc46afe6b8b95ce0902e75a43e6c825",
-  "notes": "## Produção e preparação de filas\n- Avisos por máquina com acesso à reconexão e à conferência de cortes incertos. A reconexão mantém a fila pausada.\n- A preparação mostra a etapa atual e permite filtrar os modelos pendentes.\n- Consultas de impressão e histórico preparadas em segundo plano, com busca direcionada das partes e ordenação das filas com menos trabalho repetido.\n- Preservados cortes mistos, ordem, espaçamento, etiquetas, devoluções, vínculos e dados locais.\n- Instale por cima com as máquinas paradas."
+  "versionCode": 110,
+  "versionName": "0.3.92",
+  "sha256": "6478afc9295ab233e60a05a3c361b94f8b20e7afc75a710bbe4ed9aeb74f32df",
+  "notes": "## Corte personalizado e estabilidade da produção\n- Novo corte personalizado no catálogo: largura/altura em milímetros, cantos retos ou arredondados, quantidade, material e rotação de 90 graus. Prévia e verificação de encaixe antes de adicionar à fila, sem iniciar automaticamente.\n- Conclusões confirmadas preservadas com recuperação idempotente do histórico e registros pendentes.\n- Registro auxiliar inválido isolado sem apagar as filas; preparação atrasada não inicia cortes após Voltar.\n- Edição consulta apenas impressões do modelo; frontais carregados em segundo plano e cortes exibidos em páginas de 60.\n- Aviso de Repor sem atualização, filtros preservados e cartões compactos com detalhes opcionais.\n- Relatos inválidos ou recusados preservados para revisão sem bloquear os seguintes.\n- Preservados lotes mistos, ordem do reordenador, espaçamento e etiqueta única FeV. Validação física de foco, impressão e código 6 continua necessária.\n- Instale por cima com as máquinas paradas."
 }
