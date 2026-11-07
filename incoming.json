@@ -1,8 +1,8 @@
 {
-  "versionCode": 114,
-  "versionName": "0.3.96",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.96/GR_Cutter_Android_v0.3.96.apk",
-  "sha256": "2df726c6a41e476a76614ba2da864d05c273e461b36ff537bee5f3480e6f6b5e",
-  "binarySourceCommit": "bd7724803994403a6f2bf98041dc4223dbb4dca0",
-  "notes": "## Preparação completa e recuperação\n- A preparação verifica todas as partes da impressão antes de liberar a produção, incluindo modelos e devoluções.\n- Adicionar à fila e Cortar agora usam o mesmo contrato de preparação para as duas máquinas e materiais.\n- Preparações antigas afetadas podem ser revisadas antes de retomar, preservando identidades e decisões de devolução.\n- Tentativas pendentes são identificadas antes de criar uma nova solicitação.\n## Acompanhamento da fila\n- Fila, foco e faixas usam a mesma leitura do andamento por máquina.\n- Após observar o início, o estado não volta incorretamente para aguardando início enquanto confirma o término.\n- FULL mantém pausa por modelo e retomada explícita. Lotes mistos continuam unidos.\n## Melhorias acumuladas\n- Seleção e remoção da fila atômicas, finalização agrupada, recuperação verificada e compatibilidade com registros antigos.\n- Correção de etiquetas com erro no formulário e relatos com limites de envio e revisão do diagnóstico.\n- Preparação de filas grandes evita consultas e ordenações repetidas, mantendo conferências.\n- Instale por cima com as máquinas paradas."
+  "versionCode": 115,
+  "versionName": "0.3.97",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.97/GR_Cutter_Android_v0.3.97.apk",
+  "sha256": "100322aff36c95713e29db49d651f63121a2cbdb1bf1ac1dfa7b96eb6b618c7d",
+  "binarySourceCommit": "6fd60434a77351e866317fe4cfa329e2b9b7d65e",
+  "notes": "## Início da privacidade\n- O início conjunto acompanha o primeiro corte realmente selecionado da fila transparente.\n- Repetições prioritárias pendentes aparecem para revisão antes de ativar a fila.\n- A tela distingue preparação, envio e início físico confirmado.\n- As etapas de conexão, arquivo e ajustes aparecem durante a preparação.\n- O início individual da privacidade mantém a máquina e a seleção do material.\n- FULL continua pausando entre modelos e as verificações de devolução são mantidas.\n- Instale por cima com as máquinas paradas."
 }
