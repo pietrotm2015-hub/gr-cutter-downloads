@@ -1,8 +1,8 @@
 {
-  "versionCode": 112,
-  "versionName": "0.3.94",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.94/GR_Cutter_Android_v0.3.94.apk",
-  "sha256": "6477723c017a21d04dc2fc601de711d1548e50355c2849235bb3a831c8667bd6",
-  "binarySourceCommit": "549340ae4e1d719df82fb3116abba601e409f311",
-  "notes": "## Recuperação, preparação e acompanhamento\n- Confirmação manual por peça com registro recuperável e etiquetas FeV.\n- Fila restaurada se uma alteração não puder ser salva; preparações inválidas preservadas e identificadas por material quando possível.\n- Corte personalizado confirma a inclusão antes de fechar e retoma sem duplicar.\n- Etiquetas com paginação, filtros e retomada em segundo plano, sem reenvio automático de resultado incerto.\n- FULL mantém a pausa por modelo, mostra quantidade confirmada e próximo modelo, com som/vibração opcionais.\n- Resumo da preparação mostra peças na fila, devoluções, concluídas e pendências por SKU/página.\n- Inclusão de filas grandes evita contagens e ordenações repetidas.\n- Relatos rejeitados podem ser exportados e revisados com referência ao protocolo original.\n- Instale por cima com as máquinas paradas."
+  "versionCode": 114,
+  "versionName": "0.3.96",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.3.96/GR_Cutter_Android_v0.3.96.apk",
+  "sha256": "2df726c6a41e476a76614ba2da864d05c273e461b36ff537bee5f3480e6f6b5e",
+  "binarySourceCommit": "bd7724803994403a6f2bf98041dc4223dbb4dca0",
+  "notes": "## Preparação completa e recuperação\n- A preparação verifica todas as partes da impressão antes de liberar a produção, incluindo modelos e devoluções.\n- Adicionar à fila e Cortar agora usam o mesmo contrato de preparação para as duas máquinas e materiais.\n- Preparações antigas afetadas podem ser revisadas antes de retomar, preservando identidades e decisões de devolução.\n- Tentativas pendentes são identificadas antes de criar uma nova solicitação.\n## Acompanhamento da fila\n- Fila, foco e faixas usam a mesma leitura do andamento por máquina.\n- Após observar o início, o estado não volta incorretamente para aguardando início enquanto confirma o término.\n- FULL mantém pausa por modelo e retomada explícita. Lotes mistos continuam unidos.\n## Melhorias acumuladas\n- Seleção e remoção da fila atômicas, finalização agrupada, recuperação verificada e compatibilidade com registros antigos.\n- Correção de etiquetas com erro no formulário e relatos com limites de envio e revisão do diagnóstico.\n- Preparação de filas grandes evita consultas e ordenações repetidas, mantendo conferências.\n- Instale por cima com as máquinas paradas."
 }
