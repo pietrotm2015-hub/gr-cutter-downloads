@@ -1,7 +1,7 @@
 {
-  "versionCode": 115,
-  "versionName": "0.3.97",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.97/GR_Cutter_Android_v0.3.97.apk",
-  "sha256": "100322aff36c95713e29db49d651f63121a2cbdb1bf1ac1dfa7b96eb6b618c7d",
-  "notes": "## In\u00edcio da privacidade\n- O in\u00edcio conjunto acompanha o primeiro corte realmente selecionado da fila transparente.\n- Repeti\u00e7\u00f5es priorit\u00e1rias pendentes aparecem para revis\u00e3o antes de ativar a fila.\n- A tela distingue prepara\u00e7\u00e3o, envio e in\u00edcio f\u00edsico confirmado.\n- As etapas de conex\u00e3o, arquivo e ajustes aparecem durante a prepara\u00e7\u00e3o.\n- O in\u00edcio individual da privacidade mant\u00e9m a m\u00e1quina e a sele\u00e7\u00e3o do material.\n- FULL continua pausando entre modelos e as verifica\u00e7\u00f5es de devolu\u00e7\u00e3o s\u00e3o mantidas.\n- Instale por cima com as m\u00e1quinas paradas."
+  "versionCode": 116,
+  "versionName": "0.3.98",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.98/GR_Cutter_Android_v0.3.98.apk",
+  "sha256": "77c69a876d75955ccdb6b755c03f9002ca4019e85f09bdf6940d155575bd5261",
+  "notes": "## Atualiza\u00e7\u00e3o e continuidade da produ\u00e7\u00e3o\n- Cancelar ou retornar do instalador libera corretamente o in\u00edcio das filas, inclusive com Privacidade selecionada.\n- As prote\u00e7\u00f5es para m\u00e1quinas em produ\u00e7\u00e3o, recupera\u00e7\u00e3o e edi\u00e7\u00e3o continuam ativas.\n- A lista mant\u00e9m o item vis\u00edvel ap\u00f3s editar e recarregar os cortes.\n- Altera\u00e7\u00f5es na tela principal passam pela bateria completa de testes.\n- Filas, configura\u00e7\u00f5es, v\u00ednculos e dados existentes s\u00e3o preservados.\n- Instale por cima com as m\u00e1quinas paradas."
 }
