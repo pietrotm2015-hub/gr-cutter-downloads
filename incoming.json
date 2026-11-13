@@ -1,6 +1,6 @@
 {
-  "versionCode": 116,
-  "versionName": "0.3.98",
-  "sha256": "77c69a876d75955ccdb6b755c03f9002ca4019e85f09bdf6940d155575bd5261",
-  "notes": "## Atualização e continuidade da produção\n- Cancelar ou retornar do instalador libera corretamente o início das filas, inclusive com Privacidade selecionada.\n- As proteções para máquinas em produção, recuperação e edição continuam ativas.\n- A lista mantém o item visível após editar e recarregar os cortes.\n- Alterações na tela principal passam pela bateria completa de testes.\n- Filas, configurações, vínculos e dados existentes são preservados.\n- Instale por cima com as máquinas paradas."
+  "versionCode": 117,
+  "versionName": "0.3.99",
+  "sha256": "cb1723a99b82088ea9fae53b0b29669404875185c86b1696270b5a37419159f6",
+  "notes": "Conexão, diagnóstico e continuidade da produção\n- Nova consulta em Ajustes → Conexão e diagnósticos, com confirmações independentes de produção, diagnóstico técnico e relatos.\n- Métricas de tela descartam amostras inválidas e indicam estouro de acumuladores. Tentativas HTTP ficam separadas dos ciclos locais.\n- Relatos usam o vínculo Repor quando não existe um canal de envio já configurado; arquivos permanecem salvos até a confirmação.\n- Reconexão de cada máquina com intervalo progressivo, sem repetir nem iniciar cortes automaticamente.\n- Foco distingue máquina desconectada e em conexão; o resumo da preparação confere os totais e mantém as pendências por página/SKU.\n- Filas, dados, FULL pausado por modelo, devoluções e regras de etiquetas preservados.\n- Os novos canais de diagnóstico/relato exigem atualização do Repor, gateway e serviço independente. O aplicativo mostra cada confirmação separadamente.\n- Instale por cima com as máquinas paradas."
 }
