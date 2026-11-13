@@ -1,7 +1,7 @@
 {
-  "versionCode": 116,
-  "versionName": "0.3.98",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.98/GR_Cutter_Android_v0.3.98.apk",
-  "sha256": "77c69a876d75955ccdb6b755c03f9002ca4019e85f09bdf6940d155575bd5261",
-  "notes": "## Atualiza\u00e7\u00e3o e continuidade da produ\u00e7\u00e3o\n- Cancelar ou retornar do instalador libera corretamente o in\u00edcio das filas, inclusive com Privacidade selecionada.\n- As prote\u00e7\u00f5es para m\u00e1quinas em produ\u00e7\u00e3o, recupera\u00e7\u00e3o e edi\u00e7\u00e3o continuam ativas.\n- A lista mant\u00e9m o item vis\u00edvel ap\u00f3s editar e recarregar os cortes.\n- Altera\u00e7\u00f5es na tela principal passam pela bateria completa de testes.\n- Filas, configura\u00e7\u00f5es, v\u00ednculos e dados existentes s\u00e3o preservados.\n- Instale por cima com as m\u00e1quinas paradas."
+  "versionCode": 117,
+  "versionName": "0.3.99",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.3.99/GR_Cutter_Android_v0.3.99.apk",
+  "sha256": "cb1723a99b82088ea9fae53b0b29669404875185c86b1696270b5a37419159f6",
+  "notes": "Conex\u00e3o, diagn\u00f3stico e continuidade da produ\u00e7\u00e3o\n- Nova consulta em Ajustes \u2192 Conex\u00e3o e diagn\u00f3sticos, com confirma\u00e7\u00f5es independentes de produ\u00e7\u00e3o, diagn\u00f3stico t\u00e9cnico e relatos.\n- M\u00e9tricas de tela descartam amostras inv\u00e1lidas e indicam estouro de acumuladores. Tentativas HTTP ficam separadas dos ciclos locais.\n- Relatos usam o v\u00ednculo Repor quando n\u00e3o existe um canal de envio j\u00e1 configurado; arquivos permanecem salvos at\u00e9 a confirma\u00e7\u00e3o.\n- Reconex\u00e3o de cada m\u00e1quina com intervalo progressivo, sem repetir nem iniciar cortes automaticamente.\n- Foco distingue m\u00e1quina desconectada e em conex\u00e3o; o resumo da prepara\u00e7\u00e3o confere os totais e mant\u00e9m as pend\u00eancias por p\u00e1gina/SKU.\n- Filas, dados, FULL pausado por modelo, devolu\u00e7\u00f5es e regras de etiquetas preservados.\n- Os novos canais de diagn\u00f3stico/relato exigem atualiza\u00e7\u00e3o do Repor, gateway e servi\u00e7o independente. O aplicativo mostra cada confirma\u00e7\u00e3o separadamente.\n- Instale por cima com as m\u00e1quinas paradas."
 }
