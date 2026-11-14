@@ -1,6 +1,8 @@
 {
-  "versionCode": 121,
-  "versionName": "0.4.03",
-  "sha256": "f18fe286dbb0440921d4ac822245c2efe3f032ce4e7a7243053698b23938bdc3",
-  "notes": "GR Cutter 0.4.03\n\nCorrige a apresentação quando a máquina conectada ainda não possui estado de repouso identificado.\nPausar ou cancelar encerra a espera da preparação daquela máquina, preservando confirmações de devolução recebidas e impedindo envio após cancelamento.\nConferências compartilhadas usam revisões do servidor, sem depender do relógio dos celulares. Conflitos ficam associados ao modelo e não impedem importar os demais pedidos.\nMostra o resultado da última conferência de devoluções na produção e na impressão: consultadas, oferecidas, atendidas, cortes restantes e motivos informados pelo servidor.\nSepara consultas de rede e espera pelo operador da preparação do arquivo. O foco permite consultar quantidades por modelo, formato e material do lote enviado.\nExibe quais recursos do Repor estão disponíveis ou dependem de atualização. A assinatura de disponibilidade por material exige o complemento Repor 0.4.03 ativo; servidores anteriores mantêm a conferência integral.\nPreserva filas, assinatura, dados, corte misto, controles independentes e FULL frente e verso com pausa entre modelos."
+  "versionCode": 122,
+  "versionName": "0.4.04",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.4.04/GR_Cutter_Android_v0.4.04.apk",
+  "sha256": "e508c1e54dcd732a856704131d8b89147ed1a2aecb59c1f4f1f78f25a5f88b59",
+  "binarySourceCommit": "7fc584172d7d40f069d71a9c90a919b7651abd26",
+  "notes": "Conferências mais estáveis: atualizações preservam escolhas recentes e confirmações atrasadas não apagam uma nova escolha. Recuperação de recibos perdidos evita conflitos causados pelo próprio celular.\n\nSincronização por grupos, com rodízio e isolamento de pendências. Recarregar pedidos não aguarda o envio das escolhas salvas.\n\nDiagnósticos grandes ou inválidos continuam visíveis após reiniciar e podem ser exportados, mantendo os originais.\n\nConexão e diagnósticos mostra quando as capacidades foram confirmadas e a disponibilidade da conferência de devoluções. Recursos compartilhados dependem de Repor compatível.\n\nNo foco, toque no modelo ou próximo corte para conferir o arquivo atual, a sequência elegível e o motivo de espera. Posições por peça em lotes mistos continuam identificadas como estimativas.\n\nMantidos os lotes mistos, FULL frente/verso e pausa por modelo, máquinas independentes, etiquetas e dados existentes."
 }
