@@ -1,8 +1,7 @@
 {
-  "versionCode": 122,
-  "versionName": "0.4.04",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-ios/releases/download/android-v0.4.04/GR_Cutter_Android_v0.4.04.apk",
-  "sha256": "e508c1e54dcd732a856704131d8b89147ed1a2aecb59c1f4f1f78f25a5f88b59",
-  "binarySourceCommit": "7fc584172d7d40f069d71a9c90a919b7651abd26",
-  "notes": "Conferências mais estáveis: atualizações preservam escolhas recentes e confirmações atrasadas não apagam uma nova escolha. Recuperação de recibos perdidos evita conflitos causados pelo próprio celular.\n\nSincronização por grupos, com rodízio e isolamento de pendências. Recarregar pedidos não aguarda o envio das escolhas salvas.\n\nDiagnósticos grandes ou inválidos continuam visíveis após reiniciar e podem ser exportados, mantendo os originais.\n\nConexão e diagnósticos mostra quando as capacidades foram confirmadas e a disponibilidade da conferência de devoluções. Recursos compartilhados dependem de Repor compatível.\n\nNo foco, toque no modelo ou próximo corte para conferir o arquivo atual, a sequência elegível e o motivo de espera. Posições por peça em lotes mistos continuam identificadas como estimativas.\n\nMantidos os lotes mistos, FULL frente/verso e pausa por modelo, máquinas independentes, etiquetas e dados existentes."
+  "versionCode": 123,
+  "versionName": "0.4.05",
+  "sha256": "5f099a3728e8eb9e07dbd3c19b2a68bbbb7b96e1200ec3ad9a44cf246d5037e6",
+  "binarySourceCommit": "4829702b0f4929adc54773b73674511224e49a63",
+  "notes": "Recuperação de devoluções continua pelos registros independentes mesmo quando uma confirmação falha. Operações pendentes ficam protegidas contra troca de vínculo e recibos de outro dispositivo.\n\nEtiqueta frente/verso considera partes atendidas por devolução e partes cortadas, com uma etiqueta por unidade vendida. Estornos preservam a conferência e evitam reimpressão automática. Etiquetas já pendentes podem reconciliar a parte reutilizada após a atualização, sem imprimir todo o histórico.\n\nEscolhas de modelo sincronizam após salvar e continuam em segundo plano, com recuperação de falhas e conflitos. Mudanças na identificação mostram o motivo de uma nova conferência.\n\nDesenhos editados aprovados podem ser compartilhados com verificação de integridade e preservação de edições locais. Requer ativação do complemento Repor compatível; no servidor antigo, a edição continua local e a transferência permanece pendente.\n\nA sequência no modo foco se atualiza enquanto aberta e preserva a rolagem. Posição por peça em lote misto continua identificada como estimativa.\n\nMantidos lotes mistos, FULL frente/verso e pausa por modelo, máquinas independentes, assinatura e dados existentes."
 }
