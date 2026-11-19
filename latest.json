@@ -1,7 +1,7 @@
 {
-  "versionCode": 128,
-  "versionName": "0.4.10",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.10/GR_Cutter_Android_v0.4.10.apk",
-  "sha256": "639204a24d497a19912d42fb64609aae2a2f16baa6531eb89bfaae63d3f5fef7",
-  "notes": "A prepara\u00e7\u00e3o da fila tenta reconectar uma vez quando o celular n\u00e3o consegue abrir a conex\u00e3o com o Repor. A fila s\u00f3 \u00e9 liberada ap\u00f3s a confer\u00eancia de devolu\u00e7\u00f5es. Se a rede continuar indispon\u00edvel, o aviso informa que a fila foi preservada."
+  "versionCode": 129,
+  "versionName": "0.4.11",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.11/GR_Cutter_Android_v0.4.11.apk",
+  "sha256": "b0a956e5807441acd578cca69a95787a1999cb6827d0082dbf5edf64fa7f00dc",
+  "notes": "Cada m\u00e1quina mostra preparo, envio por Bluetooth, corte e espera. A previs\u00e3o do lote usa cortes confirmados de percurso e material semelhantes na mesma m\u00e1quina. A posi\u00e7\u00e3o da pe\u00e7a em arquivos mistos continua estimada."
 }
