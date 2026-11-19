@@ -1,7 +1,7 @@
 {
-  "versionCode": 127,
-  "versionName": "0.4.09",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.09/GR_Cutter_Android_v0.4.09.apk",
-  "sha256": "81c479735f80fa2f229081e091e4f4f549bca4277128984ee3fb7798773e8b2f",
-  "notes": "GR Cutter 0.4.09\n\n- Corrigido o posicionamento de moldes com origem negativa ao preparar cortes no rolo, incluindo tablets recebidos do Marketplace.\n- O desenho completo \u00e9 posicionado antes da confer\u00eancia da \u00e1rea dispon\u00edvel, mantendo medidas, curvas, recortes internos e espa\u00e7amento entre pe\u00e7as.\n- Mantidas as verifica\u00e7\u00f5es de largura, avan\u00e7o e deslocamentos fora da \u00e1rea de corte."
+  "versionCode": 128,
+  "versionName": "0.4.10",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.10/GR_Cutter_Android_v0.4.10.apk",
+  "sha256": "639204a24d497a19912d42fb64609aae2a2f16baa6531eb89bfaae63d3f5fef7",
+  "notes": "A prepara\u00e7\u00e3o da fila tenta reconectar uma vez quando o celular n\u00e3o consegue abrir a conex\u00e3o com o Repor. A fila s\u00f3 \u00e9 liberada ap\u00f3s a confer\u00eancia de devolu\u00e7\u00f5es. Se a rede continuar indispon\u00edvel, o aviso informa que a fila foi preservada."
 }
