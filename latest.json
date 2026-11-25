@@ -1,7 +1,7 @@
 {
-  "versionCode": 141,
-  "versionName": "0.4.23",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.23/GR_Cutter_Android_v0.4.23.apk",
-  "sha256": "6809826125bb7d0377e8363bb4275a85de686f098c206d8ec924c747290f52a7",
-  "notes": "Na fila e no modo foco, o GR Cutter mostra a confer\u00eancia antes de iniciar. Em lotes FULL, a confer\u00eancia l\u00ea cada lote uma vez e preserva o pedido de in\u00edcio at\u00e9 encaminh\u00e1-lo \u00e0 m\u00e1quina. Inclui a etiqueta do SKU vendido no primeiro corte confirmado dos kits frente e verso."
+  "versionCode": 142,
+  "versionName": "0.4.24",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.24/GR_Cutter_Android_v0.4.24.apk",
+  "sha256": "94972e66907af12a6810e6bb94e279be9de4910c601fc79e32cc810b699a7c89",
+  "notes": "Nos kits frente e verso do Full, a fila corta primeiro as frentes e depois os versos da mesma impress\u00e3o e material. Cada pe\u00e7a mant\u00e9m seu pedido, sua etiqueta e o progresso na retomada."
 }
