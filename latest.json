@@ -1,7 +1,7 @@
 {
-  "versionCode": 139,
-  "versionName": "0.4.21",
-  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.21/GR_Cutter_Android_v0.4.21.apk",
-  "sha256": "f06a98762489165fa0fb87e24787bcd1df79066c12cf882d4f785f40d581807b",
-  "notes": "Melhora a conex\u00e3o com impressoras Bluetooth no Android 12. A tela orienta como liberar Dispositivos pr\u00f3ximos e pausa as tentativas quando o Android bloqueia o acesso. A fila de etiquetas \u00e9 preservada."
+  "versionCode": 141,
+  "versionName": "0.4.23",
+  "apkUrl": "https://github.com/pietrotm2015-hub/gr-cutter-downloads/releases/download/android-v0.4.23/GR_Cutter_Android_v0.4.23.apk",
+  "sha256": "6809826125bb7d0377e8363bb4275a85de686f098c206d8ec924c747290f52a7",
+  "notes": "Na fila e no modo foco, o GR Cutter mostra a confer\u00eancia antes de iniciar. Em lotes FULL, a confer\u00eancia l\u00ea cada lote uma vez e preserva o pedido de in\u00edcio at\u00e9 encaminh\u00e1-lo \u00e0 m\u00e1quina. Inclui a etiqueta do SKU vendido no primeiro corte confirmado dos kits frente e verso."
 }
